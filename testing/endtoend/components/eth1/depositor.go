@@ -8,6 +8,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
+	"github.com/Kevionte/Go-Sovereign/accounts/keystore"
+	"github.com/Kevionte/Go-Sovereign/common"
+	gethtypes "github.com/Kevionte/Go-Sovereign/core/types"
+	"github.com/Kevionte/Go-Sovereign/ethclient"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
 	contracts "github.com/prysmaticlabs/prysm/v5/contracts/deposit"
@@ -17,11 +22,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/endtoend/types"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	log "github.com/sirupsen/logrus"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/keystore"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	gethtypes "https://github.com/Kevionte/Go-Sovereign/core/types"
-	"https://github.com/Kevionte/Go-Sovereign/ethclient"
 )
 
 var gweiPerEth = big.NewInt(int64(params.BeaconConfig().GweiPerEth))

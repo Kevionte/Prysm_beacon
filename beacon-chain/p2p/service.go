@@ -9,6 +9,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/enode"
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	"github.com/libp2p/go-libp2p"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/host"
@@ -30,8 +32,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enode"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 var _ runtime.Service = (*Service)(nil)

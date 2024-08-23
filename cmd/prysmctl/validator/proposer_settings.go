@@ -5,6 +5,7 @@ import (
 	"errors"
 	"io"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/prysmaticlabs/prysm/v5/api/client"
 	"github.com/prysmaticlabs/prysm/v5/api/client/validator"
 	"github.com/prysmaticlabs/prysm/v5/cmd/validator/flags"
@@ -17,7 +18,6 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 	"go.opencensus.io/trace"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 func getProposerSettings(c *cli.Context, r io.Reader) error {

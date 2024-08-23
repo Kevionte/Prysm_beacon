@@ -5,6 +5,7 @@ import (
 	"math/big"
 	"testing"
 
+	gethtypes "github.com/Kevionte/Go-Sovereign/core/types"
 	"github.com/holiman/uint256"
 	mocks "github.com/prysmaticlabs/prysm/v5/beacon-chain/execution/testing"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
@@ -14,7 +15,6 @@ import (
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
-	gethtypes "https://github.com/Kevionte/Go-Sovereign/core/types"
 )
 
 func Test_validTerminalPowBlock(t *testing.T) {

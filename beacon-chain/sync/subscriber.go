@@ -9,6 +9,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/peer"
@@ -30,7 +31,6 @@ import (
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
 	"google.golang.org/protobuf/proto"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 const pubsubMessageTimeout = 30 * time.Second

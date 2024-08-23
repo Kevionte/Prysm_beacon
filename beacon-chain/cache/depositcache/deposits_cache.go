@@ -11,6 +11,7 @@ import (
 	"sort"
 	"sync"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
@@ -22,7 +23,6 @@ import (
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 var (

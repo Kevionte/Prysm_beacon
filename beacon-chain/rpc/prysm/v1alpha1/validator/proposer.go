@@ -7,6 +7,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	emptypb "github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain"
@@ -30,8 +32,6 @@ import (
 	"go.opencensus.io/trace"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // eth1DataNotification is a latch to stop flooding logs with the same warning.

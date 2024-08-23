@@ -4,6 +4,8 @@ import (
 	"context"
 	"math/big"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/holiman/uint256"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
@@ -14,8 +16,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
 	pb "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // EngineClient --

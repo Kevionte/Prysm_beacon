@@ -11,6 +11,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	gethtypes "github.com/Kevionte/Go-Sovereign/core/types"
+	"github.com/Kevionte/Go-Sovereign/rpc"
+	gethRPC "github.com/Kevionte/Go-Sovereign/rpc"
+	"github.com/ethereum/go-ethereum"
 	"github.com/holiman/uint256"
 	"github.com/pkg/errors"
 	mocks "github.com/prysmaticlabs/prysm/v5/beacon-chain/execution/testing"
@@ -26,12 +32,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"https://github.com/Kevionte/Go-Sovereign"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
-	gethtypes "https://github.com/Kevionte/Go-Sovereign/core/types"
-	"https://github.com/Kevionte/Go-Sovereign/rpc"
-	gethRPC "https://github.com/Kevionte/Go-Sovereign/rpc"
 )
 
 var (

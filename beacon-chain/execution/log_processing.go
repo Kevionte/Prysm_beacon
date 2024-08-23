@@ -8,6 +8,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign"
+	"github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
+	"github.com/Kevionte/Go-Sovereign/common"
+	gethtypes "github.com/Kevionte/Go-Sovereign/core/types"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/cache/depositsnapshot"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/feed"
@@ -25,10 +29,6 @@ import (
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	"github.com/sirupsen/logrus"
-	"https://github.com/Kevionte/Go-Sovereign"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	gethtypes "https://github.com/Kevionte/Go-Sovereign/core/types"
 )
 
 var (

@@ -8,6 +8,7 @@ import (
 	"path"
 	"strings"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/blocks"
 	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
@@ -20,7 +21,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/validator/client/iface"
 	"github.com/prysmaticlabs/prysm/v5/validator/keymanager"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // PerformExitCfg for account voluntary exits.

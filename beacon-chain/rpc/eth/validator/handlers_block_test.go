@@ -9,6 +9,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/api"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
 	blockchainTesting "github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/testing"
@@ -21,7 +22,6 @@ import (
 	mock2 "github.com/prysmaticlabs/prysm/v5/testing/mock"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"go.uber.org/mock/gomock"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func TestProduceBlockV2(t *testing.T) {

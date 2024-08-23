@@ -7,6 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/ethereum/go-ethereum"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/cache/depositcache"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/feed"
 	statefeed "github.com/prysmaticlabs/prysm/v5/beacon-chain/core/feed/state"
@@ -20,8 +22,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"https://github.com/Kevionte/Go-Sovereign"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 func TestProcessDepositLog_OK(t *testing.T) {

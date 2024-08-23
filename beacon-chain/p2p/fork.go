@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/enode"
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
 	"github.com/prysmaticlabs/prysm/v5/network/forks"
@@ -12,8 +14,6 @@ import (
 	prysmTime "github.com/prysmaticlabs/prysm/v5/time"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	"github.com/sirupsen/logrus"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enode"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 // ENR key used for Ethereum consensus-related fork data.

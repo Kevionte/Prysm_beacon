@@ -8,6 +8,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/golang/snappy"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/transition"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
@@ -21,7 +22,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/spectest/utils"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func init() {

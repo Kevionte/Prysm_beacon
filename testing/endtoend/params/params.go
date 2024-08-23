@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"https://github.com/Kevionte/Go-Sovereign/core/types"
+	"github.com/Kevionte/Go-Sovereign/core/types"
 
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
 	"github.com/prysmaticlabs/prysm/v5/io/file"

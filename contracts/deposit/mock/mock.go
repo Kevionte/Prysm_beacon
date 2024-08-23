@@ -6,14 +6,14 @@ import (
 	"math/big"
 	"strings"
 
+	"github.com/Kevionte/Go-Sovereign/accounts/abi"
+	"github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
+	"github.com/Kevionte/Go-Sovereign/accounts/abi/bind/backends"
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/core"
+	"github.com/Kevionte/Go-Sovereign/core/types"
+	"github.com/Kevionte/Go-Sovereign/crypto"
 	"github.com/prysmaticlabs/prysm/v5/contracts/deposit"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi/bind/backends"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/core"
-	"https://github.com/Kevionte/Go-Sovereign/core/types"
-	"https://github.com/Kevionte/Go-Sovereign/crypto"
 )
 
 var (

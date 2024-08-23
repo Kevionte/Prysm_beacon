@@ -10,10 +10,10 @@ import (
 	"net/url"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/validator/keymanager/remote-web3signer/internal"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // mockTransport is the mock Transport object

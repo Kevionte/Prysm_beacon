@@ -6,6 +6,7 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/api/grpc"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
@@ -19,7 +20,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // ValidateSyncGRPC checks whether the node is currently syncing and returns an error if it is.

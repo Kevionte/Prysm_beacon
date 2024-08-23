@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"sync"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/execution/types"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 	"k8s.io/client-go/tools/cache"
 )
 

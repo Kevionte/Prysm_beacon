@@ -16,6 +16,7 @@ import (
 	"sync"
 	"syscall"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
 	apigateway "github.com/prysmaticlabs/prysm/v5/api/gateway"
@@ -70,7 +71,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/runtime/version"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 const testSkipPowFlag = "test-skip-pow"

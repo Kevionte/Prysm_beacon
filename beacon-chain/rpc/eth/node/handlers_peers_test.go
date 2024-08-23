@@ -9,6 +9,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	"github.com/gorilla/mux"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
@@ -21,7 +22,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/network/httputil"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 func TestGetPeer(t *testing.T) {

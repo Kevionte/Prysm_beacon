@@ -1,7 +1,7 @@
 package test_helpers
 
 import (
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func FillByteSlice(sliceLength int, value byte) []byte {

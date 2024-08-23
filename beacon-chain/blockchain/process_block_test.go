@@ -9,6 +9,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	gethtypes "github.com/Kevionte/Go-Sovereign/core/types"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/cache"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/blocks"
@@ -39,8 +41,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	prysmTime "github.com/prysmaticlabs/prysm/v5/time"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	gethtypes "https://github.com/Kevionte/Go-Sovereign/core/types"
 )
 
 func TestStore_OnBlockBatch(t *testing.T) {

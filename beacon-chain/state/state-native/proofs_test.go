@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	statenative "github.com/prysmaticlabs/prysm/v5/beacon-chain/state/state-native"
 	"github.com/prysmaticlabs/prysm/v5/container/trie"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func TestBeaconStateMerkleProofs_phase0_notsupported(t *testing.T) {

@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/ethclient"
-	"https://github.com/Kevionte/Go-Sovereign/params"
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/ethclient"
+	"github.com/Kevionte/Go-Sovereign/params"
 
 	_ "github.com/prysmaticlabs/prysm/v5/runtime/maxprocs"
 	"github.com/sirupsen/logrus"

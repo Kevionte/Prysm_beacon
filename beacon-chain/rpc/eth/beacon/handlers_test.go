@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"go.uber.org/mock/gomock"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"

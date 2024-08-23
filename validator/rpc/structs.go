@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/api/server"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
 	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
@@ -11,7 +12,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
 	eth "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/validator/keymanager"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // local keymanager api

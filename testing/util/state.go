@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/go-bitfield"
 	b "github.com/prysmaticlabs/prysm/v5/beacon-chain/core/blocks"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db/iface"
@@ -16,7 +17,6 @@ import (
 	enginev1 "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // FillRootsNaturalOpt is meant to be used as an option when calling NewBeaconState.

@@ -10,9 +10,9 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 	"k8s.io/apimachinery/pkg/util/yaml"
 )
 

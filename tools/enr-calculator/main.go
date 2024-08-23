@@ -7,13 +7,13 @@ import (
 	"flag"
 	"net"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/enode"
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	ecdsaprysm "github.com/prysmaticlabs/prysm/v5/crypto/ecdsa"
 	"github.com/prysmaticlabs/prysm/v5/io/file"
 	_ "github.com/prysmaticlabs/prysm/v5/runtime/maxprocs"
 	log "github.com/sirupsen/logrus"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enode"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 var (

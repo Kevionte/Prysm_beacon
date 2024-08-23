@@ -5,6 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	gethtypes "github.com/Kevionte/Go-Sovereign/core/types"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/cache"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/blocks"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/execution"
@@ -24,8 +26,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	gethtypes "https://github.com/Kevionte/Go-Sovereign/core/types"
 )
 
 func Test_NotifyForkchoiceUpdate_GetPayloadAttrErrorCanContinue(t *testing.T) {

@@ -4,12 +4,12 @@ import (
 	"errors"
 	"path/filepath"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/cmd"
 	"github.com/prysmaticlabs/prysm/v5/crypto/rand"
 	"github.com/prysmaticlabs/prysm/v5/io/file"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 const (

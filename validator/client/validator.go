@@ -16,6 +16,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/dgraph-io/ristretto"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/pkg/errors"
@@ -52,8 +54,6 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // keyFetchPeriod is the frequency that we try to refetch validating keys

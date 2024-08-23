@@ -1,4 +1,4 @@
-// This code was adapted from https://https://github.com/Kevionte/Go-Sovereign/blob/master/cmd/geth/usage.go
+// This code was adapted from https://github.com/Kevionte/Go-Sovereign/blob/master/cmd/geth/usage.go
 package main
 
 import (

@@ -5,11 +5,11 @@ import (
 	"math"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
 	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
 	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
 	"github.com/prysmaticlabs/prysm/v5/runtime/version"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 // BeaconChainConfig contains constant configs for node to participate in beacon chain.

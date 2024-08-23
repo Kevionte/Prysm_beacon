@@ -11,6 +11,7 @@ import (
 	"os"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/go-bitfield"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
 	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
@@ -19,7 +20,6 @@ import (
 	eth "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func ezDecode(t *testing.T, s string) []byte {

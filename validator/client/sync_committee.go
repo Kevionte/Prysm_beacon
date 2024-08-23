@@ -9,6 +9,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/validator/client/iface"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	emptypb "github.com/golang/protobuf/ptypes/empty"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/altair"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/signing"
@@ -22,7 +23,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // SubmitSyncCommitteeMessage submits the sync committee message to the beacon chain.

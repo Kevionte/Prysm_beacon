@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
 	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
@@ -14,7 +15,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/validator/client/beacon-api/mock"
 	test_helpers "github.com/prysmaticlabs/prysm/v5/validator/client/beacon-api/test-helpers"
 	"go.uber.org/mock/gomock"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func TestProposeBeaconBlock_Capella(t *testing.T) {

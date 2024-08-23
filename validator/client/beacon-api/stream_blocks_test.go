@@ -7,6 +7,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
 	rpctesting "github.com/prysmaticlabs/prysm/v5/beacon-chain/rpc/eth/shared/testing"
@@ -16,7 +17,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/validator/client/beacon-api/mock"
 	test_helpers "github.com/prysmaticlabs/prysm/v5/validator/client/beacon-api/test-helpers"
 	"go.uber.org/mock/gomock"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func TestStreamBlocks_UnsupportedConsensusVersion(t *testing.T) {

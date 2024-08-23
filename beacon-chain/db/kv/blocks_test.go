@@ -5,6 +5,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db/filters"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
@@ -17,7 +18,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	"google.golang.org/protobuf/proto"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 var blockTests = []struct {

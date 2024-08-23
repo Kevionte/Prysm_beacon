@@ -7,6 +7,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/crypto/bls"
 	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
 	validatorpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1/validator-client"
@@ -15,7 +16,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/validator/keymanager/remote-web3signer/internal"
 	"github.com/prysmaticlabs/prysm/v5/validator/keymanager/remote-web3signer/v1/mock"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 type MockClient struct {

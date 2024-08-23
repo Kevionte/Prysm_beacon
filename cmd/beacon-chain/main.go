@@ -8,6 +8,7 @@ import (
 	"path/filepath"
 	runtimeDebug "runtime/debug"
 
+	gethlog "github.com/Kevionte/Go-Sovereign/log"
 	golog "github.com/ipfs/go-log/v2"
 	joonix "github.com/joonix/log"
 	"github.com/pkg/errors"
@@ -36,7 +37,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/runtime/version"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
-	gethlog "https://github.com/Kevionte/Go-Sovereign/log"
 )
 
 var appFlags = []cli.Flag{

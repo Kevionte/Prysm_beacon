@@ -8,6 +8,9 @@ import (
 	"path"
 	"testing"
 
+	gethCrypto "github.com/Kevionte/Go-Sovereign/crypto"
+	"github.com/Kevionte/Go-Sovereign/p2p/enode"
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/protocol"
@@ -17,9 +20,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/network"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	gethCrypto "https://github.com/Kevionte/Go-Sovereign/crypto"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enode"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 func TestPrivateKeyLoading(t *testing.T) {

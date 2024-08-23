@@ -5,6 +5,7 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/golang/snappy"
 	"github.com/pkg/errors"
 	ssz "github.com/prysmaticlabs/fastssz"
@@ -20,7 +21,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	bolt "go.etcd.io/bbolt"
 	"go.opencensus.io/trace"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 // used to represent errors for inconsistent slot ranges.

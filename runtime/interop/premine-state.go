@@ -4,6 +4,7 @@ import (
 	"context"
 	"math/big"
 
+	"github.com/Kevionte/Go-Sovereign/core/types"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/altair"
 	b "github.com/prysmaticlabs/prysm/v5/beacon-chain/core/blocks"
@@ -21,7 +22,6 @@ import (
 	enginev1 "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/runtime/version"
-	"https://github.com/Kevionte/Go-Sovereign/core/types"
 )
 
 var errUnsupportedVersion = errors.New("schema version not supported by PremineGenesisConfig")

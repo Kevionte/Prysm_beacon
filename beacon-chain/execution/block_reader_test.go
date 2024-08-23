@@ -6,6 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	gethTypes "github.com/Kevionte/Go-Sovereign/core/types"
 	dbutil "github.com/prysmaticlabs/prysm/v5/beacon-chain/db/testing"
 	mockExecution "github.com/prysmaticlabs/prysm/v5/beacon-chain/execution/testing"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/execution/types"
@@ -13,9 +16,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/contracts/deposit/mock"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
-	gethTypes "https://github.com/Kevionte/Go-Sovereign/core/types"
 )
 
 func setDefaultMocks(service *Service) *Service {

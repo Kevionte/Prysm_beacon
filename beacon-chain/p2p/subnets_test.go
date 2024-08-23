@@ -9,6 +9,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/enode"
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/prysmaticlabs/go-bitfield"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/cache"
@@ -17,8 +19,6 @@ import (
 	ecdsaprysm "github.com/prysmaticlabs/prysm/v5/crypto/ecdsa"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enode"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 func TestStartDiscV5_FindPeersWithSubnet(t *testing.T) {

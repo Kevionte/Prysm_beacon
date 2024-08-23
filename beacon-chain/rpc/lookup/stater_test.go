@@ -11,6 +11,7 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state/stategen"
 	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	chainMock "github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/testing"
 	testDB "github.com/prysmaticlabs/prysm/v5/beacon-chain/db/testing"
 	mockstategen "github.com/prysmaticlabs/prysm/v5/beacon-chain/state/stategen/mock"
@@ -21,7 +22,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func TestGetState(t *testing.T) {

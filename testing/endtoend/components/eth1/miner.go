@@ -10,6 +10,10 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/ethclient"
+	"github.com/Kevionte/Go-Sovereign/rpc"
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
@@ -20,10 +24,6 @@ import (
 	e2e "github.com/prysmaticlabs/prysm/v5/testing/endtoend/params"
 	e2etypes "github.com/prysmaticlabs/prysm/v5/testing/endtoend/types"
 	log "github.com/sirupsen/logrus"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/ethclient"
-	"https://github.com/Kevionte/Go-Sovereign/rpc"
 )
 
 const (

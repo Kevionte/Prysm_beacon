@@ -8,6 +8,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	mockChain "github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/testing"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db/filesystem"
 	testDB "github.com/prysmaticlabs/prysm/v5/beacon-chain/db/testing"
@@ -21,7 +22,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func TestGetBlock(t *testing.T) {

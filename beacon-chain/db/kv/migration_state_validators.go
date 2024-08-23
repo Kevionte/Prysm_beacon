@@ -5,6 +5,7 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/golang/snappy"
 	"github.com/prysmaticlabs/prysm/v5/config/features"
 	"github.com/prysmaticlabs/prysm/v5/encoding/ssz/detect"
@@ -12,7 +13,6 @@ import (
 	v1alpha1 "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/schollz/progressbar/v3"
 	bolt "go.etcd.io/bbolt"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 const batchSize = 10

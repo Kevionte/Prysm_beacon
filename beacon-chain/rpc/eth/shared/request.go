@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/gorilla/mux"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/sync"
 	"github.com/prysmaticlabs/prysm/v5/network/httputil"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func UintFromQuery(w http.ResponseWriter, r *http.Request, name string, required bool) (string, uint64, bool) {

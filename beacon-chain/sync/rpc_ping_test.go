@@ -6,6 +6,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
 	mock "github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/testing"
@@ -21,7 +22,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 func TestPingRPCHandler_ReceivesPing(t *testing.T) {

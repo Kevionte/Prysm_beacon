@@ -4,6 +4,7 @@ import (
 	"context"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
 	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
@@ -14,7 +15,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	"github.com/prysmaticlabs/prysm/v5/validator/db/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func TestNewProposalHistoryForSlot_ReturnsNilIfNoHistory(t *testing.T) {

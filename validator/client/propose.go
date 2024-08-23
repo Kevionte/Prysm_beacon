@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/async"
@@ -27,7 +28,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/validator/client/iface"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 const (

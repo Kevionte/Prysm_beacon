@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"strconv"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/prysmaticlabs/prysm/v5/api/client/event"

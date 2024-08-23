@@ -6,6 +6,7 @@ import (
 	"runtime"
 	"strconv"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/rpc/eth/shared"
@@ -13,7 +14,6 @@ import (
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/eth/v1"
 	"github.com/prysmaticlabs/prysm/v5/runtime/version"
 	"go.opencensus.io/trace"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 var (

@@ -3,6 +3,7 @@ package node
 import (
 	"fmt"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	fastssz "github.com/prysmaticlabs/fastssz"
 	"github.com/prysmaticlabs/prysm/v5/cmd"
 	"github.com/prysmaticlabs/prysm/v5/cmd/beacon-chain/flags"
@@ -10,7 +11,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
 	tracing2 "github.com/prysmaticlabs/prysm/v5/monitoring/tracing"
 	"github.com/urfave/cli/v2"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 func configureTracing(cliCtx *cli.Context) error {

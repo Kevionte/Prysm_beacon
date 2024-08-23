@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"testing"
 
+	gcrypto "github.com/Kevionte/Go-Sovereign/crypto"
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	gcrypto "https://github.com/Kevionte/Go-Sovereign/crypto"
 )
 
 func TestConvertToInterfacePubkey(t *testing.T) {

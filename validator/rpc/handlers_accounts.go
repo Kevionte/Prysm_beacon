@@ -10,6 +10,7 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/api/pagination"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/rpc/eth/shared"
@@ -24,7 +25,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/validator/keymanager/derived"
 	"github.com/prysmaticlabs/prysm/v5/validator/keymanager/local"
 	"go.opencensus.io/trace"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // ListAccounts allows retrieval of validating keys and their petnames

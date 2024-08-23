@@ -8,6 +8,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/discover"
+	"github.com/Kevionte/Go-Sovereign/p2p/enode"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	ecdsaprysm "github.com/prysmaticlabs/prysm/v5/crypto/ecdsa"
 	"github.com/prysmaticlabs/prysm/v5/network"
@@ -15,8 +17,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/sirupsen/logrus"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/discover"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enode"
 )
 
 func TestMain(m *testing.M) {

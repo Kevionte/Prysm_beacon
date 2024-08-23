@@ -15,6 +15,7 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
@@ -24,7 +25,6 @@ import (
 	e2e "github.com/prysmaticlabs/prysm/v5/testing/endtoend/params"
 	e2etypes "github.com/prysmaticlabs/prysm/v5/testing/endtoend/types"
 	"gopkg.in/yaml.v2"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 const Web3RemoteSignerPort = 9000

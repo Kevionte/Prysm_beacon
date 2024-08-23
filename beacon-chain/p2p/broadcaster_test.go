@@ -9,6 +9,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/discover"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/prysmaticlabs/go-bitfield"
@@ -25,7 +26,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	"google.golang.org/protobuf/proto"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/discover"
 )
 
 func TestService_Broadcast(t *testing.T) {

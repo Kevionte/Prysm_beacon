@@ -13,6 +13,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	gethRPC "github.com/Kevionte/Go-Sovereign/rpc"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
@@ -36,10 +40,6 @@ import (
 	prysmTime "github.com/prysmaticlabs/prysm/v5/time"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	"github.com/sirupsen/logrus"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
-	gethRPC "https://github.com/Kevionte/Go-Sovereign/rpc"
 )
 
 var (

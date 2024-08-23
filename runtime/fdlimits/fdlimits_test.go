@@ -3,9 +3,9 @@ package fdlimits_test
 import (
 	"testing"
 
+	gethLimit "github.com/Kevionte/Go-Sovereign/common/fdlimit"
 	"github.com/prysmaticlabs/prysm/v5/runtime/fdlimits"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	gethLimit "https://github.com/Kevionte/Go-Sovereign/common/fdlimit"
 )
 
 func TestSetMaxFdLimits(t *testing.T) {

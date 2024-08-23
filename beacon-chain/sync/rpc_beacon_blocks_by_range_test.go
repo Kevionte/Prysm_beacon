@@ -8,6 +8,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	gethTypes "github.com/Kevionte/Go-Sovereign/core/types"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
 	chainMock "github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/testing"
@@ -33,8 +35,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	gethTypes "https://github.com/Kevionte/Go-Sovereign/core/types"
 )
 
 func TestRPCBeaconBlocksByRange_RPCHandlerReturnsBlocks(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"math/big"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 // DepositCache combines the interfaces for retrieving and inserting deposit information.

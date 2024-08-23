@@ -9,6 +9,7 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/cmd/validator/flags"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
@@ -19,7 +20,6 @@ import (
 	remoteweb3signer "github.com/prysmaticlabs/prysm/v5/validator/keymanager/remote-web3signer"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func init() {

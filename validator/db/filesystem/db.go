@@ -10,12 +10,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
 	"github.com/prysmaticlabs/prysm/v5/io/file"
 	validatorpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1/validator-client"
 	"github.com/prysmaticlabs/prysm/v5/validator/db/iface"
 	"gopkg.in/yaml.v3"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

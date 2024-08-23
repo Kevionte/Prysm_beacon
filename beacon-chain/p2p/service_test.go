@@ -8,6 +8,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/discover"
+	"github.com/Kevionte/Go-Sovereign/p2p/enode"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/peer"
@@ -25,8 +27,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	prysmTime "github.com/prysmaticlabs/prysm/v5/time"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/discover"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enode"
 )
 
 type mockListener struct {

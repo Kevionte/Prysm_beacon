@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"regexp"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/container/slice"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 var hexRegex = regexp.MustCompile("^0x[0-9a-fA-F]+$")

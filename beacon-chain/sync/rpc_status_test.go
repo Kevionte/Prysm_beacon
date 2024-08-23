@@ -6,6 +6,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
 	"github.com/prysmaticlabs/prysm/v5/async/abool"
@@ -34,7 +35,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	prysmTime "github.com/prysmaticlabs/prysm/v5/time"
 	"google.golang.org/protobuf/proto"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 func TestStatusRPCHandler_Disconnects_OnForkVersionMismatch(t *testing.T) {

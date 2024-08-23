@@ -6,6 +6,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/enode"
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	"github.com/holiman/uint256"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/go-bitfield"
@@ -18,8 +20,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
 	mathutil "github.com/prysmaticlabs/prysm/v5/math"
 	"go.opencensus.io/trace"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enode"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 
 	"github.com/prysmaticlabs/prysm/v5/config/params"
 	pb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"

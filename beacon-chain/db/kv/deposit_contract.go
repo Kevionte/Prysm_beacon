@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	bolt "go.etcd.io/bbolt"
 	"go.opencensus.io/trace"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 // DepositContractAddress returns contract address is the address of

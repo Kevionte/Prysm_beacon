@@ -8,6 +8,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/signing"
 	lruwrpr "github.com/prysmaticlabs/prysm/v5/cache/lru"
 	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
@@ -30,7 +31,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/validator/graffiti"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 	"go.uber.org/mock/gomock"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 type mocks struct {

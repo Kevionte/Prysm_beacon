@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/crypto"
+	"github.com/Kevionte/Go-Sovereign/p2p/enode"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"https://github.com/Kevionte/Go-Sovereign/crypto"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enode"
 )
 
 // Test `verifyConnectivity` function by trying to connect to google.com (successfully)

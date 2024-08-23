@@ -10,6 +10,7 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/api/client/beacon"
@@ -19,7 +20,6 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 	"go.opencensus.io/trace"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 func setWithdrawalAddresses(c *cli.Context) error {

@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 // MockPeerManager is mock of the PeerManager interface.

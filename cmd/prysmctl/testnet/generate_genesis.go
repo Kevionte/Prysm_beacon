@@ -10,6 +10,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/core"
+	"github.com/Kevionte/Go-Sovereign/ethclient"
+	"github.com/Kevionte/Go-Sovereign/rpc"
 	"github.com/ghodss/yaml"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
@@ -22,9 +25,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/runtime/version"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
-	"https://github.com/Kevionte/Go-Sovereign/core"
-	"https://github.com/Kevionte/Go-Sovereign/ethclient"
-	"https://github.com/Kevionte/Go-Sovereign/rpc"
 )
 
 var (

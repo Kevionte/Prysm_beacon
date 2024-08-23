@@ -6,6 +6,7 @@ import (
 	"math/big"
 	"strconv"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
 	types "github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
@@ -13,7 +14,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/math"
 	v1 "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
 	eth "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 var errInvalidUint256 = errors.New("invalid Uint256")

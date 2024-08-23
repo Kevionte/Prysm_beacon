@@ -1,7 +1,7 @@
 package params
 
 import (
-	eth1Params "https://github.com/Kevionte/Go-Sovereign/params"
+	eth1Params "github.com/Kevionte/Go-Sovereign/params"
 )
 
 // UseSepoliaNetworkConfig uses the Sepolia beacon chain specific network config.

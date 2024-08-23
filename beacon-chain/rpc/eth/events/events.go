@@ -7,6 +7,7 @@ import (
 	"net/http"
 	time2 "time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/api"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
@@ -24,7 +25,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/runtime/version"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	"go.opencensus.io/trace"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 const (

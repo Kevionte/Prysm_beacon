@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	beaconState "github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
 	enginev1 "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 var errPayloadHeaderNotFound = errors.New("expected payload header not found")

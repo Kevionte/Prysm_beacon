@@ -7,6 +7,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/crypto"
+	"github.com/Kevionte/Go-Sovereign/p2p/enode"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	mock "github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/testing"
 	dbutil "github.com/prysmaticlabs/prysm/v5/beacon-chain/db/testing"
@@ -25,9 +28,6 @@ import (
 	"google.golang.org/grpc/reflection"
 	"google.golang.org/protobuf/types/known/emptypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/crypto"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enode"
 )
 
 func TestNodeServer_GetSyncStatus(t *testing.T) {

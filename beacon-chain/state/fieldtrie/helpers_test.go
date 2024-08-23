@@ -6,6 +6,7 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	customtypes "github.com/prysmaticlabs/prysm/v5/beacon-chain/state/state-native/custom-types"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state/state-native/types"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state/stateutil"
@@ -15,7 +16,6 @@ import (
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func Test_handlePendingAttestation_OutOfRange(t *testing.T) {

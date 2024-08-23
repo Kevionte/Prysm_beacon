@@ -3,8 +3,8 @@ package filesystem
 import (
 	"context"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func (s *Store) GenesisValidatorsRoot(_ context.Context) ([]byte, error) {

@@ -6,6 +6,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/api/client/beacon"
 	healthTesting "github.com/prysmaticlabs/prysm/v5/api/client/beacon/testing"
@@ -20,7 +21,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/validator/client/testutil"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 	"go.uber.org/mock/gomock"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 func cancelledContext() context.Context {

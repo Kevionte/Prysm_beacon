@@ -5,6 +5,7 @@ import (
 	"context"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	fuzz "github.com/google/gofuzz"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/helpers"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/signing"
@@ -18,7 +19,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func TestSigningRoot_ComputeSigningRoot(t *testing.T) {

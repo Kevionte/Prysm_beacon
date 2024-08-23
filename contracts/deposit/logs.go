@@ -3,8 +3,8 @@ package deposit
 import (
 	"bytes"
 
+	"github.com/Kevionte/Go-Sovereign/accounts/abi"
 	"github.com/pkg/errors"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi"
 )
 
 // UnpackDepositLogData unpacks the data from a deposit log using the ABI decoder.

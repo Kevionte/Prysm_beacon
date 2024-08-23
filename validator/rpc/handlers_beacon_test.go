@@ -9,6 +9,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
@@ -16,7 +17,6 @@ import (
 	validatormock "github.com/prysmaticlabs/prysm/v5/testing/validator-mock"
 	"go.uber.org/mock/gomock"
 	"google.golang.org/protobuf/types/known/timestamppb"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func TestGetBeaconStatus_NotConnected(t *testing.T) {

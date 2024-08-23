@@ -5,12 +5,12 @@ import (
 	"math"
 	"math/big"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/Go-Sovereign/core"
+	"github.com/Kevionte/Go-Sovereign/params"
 	clparams "github.com/prysmaticlabs/prysm/v5/config/params"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
-	"https://github.com/Kevionte/Go-Sovereign/core"
-	"https://github.com/Kevionte/Go-Sovereign/params"
 )
 
 // defaultMinerAddress is used to send deposits and test transactions in the e2e test.

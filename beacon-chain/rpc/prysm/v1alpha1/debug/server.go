@@ -7,6 +7,7 @@ import (
 	"context"
 	"os"
 
+	gethlog "github.com/Kevionte/Go-Sovereign/log"
 	"github.com/golang/protobuf/ptypes/empty"
 	golog "github.com/ipfs/go-log/v2"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain"
@@ -17,7 +18,6 @@ import (
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	gethlog "https://github.com/Kevionte/Go-Sovereign/log"
 )
 
 // Server defines a server implementation of the gRPC Debug service,

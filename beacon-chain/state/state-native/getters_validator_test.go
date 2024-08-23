@@ -3,13 +3,13 @@ package state_native_test
 import (
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
 	statenative "github.com/prysmaticlabs/prysm/v5/beacon-chain/state/state-native"
 	testtmpl "github.com/prysmaticlabs/prysm/v5/beacon-chain/state/testing"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func TestBeaconState_ValidatorAtIndexReadOnly_HandlesNilSlice_Phase0(t *testing.T) {

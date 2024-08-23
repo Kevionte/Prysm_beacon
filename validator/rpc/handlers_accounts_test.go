@@ -14,6 +14,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/api"
 	"github.com/prysmaticlabs/prysm/v5/cmd/validator/flags"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
@@ -29,7 +30,6 @@ import (
 	constant "github.com/prysmaticlabs/prysm/v5/validator/testing"
 	"go.uber.org/mock/gomock"
 	"google.golang.org/protobuf/types/known/timestamppb"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 var (

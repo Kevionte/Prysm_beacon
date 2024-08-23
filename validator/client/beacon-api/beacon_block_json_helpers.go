@@ -3,10 +3,10 @@ package beacon_api
 import (
 	"strconv"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
 	enginev1 "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func jsonifyTransactions(transactions [][]byte) []string {

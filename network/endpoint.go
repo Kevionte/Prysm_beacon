@@ -9,9 +9,9 @@ import (
 	"net/url"
 	"strings"
 
+	gethRPC "github.com/Kevionte/Go-Sovereign/rpc"
 	"github.com/prysmaticlabs/prysm/v5/network/authorization"
 	log "github.com/sirupsen/logrus"
-	gethRPC "https://github.com/Kevionte/Go-Sovereign/rpc"
 )
 
 // Endpoint is an endpoint with authorization data.

@@ -10,13 +10,13 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
 	"go.uber.org/mock/gomock"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
 	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/validator/client/beacon-api/mock"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // Make sure that GetAttestationData() returns the same thing as the internal getAttestationData()

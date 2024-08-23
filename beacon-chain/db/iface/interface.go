@@ -7,6 +7,7 @@ import (
 	"context"
 	"io"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db/filters"
 	slashertypes "github.com/prysmaticlabs/prysm/v5/beacon-chain/slasher/types"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
@@ -16,7 +17,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/monitoring/backup"
 	"github.com/prysmaticlabs/prysm/v5/proto/dbval"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 // ReadOnlyDatabase defines a struct which only has read access to database methods.

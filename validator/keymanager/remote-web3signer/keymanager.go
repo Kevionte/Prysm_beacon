@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"path/filepath"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/go-playground/validator/v10"
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
@@ -20,7 +21,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/validator/keymanager/remote-web3signer/internal"
 	web3signerv1 "github.com/prysmaticlabs/prysm/v5/validator/keymanager/remote-web3signer/v1"
 	log "github.com/sirupsen/logrus"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // SetupConfig includes configuration values for initializing.

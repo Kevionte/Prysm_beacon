@@ -13,6 +13,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
 	"github.com/prysmaticlabs/prysm/v5/crypto/bls"
@@ -20,7 +21,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/monitoring/tracing"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 const (

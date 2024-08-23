@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
@@ -15,7 +16,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/network/httputil"
 	enginev1 "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // ExpectedWithdrawals get the withdrawals computed from the specified state, that will be included in the block that gets built on the specified state.

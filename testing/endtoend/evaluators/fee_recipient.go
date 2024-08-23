@@ -5,6 +5,10 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/Go-Sovereign/ethclient"
+	"github.com/Kevionte/Go-Sovereign/rpc"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
 	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
@@ -17,10 +21,6 @@ import (
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
-	"https://github.com/Kevionte/Go-Sovereign/ethclient"
-	"https://github.com/Kevionte/Go-Sovereign/rpc"
 )
 
 var FeeRecipientIsPresent = types.Evaluator{

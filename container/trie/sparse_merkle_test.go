@@ -4,6 +4,7 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
 	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
 	"github.com/prysmaticlabs/prysm/v5/container/trie"
@@ -13,7 +14,6 @@ import (
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
 )
 
 func TestCreateTrieFromProto_Validation(t *testing.T) {

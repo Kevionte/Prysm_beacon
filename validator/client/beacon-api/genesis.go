@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
 	"github.com/prysmaticlabs/prysm/v5/network/httputil"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 type GenesisProvider interface {

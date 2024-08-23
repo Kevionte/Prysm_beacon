@@ -7,6 +7,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/api/client/builder"
 	blockchainTest "github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/testing"
@@ -31,7 +32,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 func TestServer_setExecutionData(t *testing.T) {

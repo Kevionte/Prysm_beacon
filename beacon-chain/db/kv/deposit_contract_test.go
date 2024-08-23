@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 func TestStore_DepositContract(t *testing.T) {

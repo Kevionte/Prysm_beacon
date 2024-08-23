@@ -11,6 +11,8 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
 	"github.com/pkg/errors"
 	cmdshared "github.com/prysmaticlabs/prysm/v5/cmd"
@@ -24,8 +26,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/endtoend/helpers"
 	e2e "github.com/prysmaticlabs/prysm/v5/testing/endtoend/params"
 	e2etypes "github.com/prysmaticlabs/prysm/v5/testing/endtoend/types"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 const DefaultFeeRecipientAddress = "0x099FB65722e7b2455043bfebF6177f1D2E9738d9"

@@ -1,8 +1,8 @@
 package fdlimits
 
 import (
+	"github.com/Kevionte/Go-Sovereign/common/fdlimit"
 	"github.com/sirupsen/logrus"
-	"https://github.com/Kevionte/Go-Sovereign/common/fdlimit"
 )
 
 var log = logrus.WithField("prefix", "fdlimits")

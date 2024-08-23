@@ -1,7 +1,7 @@
 package deposit
 
 import (
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
+	"github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
 )
 
 // NewDepositContractCallerFromBoundContract creates a new instance of DepositContractCaller, bound to

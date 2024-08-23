@@ -3,7 +3,7 @@ package p2p
 import (
 	"context"
 
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enode"
+	"github.com/Kevionte/Go-Sovereign/p2p/enode"
 )
 
 // filterNodes wraps an iterator such that Next only returns nodes for which

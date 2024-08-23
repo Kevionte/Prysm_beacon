@@ -3,12 +3,12 @@ package v1
 import (
 	"fmt"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
 	"github.com/prysmaticlabs/prysm/v5/network/forks"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // MapForkInfo maps the eth2.ForkInfo proto to the Web3Signer spec.

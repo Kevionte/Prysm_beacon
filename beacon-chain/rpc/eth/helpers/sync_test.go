@@ -6,6 +6,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	grpcutil "github.com/prysmaticlabs/prysm/v5/api/grpc"
 	chainmock "github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/testing"
@@ -26,7 +27,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	"google.golang.org/grpc"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func TestValidateSync(t *testing.T) {

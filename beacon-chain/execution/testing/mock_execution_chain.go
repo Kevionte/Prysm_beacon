@@ -9,6 +9,11 @@ import (
 	"net/http/httptest"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/accounts/abi/bind/backends"
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	gethTypes "github.com/Kevionte/Go-Sovereign/core/types"
+	"github.com/Kevionte/Go-Sovereign/rpc"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/async/event"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/execution/types"
@@ -16,11 +21,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/config/params"
 	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi/bind/backends"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
-	gethTypes "https://github.com/Kevionte/Go-Sovereign/core/types"
-	"https://github.com/Kevionte/Go-Sovereign/rpc"
 )
 
 // Chain defines a properly functioning mock for the powchain service.

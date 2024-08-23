@@ -10,6 +10,12 @@ import (
 	"os"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/accounts/keystore"
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/core/types"
+	"github.com/Kevionte/Go-Sovereign/crypto/kzg4844"
+	"github.com/Kevionte/Go-Sovereign/ethclient"
+	"github.com/Kevionte/Go-Sovereign/rpc"
 	"github.com/MariusVanDerWijden/FuzzyVM/filler"
 	txfuzz "github.com/MariusVanDerWijden/tx-fuzz"
 	"github.com/holiman/uint256"
@@ -20,12 +26,6 @@ import (
 	e2e "github.com/prysmaticlabs/prysm/v5/testing/endtoend/params"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/errgroup"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/keystore"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/core/types"
-	"https://github.com/Kevionte/Go-Sovereign/crypto/kzg4844"
-	"https://github.com/Kevionte/Go-Sovereign/ethclient"
-	"https://github.com/Kevionte/Go-Sovereign/rpc"
 )
 
 const txCount = 20

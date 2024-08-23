@@ -6,12 +6,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "https://github.com/Kevionte/Go-Sovereign"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/core/types"
-	"https://github.com/Kevionte/Go-Sovereign/event"
+	ethereum "github.com/Kevionte/Go-Sovereign"
+	"github.com/Kevionte/Go-Sovereign/accounts/abi"
+	"github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/core/types"
+	"github.com/Kevionte/Go-Sovereign/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

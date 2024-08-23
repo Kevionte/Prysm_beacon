@@ -7,6 +7,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign"
+	"github.com/Kevionte/Go-Sovereign/accounts/abi/bind/backends"
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	gethTypes "github.com/Kevionte/Go-Sovereign/core/types"
+	"github.com/Kevionte/Go-Sovereign/rpc"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/async/event"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/cache/depositcache"
@@ -27,12 +33,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"https://github.com/Kevionte/Go-Sovereign"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/abi/bind/backends"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
-	gethTypes "https://github.com/Kevionte/Go-Sovereign/core/types"
-	"https://github.com/Kevionte/Go-Sovereign/rpc"
 )
 
 var _ ChainStartFetcher = (*Service)(nil)

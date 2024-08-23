@@ -28,6 +28,7 @@ import (
 	"sort"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	ma "github.com/multiformats/go-multiaddr"
@@ -44,7 +45,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1/metadata"
 	prysmTime "github.com/prysmaticlabs/prysm/v5/time"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 const (

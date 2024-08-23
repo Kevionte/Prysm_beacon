@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"path"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	base "github.com/prysmaticlabs/prysm/v5/api/client"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/helpers"
@@ -18,7 +19,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/mod/semver"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 var errCheckpointBlockMismatch = errors.New("mismatch between checkpoint sync state and block")

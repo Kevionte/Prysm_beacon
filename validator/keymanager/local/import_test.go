@@ -6,6 +6,7 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/google/uuid"
 	"github.com/prysmaticlabs/prysm/v5/crypto/bls"
 	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
@@ -15,7 +16,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/validator/keymanager"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 const password = "secretPassw0rd$1999"

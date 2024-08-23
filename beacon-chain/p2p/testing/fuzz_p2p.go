@@ -3,6 +3,7 @@ package testing
 import (
 	"context"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/control"
 	"github.com/libp2p/go-libp2p/core/host"
@@ -14,7 +15,6 @@ import (
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1/metadata"
 	"google.golang.org/protobuf/proto"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 // FakeP2P stack

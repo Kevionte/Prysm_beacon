@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 func TestRoundtrip_HeaderInfo(t *testing.T) {

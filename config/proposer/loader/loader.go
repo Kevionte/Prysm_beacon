@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/cmd/validator/flags"
 	"github.com/prysmaticlabs/prysm/v5/config"
@@ -14,7 +15,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/validator/db/iface"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 type settingsType int

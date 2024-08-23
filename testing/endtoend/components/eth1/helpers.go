@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/accounts/keystore"
+	"github.com/Kevionte/Go-Sovereign/core/types"
+	"github.com/Kevionte/Go-Sovereign/ethclient"
 	"github.com/prysmaticlabs/prysm/v5/testing/endtoend/params"
 	e2etypes "github.com/prysmaticlabs/prysm/v5/testing/endtoend/types"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/keystore"
-	"https://github.com/Kevionte/Go-Sovereign/core/types"
-	"https://github.com/Kevionte/Go-Sovereign/ethclient"
 )
 
 // NetworkId is the ID of the ETH1 chain.

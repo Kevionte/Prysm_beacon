@@ -6,6 +6,8 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	gethtypes "github.com/Kevionte/Go-Sovereign/core/types"
 	chainMock "github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/testing"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/cache"
 	dbTest "github.com/prysmaticlabs/prysm/v5/beacon-chain/db/testing"
@@ -20,8 +22,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	gethtypes "https://github.com/Kevionte/Go-Sovereign/core/types"
 )
 
 func TestServer_activationEpochNotReached(t *testing.T) {

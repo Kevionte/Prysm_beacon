@@ -18,6 +18,7 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/gorilla/mux"
 	gwruntime "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/pkg/errors"
@@ -57,7 +58,6 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 	"google.golang.org/protobuf/encoding/protojson"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // ValidatorClient defines an instance of an Ethereum validator that manages

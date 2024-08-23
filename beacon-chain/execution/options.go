@@ -1,6 +1,7 @@
 package execution
 
 import (
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/cache"
 	statefeed "github.com/prysmaticlabs/prysm/v5/beacon-chain/core/feed/state"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db"
@@ -8,7 +9,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state/stategen"
 	"github.com/prysmaticlabs/prysm/v5/network"
 	"github.com/prysmaticlabs/prysm/v5/network/authorization"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 type Option func(s *Service) error

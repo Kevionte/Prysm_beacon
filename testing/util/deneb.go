@@ -6,6 +6,8 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	gethTypes "github.com/Kevionte/Go-Sovereign/core/types"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/signing"
 	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
 	"github.com/prysmaticlabs/prysm/v5/config/params"
@@ -18,8 +20,6 @@ import (
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	gethTypes "https://github.com/Kevionte/Go-Sovereign/core/types"
 )
 
 type DenebBlockGeneratorOption func(*denebBlockGenerator)

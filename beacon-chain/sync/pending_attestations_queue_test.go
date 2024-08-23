@@ -5,6 +5,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/prysmaticlabs/go-bitfield"
 	"github.com/prysmaticlabs/prysm/v5/async/abool"
@@ -29,7 +30,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	prysmTime "github.com/prysmaticlabs/prysm/v5/time"
 	logTest "github.com/sirupsen/logrus/hooks/test"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 func TestProcessPendingAtts_NoBlockRequestBlock(t *testing.T) {

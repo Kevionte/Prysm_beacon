@@ -22,6 +22,11 @@ import (
 	"os"
 	"time"
 
+	gcrypto "github.com/Kevionte/Go-Sovereign/crypto"
+	gethlog "github.com/Kevionte/Go-Sovereign/log"
+	"github.com/Kevionte/Go-Sovereign/p2p/discover"
+	"github.com/Kevionte/Go-Sovereign/p2p/enode"
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
@@ -38,11 +43,6 @@ import (
 	_ "github.com/prysmaticlabs/prysm/v5/runtime/maxprocs"
 	"github.com/prysmaticlabs/prysm/v5/runtime/version"
 	"github.com/sirupsen/logrus"
-	gcrypto "https://github.com/Kevionte/Go-Sovereign/crypto"
-	gethlog "https://github.com/Kevionte/Go-Sovereign/log"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/discover"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enode"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 var (

@@ -9,6 +9,8 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/rpc/eth/shared"
@@ -27,8 +29,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/validator/slashing-protection-history/format"
 	"go.opencensus.io/trace"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 // ListKeystores implements the standard validator key management API.

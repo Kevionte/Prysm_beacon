@@ -6,14 +6,14 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	gethtypes "github.com/Kevionte/Go-Sovereign/core/types"
 	"github.com/pkg/errors"
 	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
 	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
 	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
 	"github.com/prysmaticlabs/prysm/v5/runtime/version"
-	"https://github.com/Kevionte/Go-Sovereign/common"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
-	gethtypes "https://github.com/Kevionte/Go-Sovereign/core/types"
 )
 
 // PayloadIDBytes defines a custom type for Payload IDs used by the engine API

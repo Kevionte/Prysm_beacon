@@ -4,11 +4,11 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common"
 	"github.com/prysmaticlabs/prysm/v5/beacon-chain/execution/types"
 	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"https://github.com/Kevionte/Go-Sovereign/common"
 )
 
 func TestHashKeyFn_OK(t *testing.T) {

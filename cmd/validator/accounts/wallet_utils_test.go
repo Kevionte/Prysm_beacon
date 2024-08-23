@@ -8,6 +8,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/prysmaticlabs/prysm/v5/cmd/validator/flags"
 	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
@@ -17,7 +18,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/validator/node"
 	"github.com/sirupsen/logrus/hooks/test"
 	"github.com/urfave/cli/v2"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func TestWalletWithKeymanager(t *testing.T) {

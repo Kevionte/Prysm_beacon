@@ -8,6 +8,7 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/gorilla/mux"
 	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
 	mock "github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/testing"
@@ -22,7 +23,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	"github.com/prysmaticlabs/prysm/v5/time/slots"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 func TestExpectedWithdrawals_BadRequest(t *testing.T) {

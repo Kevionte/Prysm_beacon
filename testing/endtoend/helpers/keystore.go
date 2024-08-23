@@ -3,8 +3,8 @@ package helpers
 import (
 	"os"
 
+	"github.com/Kevionte/Go-Sovereign/accounts/keystore"
 	"github.com/pkg/errors"
-	"https://github.com/Kevionte/Go-Sovereign/accounts/keystore"
 )
 
 // KeyFromPath should only be used in endtoend tests. It is a simple helper to init a geth keystore.Key from a file.

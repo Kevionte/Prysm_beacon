@@ -10,6 +10,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/Go-Sovereign/p2p/enr"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	core "github.com/libp2p/go-libp2p/core"
 	"github.com/libp2p/go-libp2p/core/control"
@@ -28,7 +29,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1/metadata"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/protobuf/proto"
-	"https://github.com/Kevionte/Go-Sovereign/p2p/enr"
 )
 
 // We have to declare this again here to prevent a circular dependency

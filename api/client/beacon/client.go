@@ -13,6 +13,7 @@ import (
 	"strconv"
 	"text/template"
 
+	"github.com/Kevionte/Go-Sovereign/common/hexutil"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/prysm/v5/api/client"
 	"github.com/prysmaticlabs/prysm/v5/api/server"
@@ -22,7 +23,6 @@ import (
 	"github.com/prysmaticlabs/prysm/v5/network/forks"
 	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/sirupsen/logrus"
-	"https://github.com/Kevionte/Go-Sovereign/common/hexutil"
 )
 
 const (
