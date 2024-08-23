@@ -14,11 +14,12 @@ import (
 	"strings"
 	"time"
 
-	_ "github.com/prysmaticlabs/prysm/v5/runtime/maxprocs"
-	"github.com/sirupsen/logrus"
 	"https://github.com/Kevionte/Go-Sovereign/common"
 	"https://github.com/Kevionte/Go-Sovereign/ethclient"
 	"https://github.com/Kevionte/Go-Sovereign/params"
+
+	_ "github.com/prysmaticlabs/prysm/v5/runtime/maxprocs"
+	"github.com/sirupsen/logrus"
 )
 
 var (
@@ -120,7 +121,7 @@ func CurrentBlock() uint64 {
 func ToEther(o *big.Int) *big.Float {
 	wei := big.NewFloat(0)
 	wei.SetInt(o)
-	return new(big.Float).Quo(wei, big.NewFloat(params.Ether))
+	return new(big.Float).Quo(wei, big.NewFloat(params.Swc))
 }
 
 // MetricsHTTP - HTTP response handler for /metrics.
