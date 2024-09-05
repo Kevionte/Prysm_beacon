@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
 )
 
 func TestTruncate(t *testing.T) {

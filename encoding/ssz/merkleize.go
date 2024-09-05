@@ -3,10 +3,10 @@ package ssz
 import (
 	"encoding/binary"
 
+	"github.com/Kevionte/prysm_beacon/v5/container/trie"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/hash/htr"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/gohashtree"
-	"github.com/prysmaticlabs/prysm/v5/container/trie"
-	"github.com/prysmaticlabs/prysm/v5/crypto/hash/htr"
 )
 
 var errInvalidNilSlice = errors.New("invalid empty slice")

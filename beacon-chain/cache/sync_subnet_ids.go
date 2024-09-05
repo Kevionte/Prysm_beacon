@@ -4,12 +4,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/container/slice"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/rand"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
 	"github.com/patrickmn/go-cache"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/container/slice"
-	"github.com/prysmaticlabs/prysm/v5/crypto/rand"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
 )
 
 type syncSubnetIDs struct {

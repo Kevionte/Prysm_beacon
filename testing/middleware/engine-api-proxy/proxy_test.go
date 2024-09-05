@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/Go-Sovereign/common"
-	"github.com/Kevionte/Go-Sovereign/rpc"
-	"github.com/prysmaticlabs/prysm/v5/crypto/rand"
-	pb "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	"github.com/Kevionte/go-sovereign/common"
+	"github.com/Kevionte/go-sovereign/rpc"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/rand"
+	pb "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/sirupsen/logrus"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 )

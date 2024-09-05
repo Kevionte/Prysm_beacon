@@ -5,12 +5,12 @@ import (
 	"encoding/hex"
 	"sort"
 
-	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/go-sovereign/common"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
 )

@@ -3,10 +3,10 @@ package synccommittee
 import (
 	"strconv"
 
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/container/queue"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/container/queue"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 )
 
 // To give two slots tolerance for objects that arrive earlier.

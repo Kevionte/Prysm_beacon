@@ -5,12 +5,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/config/features"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/ssz/detect"
+	"github.com/Kevionte/prysm_beacon/v5/monitoring/progress"
+	v1alpha1 "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/golang/snappy"
-	"github.com/prysmaticlabs/prysm/v5/config/features"
-	"github.com/prysmaticlabs/prysm/v5/encoding/ssz/detect"
-	"github.com/prysmaticlabs/prysm/v5/monitoring/progress"
-	v1alpha1 "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/schollz/progressbar/v3"
 	bolt "go.etcd.io/bbolt"
 )

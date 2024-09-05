@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/urfave/cli/v2"
 )
 

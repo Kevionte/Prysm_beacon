@@ -11,12 +11,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
-	"github.com/prysmaticlabs/prysm/v5/api/server"
-	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/api/server"
+	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	logtest "github.com/sirupsen/logrus/hooks/test"
 	"github.com/urfave/cli/v2"
 )

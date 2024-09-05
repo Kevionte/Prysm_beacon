@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v5/monitoring/prometheus"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/monitoring/prometheus"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	log "github.com/sirupsen/logrus"
 )
 

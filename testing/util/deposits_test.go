@@ -6,9 +6,9 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/helpers"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"google.golang.org/protobuf/proto"
 )
 

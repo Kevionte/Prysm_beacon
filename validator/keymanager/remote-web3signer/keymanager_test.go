@@ -7,14 +7,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
-	"github.com/prysmaticlabs/prysm/v5/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	validatorpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1/validator-client"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"github.com/prysmaticlabs/prysm/v5/validator/keymanager"
-	"github.com/prysmaticlabs/prysm/v5/validator/keymanager/remote-web3signer/internal"
-	"github.com/prysmaticlabs/prysm/v5/validator/keymanager/remote-web3signer/v1/mock"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	validatorpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/validator-client"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager/remote-web3signer/internal"
+	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager/remote-web3signer/v1/mock"
 	"github.com/stretchr/testify/assert"
 )
 

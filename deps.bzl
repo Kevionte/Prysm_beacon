@@ -868,7 +868,7 @@ def prysm_deps():
         build_directives = [
             "gazelle:resolve go github.com/karalabe/usb @prysm//third_party/usb:go_default_library",
         ],
-        importpath = "github.com/Kevionte/Go-Sovereign",
+        importpath = "github.com/Kevionte/go-sovereign",
         patch_args = ["-p1"],
         patches = [
             "//third_party:com_github_ethereum_go_ethereum_secp256k1.patch",

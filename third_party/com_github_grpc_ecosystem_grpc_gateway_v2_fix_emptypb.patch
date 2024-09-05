@@ -5,7 +5,7 @@ index 6d3476df..6392af9a 100644
 @@ -243,8 +243,7 @@ It translates gRPC into RESTful JSON APIs.
  package {{.GoPkg.Name}}
  import (
- 	github_com_prysmaticlabs_prysm_v4_consensus_types_primitives "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+ 	github_com_prysmaticlabs_prysm_v4_consensus_types_primitives "github.com/Kevionte/prysm_beacon/v4/consensus-types/primitives"
 -	emptypb "github.com/golang/protobuf/ptypes/empty"
 -	"github.com/golang/protobuf/ptypes/empty"
 +	"google.golang.org/protobuf/types/known/emptypb"

@@ -3,14 +3,14 @@ package simulator
 import (
 	"context"
 
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/signing"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v5/crypto/rand"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/signing"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/rand"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 )
 
 func (s *Simulator) generateBlockHeadersForSlot(

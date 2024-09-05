@@ -4,9 +4,9 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/Kevionte/prysm_beacon/v5/cmd"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/cmd"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
 	"github.com/urfave/cli/v2"
 	"gopkg.in/yaml.v2"
 )

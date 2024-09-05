@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 )
 
 func (c beaconApiValidatorClient) proposeExit(ctx context.Context, signedVoluntaryExit *ethpb.SignedVoluntaryExit) (*ethpb.ProposeExitResponse, error) {

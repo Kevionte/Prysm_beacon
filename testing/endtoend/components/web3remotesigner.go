@@ -15,15 +15,15 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
+	"github.com/Kevionte/prysm_beacon/v5/runtime/interop"
+	e2e "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/params"
+	e2etypes "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/types"
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
-	"github.com/prysmaticlabs/prysm/v5/runtime/interop"
-	e2e "github.com/prysmaticlabs/prysm/v5/testing/endtoend/params"
-	e2etypes "github.com/prysmaticlabs/prysm/v5/testing/endtoend/types"
 	"gopkg.in/yaml.v2"
 )
 

@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	ev "github.com/prysmaticlabs/prysm/v5/testing/endtoend/evaluators"
-	"github.com/prysmaticlabs/prysm/v5/testing/endtoend/evaluators/beaconapi"
-	e2eParams "github.com/prysmaticlabs/prysm/v5/testing/endtoend/params"
-	"github.com/prysmaticlabs/prysm/v5/testing/endtoend/types"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	ev "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/evaluators"
+	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/evaluators/beaconapi"
+	e2eParams "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/params"
+	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/types"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 )
 
 func e2eMinimal(t *testing.T, cfg *params.BeaconChainConfig, cfgo ...types.E2EConfigOpt) *testRunner {

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
 )
 
 // StartAndEndPage takes in the requested page token, wanted page size, total page size.

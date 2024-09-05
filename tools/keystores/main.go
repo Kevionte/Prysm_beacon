@@ -13,13 +13,13 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
+	"github.com/Kevionte/prysm_beacon/v5/io/prompt"
+	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
 	"github.com/google/uuid"
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
-	"github.com/prysmaticlabs/prysm/v5/io/prompt"
-	"github.com/prysmaticlabs/prysm/v5/validator/keymanager"
 	"github.com/urfave/cli/v2"
 	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"
 )

@@ -1,10 +1,10 @@
 package testing
 
 import (
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
+	eth "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/interfaces"
-	eth "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 )
 
 // NewSignedBeaconBlockFromGeneric creates a signed beacon block

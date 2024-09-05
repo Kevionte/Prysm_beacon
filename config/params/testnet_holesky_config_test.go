@@ -4,9 +4,9 @@ import (
 	"path"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 )
 
 func TestHoleskyConfigMatchesUpstreamYaml(t *testing.T) {

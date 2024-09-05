@@ -3,11 +3,11 @@ package attestations
 import (
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/attestation/aggregation"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
 	"github.com/prysmaticlabs/go-bitfield"
-	"github.com/prysmaticlabs/prysm/v5/crypto/bls"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1/attestation/aggregation"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 )
 
 func TestAggregateAttestations_MaxCover_NewMaxCover(t *testing.T) {

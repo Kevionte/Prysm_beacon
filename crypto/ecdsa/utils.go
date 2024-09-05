@@ -4,7 +4,7 @@ import (
 	"crypto/ecdsa"
 	"math/big"
 
-	gcrypto "github.com/Kevionte/Go-Sovereign/crypto"
+	gcrypto "github.com/Kevionte/go-sovereign/crypto"
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/pkg/errors"

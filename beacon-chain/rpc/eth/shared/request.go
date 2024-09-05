@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/sync"
+	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
 	"github.com/gorilla/mux"
-	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/sync"
-	"github.com/prysmaticlabs/prysm/v5/network/httputil"
 )
 
 func UintFromQuery(w http.ResponseWriter, r *http.Request, name string, required bool) (string, uint64, bool) {

@@ -3,11 +3,11 @@ package slasher
 import (
 	"context"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/blocks"
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/blocks"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 )
 
 // Verifies attester slashings, logs them, and submits them to the slashing operations pool

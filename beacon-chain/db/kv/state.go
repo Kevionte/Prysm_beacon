@@ -5,20 +5,20 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/genesis"
+	statenative "github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native"
+	"github.com/Kevionte/prysm_beacon/v5/config/features"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v5/monitoring/tracing"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/time"
+	"github.com/Kevionte/prysm_beacon/v5/time/slots"
 	"github.com/golang/snappy"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state/genesis"
-	statenative "github.com/prysmaticlabs/prysm/v5/beacon-chain/state/state-native"
-	"github.com/prysmaticlabs/prysm/v5/config/features"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v5/monitoring/tracing"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/time"
-	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	bolt "go.etcd.io/bbolt"
 	"go.opencensus.io/trace"
 )
@@ -226,7 +226,7 @@ func (s *Store) saveStatesEfficientInternal(ctx context.Context, tx *bolt.Tx, bl
 		// thread. But while storing the state object, we should not store the
 		// validator entries.To bring the gap closer, we empty the validators
 		// just before Put() and repopulate that state with original validators.
-		// look at issue https://github.com/prysmaticlabs/prysm/issues/9262.
+		// look at issue https://github.com/Kevionte/prysm_beacon/issues/9262.
 		switch rawType := states[i].ToProtoUnsafe().(type) {
 		case *ethpb.BeaconState:
 			pbState, err := getPhase0PbState(rawType)

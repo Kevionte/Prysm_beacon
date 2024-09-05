@@ -8,16 +8,16 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/async/abool"
+	"github.com/Kevionte/prysm_beacon/v5/async/event"
+	"github.com/Kevionte/prysm_beacon/v5/config/features"
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
+	"github.com/Kevionte/prysm_beacon/v5/validator/db/iface"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	prombolt "github.com/prysmaticlabs/prombbolt"
-	"github.com/prysmaticlabs/prysm/v5/async/abool"
-	"github.com/prysmaticlabs/prysm/v5/async/event"
-	"github.com/prysmaticlabs/prysm/v5/config/features"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
-	"github.com/prysmaticlabs/prysm/v5/validator/db/iface"
 	bolt "go.etcd.io/bbolt"
 )
 
@@ -42,7 +42,7 @@ var (
 
 // blockedBuckets represents the buckets that we want to restrict
 // from our metrics fetching for performance reasons. For a detailed
-// summary, it can be read in https://github.com/prysmaticlabs/prysm/issues/8274.
+// summary, it can be read in https://github.com/Kevionte/prysm_beacon/issues/8274.
 var blockedBuckets = [][]byte{
 	deprecatedAttestationHistoryBucket,
 	lowestSignedSourceBucket,

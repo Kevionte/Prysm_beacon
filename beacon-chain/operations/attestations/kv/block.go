@@ -1,8 +1,8 @@
 package kv
 
 import (
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 )
 
 // SaveBlockAttestation saves an block attestation in cache.

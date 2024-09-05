@@ -9,15 +9,15 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"github.com/prysmaticlabs/prysm/v5/validator/accounts"
-	"github.com/prysmaticlabs/prysm/v5/validator/db/common"
-	"github.com/prysmaticlabs/prysm/v5/validator/db/filesystem"
-	"github.com/prysmaticlabs/prysm/v5/validator/db/iface"
-	"github.com/prysmaticlabs/prysm/v5/validator/db/kv"
-	"github.com/prysmaticlabs/prysm/v5/validator/keymanager"
-	"github.com/prysmaticlabs/prysm/v5/validator/slashing-protection-history/format"
-	mocks "github.com/prysmaticlabs/prysm/v5/validator/testing"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/validator/accounts"
+	"github.com/Kevionte/prysm_beacon/v5/validator/db/common"
+	"github.com/Kevionte/prysm_beacon/v5/validator/db/filesystem"
+	"github.com/Kevionte/prysm_beacon/v5/validator/db/iface"
+	"github.com/Kevionte/prysm_beacon/v5/validator/db/kv"
+	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v5/validator/slashing-protection-history/format"
+	mocks "github.com/Kevionte/prysm_beacon/v5/validator/testing"
 )
 
 func TestImportSlashingProtection_Preconditions(t *testing.T) {

@@ -3,9 +3,9 @@ package blockchain
 import (
 	"context"
 
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/forkchoice"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/forkchoice"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
 )
 
 // CachedHeadRoot returns the corresponding value from Forkchoice

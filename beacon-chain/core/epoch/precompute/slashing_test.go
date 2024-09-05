@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/epoch/precompute"
-	state_native "github.com/prysmaticlabs/prysm/v5/beacon-chain/state/state-native"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/epoch/precompute"
+	state_native "github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"google.golang.org/protobuf/proto"
 )
 

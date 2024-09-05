@@ -8,18 +8,18 @@ import (
 	"path"
 	"testing"
 
-	gethCrypto "github.com/Kevionte/Go-Sovereign/crypto"
-	"github.com/Kevionte/Go-Sovereign/p2p/enode"
-	"github.com/Kevionte/Go-Sovereign/p2p/enr"
+	gethCrypto "github.com/Kevionte/go-sovereign/crypto"
+	"github.com/Kevionte/go-sovereign/p2p/enode"
+	"github.com/Kevionte/go-sovereign/p2p/enr"
+	mock "github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain/testing"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	ecdsaprysm "github.com/Kevionte/prysm_beacon/v5/crypto/ecdsa"
+	"github.com/Kevionte/prysm_beacon/v5/network"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/protocol"
-	mock "github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/testing"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	ecdsaprysm "github.com/prysmaticlabs/prysm/v5/crypto/ecdsa"
-	"github.com/prysmaticlabs/prysm/v5/network"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 )
 
 func TestPrivateKeyLoading(t *testing.T) {

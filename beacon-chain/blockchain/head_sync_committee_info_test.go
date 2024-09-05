@@ -4,14 +4,14 @@ import (
 	"context"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/cache"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/signing"
-	dbTest "github.com/prysmaticlabs/prysm/v5/beacon-chain/db/testing"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"github.com/prysmaticlabs/prysm/v5/testing/util"
-	"github.com/prysmaticlabs/prysm/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/cache"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/signing"
+	dbTest "github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/testing"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	"github.com/Kevionte/prysm_beacon/v5/time/slots"
 )
 
 func TestService_HeadSyncCommitteeIndices(t *testing.T) {

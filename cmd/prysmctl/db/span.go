@@ -3,11 +3,11 @@ package db
 import (
 	"fmt"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/slasher"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/slasher/types"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/slasher"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/slasher/types"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
 	"github.com/urfave/cli/v2"
 )
 

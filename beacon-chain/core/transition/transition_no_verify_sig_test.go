@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/helpers"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/time"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/transition"
-	field_params "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"github.com/prysmaticlabs/prysm/v5/testing/util"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/time"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/transition"
+	field_params "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/testing/util"
 )
 
 func TestExecuteStateTransitionNoVerify_FullProcess(t *testing.T) {

@@ -3,7 +3,7 @@ package helpers
 import (
 	"os"
 
-	"github.com/Kevionte/Go-Sovereign/accounts/keystore"
+	"github.com/Kevionte/go-sovereign/accounts/keystore"
 	"github.com/pkg/errors"
 )
 

@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
-	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/interfaces"
-	v1 "github.com/prysmaticlabs/prysm/v5/proto/eth/v1"
-	v2 "github.com/prysmaticlabs/prysm/v5/proto/eth/v2"
-	"github.com/prysmaticlabs/prysm/v5/proto/migration"
-	"github.com/prysmaticlabs/prysm/v5/time/slots"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
+	v1 "github.com/Kevionte/prysm_beacon/v5/proto/eth/v1"
+	v2 "github.com/Kevionte/prysm_beacon/v5/proto/eth/v2"
+	"github.com/Kevionte/prysm_beacon/v5/proto/migration"
+	"github.com/Kevionte/prysm_beacon/v5/time/slots"
 )
 
 // createLightClientBootstrap - implements https://github.com/ethereum/consensus-specs/blob/3d235740e5f1e641d3b160c8688f26e7dc5a1894/specs/altair/light-client/full-node.md#create_light_client_bootstrap

@@ -4,13 +4,13 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/api/client/beacon"
+	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/validator/client/iface"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/api/client/beacon"
-	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/validator/client/iface"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

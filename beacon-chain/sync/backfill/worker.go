@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/filesystem"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/startup"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/sync"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/verification"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db/filesystem"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/startup"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/sync"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/verification"
 )
 
 type workerId int

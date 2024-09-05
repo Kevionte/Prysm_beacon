@@ -5,12 +5,12 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
 
+	"github.com/Kevionte/prysm_beacon/v5/async"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/async"
-	"github.com/prysmaticlabs/prysm/v5/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v5/crypto/hash"
 )
 
 const (

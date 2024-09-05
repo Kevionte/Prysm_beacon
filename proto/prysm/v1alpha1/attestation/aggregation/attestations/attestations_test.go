@@ -5,14 +5,14 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/ssz/equality"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/attestation/aggregation"
+	aggtesting "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/attestation/aggregation/testing"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/prysmaticlabs/go-bitfield"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/encoding/ssz/equality"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1/attestation/aggregation"
-	aggtesting "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1/attestation/aggregation/testing"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/sirupsen/logrus"
 )
 

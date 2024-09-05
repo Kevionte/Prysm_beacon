@@ -6,13 +6,13 @@ import (
 	"sort"
 	"strings"
 
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v5/monitoring/progress"
+	"github.com/Kevionte/prysm_beacon/v5/validator/db"
+	"github.com/Kevionte/prysm_beacon/v5/validator/helpers"
+	"github.com/Kevionte/prysm_beacon/v5/validator/slashing-protection-history/format"
 	"github.com/pkg/errors"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v5/monitoring/progress"
-	"github.com/prysmaticlabs/prysm/v5/validator/db"
-	"github.com/prysmaticlabs/prysm/v5/validator/helpers"
-	"github.com/prysmaticlabs/prysm/v5/validator/slashing-protection-history/format"
 )
 
 // ExportStandardProtectionJSON extracts all slashing protection data from a validator database
@@ -146,7 +146,7 @@ func signedAttestationsByPubKey(ctx context.Context, validatorDB db.Database, pu
 		// having a target epoch greater than the next entry in the list. If this manifests,
 		// we skip it to protect users. This check is the best trade-off we can make at
 		// the moment without creating any false positive slashable attestation exports.
-		// More information on the bug can found in https://github.com/prysmaticlabs/prysm/issues/8893.
+		// More information on the bug can found in https://github.com/Kevionte/prysm_beacon/issues/8893.
 		if i == 0 && len(history) > 1 {
 			nextEntryTargetEpoch := history[1].Target
 			if att.Target > nextEntryTargetEpoch && att.Source == 0 {

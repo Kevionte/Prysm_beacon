@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/Kevionte/prysm_beacon/v5/crypto/rand"
+	"github.com/Kevionte/prysm_beacon/v5/io/prompt"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/crypto/rand"
-	"github.com/prysmaticlabs/prysm/v5/io/prompt"
 	"github.com/tyler-smith/go-bip39"
 	"github.com/tyler-smith/go-bip39/wordlists"
 )

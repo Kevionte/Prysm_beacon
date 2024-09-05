@@ -4,14 +4,14 @@ import (
 	"math"
 	"sync"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	doublylinkedlist "github.com/Kevionte/prysm_beacon/v5/container/doubly-linked-list"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/blocks"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	doublylinkedlist "github.com/prysmaticlabs/prysm/v5/container/doubly-linked-list"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"github.com/sirupsen/logrus"
 )
 

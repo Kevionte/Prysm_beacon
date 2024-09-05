@@ -5,15 +5,15 @@ import (
 	"context"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	state_native "github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native"
+	"github.com/Kevionte/prysm_beacon/v5/config/features"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	v1alpha1 "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/testing/util"
 	"github.com/golang/snappy"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	state_native "github.com/prysmaticlabs/prysm/v5/beacon-chain/state/state-native"
-	"github.com/prysmaticlabs/prysm/v5/config/features"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	v1alpha1 "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	"go.etcd.io/bbolt"
 )
 

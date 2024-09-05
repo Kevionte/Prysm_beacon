@@ -16,8 +16,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/network"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/network"
 	"github.com/sirupsen/logrus"
 )
 

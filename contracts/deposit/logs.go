@@ -3,7 +3,7 @@ package deposit
 import (
 	"bytes"
 
-	"github.com/Kevionte/Go-Sovereign/accounts/abi"
+	"github.com/Kevionte/go-sovereign/accounts/abi"
 	"github.com/pkg/errors"
 )
 

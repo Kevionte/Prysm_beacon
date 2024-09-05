@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	testDB "github.com/prysmaticlabs/prysm/v5/beacon-chain/db/testing"
-	doublylinkedtree "github.com/prysmaticlabs/prysm/v5/beacon-chain/forkchoice/doubly-linked-tree"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"github.com/prysmaticlabs/prysm/v5/testing/util"
+	testDB "github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/testing"
+	doublylinkedtree "github.com/Kevionte/prysm_beacon/v5/beacon-chain/forkchoice/doubly-linked-tree"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/testing/util"
 )
 
 func TestResume(t *testing.T) {

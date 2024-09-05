@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
-	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/network/forks"
-	"github.com/prysmaticlabs/prysm/v5/network/httputil"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/network/forks"
+	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
 	"go.opencensus.io/trace"
 )
 

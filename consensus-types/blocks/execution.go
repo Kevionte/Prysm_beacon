@@ -5,14 +5,14 @@ import (
 	"errors"
 	"math/big"
 
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	consensus_types "github.com/Kevionte/prysm_beacon/v5/consensus-types"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/ssz"
+	"github.com/Kevionte/prysm_beacon/v5/math"
+	enginev1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
 	fastssz "github.com/prysmaticlabs/fastssz"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	consensus_types "github.com/prysmaticlabs/prysm/v5/consensus-types"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v5/encoding/ssz"
-	"github.com/prysmaticlabs/prysm/v5/math"
-	enginev1 "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
 	"google.golang.org/protobuf/proto"
 )
 

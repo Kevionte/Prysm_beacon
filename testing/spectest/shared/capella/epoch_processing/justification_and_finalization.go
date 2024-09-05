@@ -5,11 +5,11 @@ import (
 	"path"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/altair"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/epoch/precompute"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"github.com/prysmaticlabs/prysm/v5/testing/spectest/utils"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/altair"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/epoch/precompute"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/testing/spectest/utils"
 )
 
 // RunJustificationAndFinalizationTests executes "epoch_processing/justification_and_finalization" tests.

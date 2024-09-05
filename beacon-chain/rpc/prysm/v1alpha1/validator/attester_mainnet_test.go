@@ -5,16 +5,16 @@ import (
 	"testing"
 	"time"
 
-	mock "github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/testing"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/cache"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/rpc/core"
-	mockSync "github.com/prysmaticlabs/prysm/v5/beacon-chain/sync/initial-sync/testing"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"github.com/prysmaticlabs/prysm/v5/testing/util"
-	"github.com/prysmaticlabs/prysm/v5/time/slots"
+	mock "github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain/testing"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/cache"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/core"
+	mockSync "github.com/Kevionte/prysm_beacon/v5/beacon-chain/sync/initial-sync/testing"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	"github.com/Kevionte/prysm_beacon/v5/time/slots"
 	"google.golang.org/protobuf/proto"
 )
 
@@ -25,7 +25,7 @@ func TestAttestationDataAtSlot_HandlesFarAwayJustifiedEpoch(t *testing.T) {
 	// Last justified slot = epoch start of 1500
 	// HistoricalRootsLimit = 8192
 	//
-	// More background: https://github.com/prysmaticlabs/prysm/issues/2153
+	// More background: https://github.com/Kevionte/prysm_beacon/issues/2153
 	// This test breaks if it doesn't use mainnet config
 
 	// Ensure HistoricalRootsLimit matches scenario

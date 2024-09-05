@@ -6,11 +6,11 @@ import (
 	"sort"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	prysmTime "github.com/Kevionte/prysm_beacon/v5/time"
+	"github.com/Kevionte/prysm_beacon/v5/time/slots"
 	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	prysmTime "github.com/prysmaticlabs/prysm/v5/time"
-	"github.com/prysmaticlabs/prysm/v5/time/slots"
 )
 
 const (

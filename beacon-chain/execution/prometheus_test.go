@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 )
 
 // TestCleanup ensures that the cleanup function unregisters the prometheus.Collection

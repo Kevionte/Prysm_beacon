@@ -6,12 +6,12 @@ package depositsnapshot
 import (
 	"encoding/binary"
 
-	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/go-sovereign/common"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v5/math"
+	protodb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/crypto/hash"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v5/math"
-	protodb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 )
 
 var (

@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/Go-Sovereign/p2p/discover"
-	"github.com/Kevionte/Go-Sovereign/p2p/enode"
+	"github.com/Kevionte/go-sovereign/p2p/discover"
+	"github.com/Kevionte/go-sovereign/p2p/enode"
+	ecdsaprysm "github.com/Kevionte/prysm_beacon/v5/crypto/ecdsa"
+	"github.com/Kevionte/prysm_beacon/v5/network"
+	_ "github.com/Kevionte/prysm_beacon/v5/runtime/maxprocs"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/libp2p/go-libp2p/core/crypto"
-	ecdsaprysm "github.com/prysmaticlabs/prysm/v5/crypto/ecdsa"
-	"github.com/prysmaticlabs/prysm/v5/network"
-	_ "github.com/prysmaticlabs/prysm/v5/runtime/maxprocs"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"github.com/sirupsen/logrus"
 )
 

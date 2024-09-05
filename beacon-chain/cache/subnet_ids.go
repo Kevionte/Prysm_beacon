@@ -4,12 +4,12 @@ import (
 	"sync"
 	"time"
 
+	lruwrpr "github.com/Kevionte/prysm_beacon/v5/cache/lru"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/container/slice"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/patrickmn/go-cache"
-	lruwrpr "github.com/prysmaticlabs/prysm/v5/cache/lru"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/container/slice"
 )
 
 type subnetIDs struct {

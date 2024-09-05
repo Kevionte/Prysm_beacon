@@ -1,20 +1,20 @@
 package sync
 
 import (
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/signing"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/encoder"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/types"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v5/network/forks"
+	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v5/time/slots"
 	libp2pcore "github.com/libp2p/go-libp2p/core"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/signing"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p/encoder"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p/types"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v5/network/forks"
-	"github.com/prysmaticlabs/prysm/v5/runtime/version"
-	"github.com/prysmaticlabs/prysm/v5/time/slots"
 )
 
 // chunkBlockWriter writes the given message as a chunked response to the given network

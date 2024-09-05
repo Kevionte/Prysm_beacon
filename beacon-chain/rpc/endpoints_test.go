@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
 )
 
 func Test_endpoints(t *testing.T) {

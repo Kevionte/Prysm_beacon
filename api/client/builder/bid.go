@@ -1,13 +1,13 @@
 package builder
 
 import (
+	consensus_types "github.com/Kevionte/prysm_beacon/v5/consensus-types"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
 	"github.com/pkg/errors"
 	ssz "github.com/prysmaticlabs/fastssz"
-	consensus_types "github.com/prysmaticlabs/prysm/v5/consensus-types"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/interfaces"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/runtime/version"
 )
 
 // SignedBid is an interface describing the method set of a signed builder bid.

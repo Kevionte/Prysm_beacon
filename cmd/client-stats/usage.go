@@ -1,12 +1,12 @@
-// This code was adapted from https://github.com/Kevionte/Go-Sovereign/blob/master/cmd/geth/usage.go
+// This code was adapted from https://github.com/Kevionte/go-sovereign/blob/master/cmd/geth/usage.go
 package main
 
 import (
 	"io"
 	"sort"
 
-	"github.com/prysmaticlabs/prysm/v5/cmd"
-	"github.com/prysmaticlabs/prysm/v5/cmd/client-stats/flags"
+	"github.com/Kevionte/prysm_beacon/v5/cmd"
+	"github.com/Kevionte/prysm_beacon/v5/cmd/client-stats/flags"
 	"github.com/urfave/cli/v2"
 )
 

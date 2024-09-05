@@ -7,14 +7,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"github.com/prysmaticlabs/prysm/v5/validator/db/common"
-	dbtest "github.com/prysmaticlabs/prysm/v5/validator/db/testing"
-	history "github.com/prysmaticlabs/prysm/v5/validator/slashing-protection-history"
-	"github.com/prysmaticlabs/prysm/v5/validator/slashing-protection-history/format"
-	slashtest "github.com/prysmaticlabs/prysm/v5/validator/testing"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/validator/db/common"
+	dbtest "github.com/Kevionte/prysm_beacon/v5/validator/db/testing"
+	history "github.com/Kevionte/prysm_beacon/v5/validator/slashing-protection-history"
+	"github.com/Kevionte/prysm_beacon/v5/validator/slashing-protection-history/format"
+	slashtest "github.com/Kevionte/prysm_beacon/v5/validator/testing"
 )
 
 // TestImportExport_RoundTrip tests that we can import and export slashing protection data

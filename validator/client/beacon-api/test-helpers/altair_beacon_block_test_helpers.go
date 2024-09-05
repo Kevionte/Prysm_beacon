@@ -1,8 +1,8 @@
 package test_helpers
 
 import (
-	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 )
 
 func GenerateProtoAltairBeaconBlock() *ethpb.BeaconBlockAltair {

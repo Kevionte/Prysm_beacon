@@ -3,12 +3,12 @@ package trie_test
 import (
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/container/trie"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/golang/protobuf/proto"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/container/trie"
-	"github.com/prysmaticlabs/prysm/v5/crypto/hash"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 )
 
 func FuzzSparseMerkleTrie_HashTreeRoot(f *testing.F) {

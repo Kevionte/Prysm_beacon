@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 	bolt "go.etcd.io/bbolt"

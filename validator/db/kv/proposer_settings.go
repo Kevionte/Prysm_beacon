@@ -3,9 +3,9 @@ package kv
 import (
 	"context"
 
+	"github.com/Kevionte/prysm_beacon/v5/config/proposer"
+	validatorpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/validator-client"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/config/proposer"
-	validatorpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1/validator-client"
 	bolt "go.etcd.io/bbolt"
 	"go.opencensus.io/trace"
 	"google.golang.org/protobuf/proto"

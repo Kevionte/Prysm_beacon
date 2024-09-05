@@ -3,10 +3,10 @@ package sync
 import (
 	"context"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/feed"
+	opfeed "github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/feed/operation"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/feed"
-	opfeed "github.com/prysmaticlabs/prysm/v5/beacon-chain/core/feed/operation"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"google.golang.org/protobuf/proto"
 )
 

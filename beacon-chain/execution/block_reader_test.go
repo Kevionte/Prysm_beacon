@@ -6,16 +6,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/Go-Sovereign/common"
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
-	gethTypes "github.com/Kevionte/Go-Sovereign/core/types"
-	dbutil "github.com/prysmaticlabs/prysm/v5/beacon-chain/db/testing"
-	mockExecution "github.com/prysmaticlabs/prysm/v5/beacon-chain/execution/testing"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/execution/types"
-	contracts "github.com/prysmaticlabs/prysm/v5/contracts/deposit"
-	"github.com/prysmaticlabs/prysm/v5/contracts/deposit/mock"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	"github.com/Kevionte/go-sovereign/common"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	gethTypes "github.com/Kevionte/go-sovereign/core/types"
+	dbutil "github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/testing"
+	mockExecution "github.com/Kevionte/prysm_beacon/v5/beacon-chain/execution/testing"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/execution/types"
+	contracts "github.com/Kevionte/prysm_beacon/v5/contracts/deposit"
+	"github.com/Kevionte/prysm_beacon/v5/contracts/deposit/mock"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 )
 
 func setDefaultMocks(service *Service) *Service {

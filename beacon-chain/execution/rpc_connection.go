@@ -7,14 +7,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Kevionte/Go-Sovereign/ethclient"
-	gethRPC "github.com/Kevionte/Go-Sovereign/rpc"
+	"github.com/Kevionte/go-sovereign/ethclient"
+	gethRPC "github.com/Kevionte/go-sovereign/rpc"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	contracts "github.com/Kevionte/prysm_beacon/v5/contracts/deposit"
+	"github.com/Kevionte/prysm_beacon/v5/io/logs"
+	"github.com/Kevionte/prysm_beacon/v5/network"
+	"github.com/Kevionte/prysm_beacon/v5/network/authorization"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	contracts "github.com/prysmaticlabs/prysm/v5/contracts/deposit"
-	"github.com/prysmaticlabs/prysm/v5/io/logs"
-	"github.com/prysmaticlabs/prysm/v5/network"
-	"github.com/prysmaticlabs/prysm/v5/network/authorization"
 )
 
 func (s *Service) setupExecutionClientConnections(ctx context.Context, currEndpoint network.Endpoint) error {

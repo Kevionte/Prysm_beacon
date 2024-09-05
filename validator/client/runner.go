@@ -6,15 +6,15 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/api/client"
+	"github.com/Kevionte/prysm_beacon/v5/api/client/event"
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v5/validator/client/iface"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/api/client"
-	"github.com/prysmaticlabs/prysm/v5/api/client/event"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v5/time/slots"
-	"github.com/prysmaticlabs/prysm/v5/validator/client/iface"
 	"go.opencensus.io/trace"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
@@ -265,7 +265,7 @@ func performRoles(slotCtx context.Context, allRoles map[[48]byte][]iface.Validat
 			if err := recover(); err != nil { // catch any panic in logging
 				log.WithField("error", err).
 					Error("Panic occurred when logging validator report. This" +
-						" should never happen! Please file a report at github.com/prysmaticlabs/prysm/issues/new")
+						" should never happen! Please file a report at github.com/Kevionte/prysm_beacon/issues/new")
 			}
 		}()
 		// Log performance in the previous slot

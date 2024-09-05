@@ -1,10 +1,10 @@
 package payloadattribute
 
 import (
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	enginev1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
+	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	enginev1 "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
-	"github.com/prysmaticlabs/prysm/v5/runtime/version"
 )
 
 var (

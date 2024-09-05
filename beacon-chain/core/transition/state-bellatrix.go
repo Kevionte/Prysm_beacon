@@ -3,18 +3,18 @@ package transition
 import (
 	"context"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/altair"
+	b "github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	state_native "github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/stateutil"
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	enginev1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/altair"
-	b "github.com/prysmaticlabs/prysm/v5/beacon-chain/core/blocks"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/helpers"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	state_native "github.com/prysmaticlabs/prysm/v5/beacon-chain/state/state-native"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state/stateutil"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	enginev1 "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 )
 
 // GenesisBeaconStateBellatrix gets called when MinGenesisActiveValidatorCount count of

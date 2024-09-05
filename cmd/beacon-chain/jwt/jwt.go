@@ -4,10 +4,10 @@ import (
 	"errors"
 	"path/filepath"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
-	"github.com/prysmaticlabs/prysm/v5/cmd"
-	"github.com/prysmaticlabs/prysm/v5/crypto/rand"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/cmd"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/rand"
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

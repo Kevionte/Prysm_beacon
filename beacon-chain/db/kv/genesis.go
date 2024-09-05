@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/blocks"
+	dbIface "github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/iface"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/ssz/detect"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/blocks"
-	dbIface "github.com/prysmaticlabs/prysm/v5/beacon-chain/db/iface"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v5/encoding/ssz/detect"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 )
 
 // SaveGenesisData bootstraps the beaconDB with a given genesis state.

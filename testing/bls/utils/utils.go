@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 )
 
 func RetrieveFiles(name string, t *testing.T) ([]string, [][]byte) {

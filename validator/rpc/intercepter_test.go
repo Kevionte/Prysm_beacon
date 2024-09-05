@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/api"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/prysmaticlabs/prysm/v5/api"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

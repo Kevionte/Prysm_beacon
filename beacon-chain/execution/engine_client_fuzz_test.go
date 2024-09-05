@@ -11,13 +11,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Kevionte/Go-Sovereign/beacon/engine"
-	"github.com/Kevionte/Go-Sovereign/common"
-	"github.com/Kevionte/Go-Sovereign/core/types"
+	"github.com/Kevionte/go-sovereign/beacon/engine"
+	"github.com/Kevionte/go-sovereign/common"
+	"github.com/Kevionte/go-sovereign/core/types"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/execution"
+	pb "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/execution"
-	pb "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 )
 
 func FuzzForkChoiceResponse(f *testing.F) {

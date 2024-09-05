@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 )
 
 func TestPickBest(t *testing.T) {

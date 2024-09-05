@@ -3,9 +3,9 @@ package grpc_api
 import (
 	"context"
 
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/validator/client/iface"
 	"github.com/golang/protobuf/ptypes/empty"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/validator/client/iface"
 	"google.golang.org/grpc"
 )
 

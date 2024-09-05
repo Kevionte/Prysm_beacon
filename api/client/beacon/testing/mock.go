@@ -4,7 +4,7 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/prysmaticlabs/prysm/v5/api/client/beacon/iface"
+	"github.com/Kevionte/prysm_beacon/v5/api/client/beacon/iface"
 	"go.uber.org/mock/gomock"
 )
 

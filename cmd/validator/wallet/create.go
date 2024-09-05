@@ -5,14 +5,14 @@ import (
 	"os"
 	"strings"
 
+	"github.com/Kevionte/prysm_beacon/v5/cmd/validator/flags"
+	"github.com/Kevionte/prysm_beacon/v5/io/prompt"
+	"github.com/Kevionte/prysm_beacon/v5/validator/accounts"
+	"github.com/Kevionte/prysm_beacon/v5/validator/accounts/userprompt"
+	"github.com/Kevionte/prysm_beacon/v5/validator/accounts/wallet"
+	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
 	"github.com/manifoldco/promptui"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/cmd/validator/flags"
-	"github.com/prysmaticlabs/prysm/v5/io/prompt"
-	"github.com/prysmaticlabs/prysm/v5/validator/accounts"
-	"github.com/prysmaticlabs/prysm/v5/validator/accounts/userprompt"
-	"github.com/prysmaticlabs/prysm/v5/validator/accounts/wallet"
-	"github.com/prysmaticlabs/prysm/v5/validator/keymanager"
 	"github.com/urfave/cli/v2"
 )
 

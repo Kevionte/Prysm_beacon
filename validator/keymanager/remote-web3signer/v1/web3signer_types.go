@@ -3,7 +3,7 @@
 package v1
 
 import (
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
 )
 
 // AggregationSlotSignRequest is a request object for web3signer sign api.

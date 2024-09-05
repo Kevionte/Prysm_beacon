@@ -1,11 +1,11 @@
 package blockchain
 
 import (
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v5/config/features"
+	"github.com/Kevionte/prysm_beacon/v5/time"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v5/config/features"
-	"github.com/prysmaticlabs/prysm/v5/time"
 )
 
 var stateDefragmentationTime = promauto.NewSummary(prometheus.SummaryOpts{

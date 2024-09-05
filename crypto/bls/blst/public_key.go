@@ -5,11 +5,11 @@ package blst
 import (
 	"fmt"
 
+	"github.com/Kevionte/prysm_beacon/v5/cache/nonblocking"
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/bls/common"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/cache/nonblocking"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/crypto/bls/common"
 )
 
 var maxKeys = 2_000_000

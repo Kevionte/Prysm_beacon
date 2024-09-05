@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 )
 
 var errInts = errors.New("error in subscribeInts")

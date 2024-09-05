@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
+	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
 	errors2 "github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/runtime/version"
 )
 
 var (

@@ -4,14 +4,14 @@ import (
 	"context"
 	"sync"
 
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/kzg"
-	forkchoicetypes "github.com/prysmaticlabs/prysm/v5/beacon-chain/forkchoice/types"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/startup"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/network/forks"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain/kzg"
+	forkchoicetypes "github.com/Kevionte/prysm_beacon/v5/beacon-chain/forkchoice/types"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/startup"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/network/forks"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 )
 
 // Forkchoicer represents the forkchoice methods that the verifiers need.

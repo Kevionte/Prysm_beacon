@@ -3,8 +3,8 @@ package kv
 import (
 	"context"
 
+	"github.com/Kevionte/prysm_beacon/v5/proto/dbval"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/proto/dbval"
 	bolt "go.etcd.io/bbolt"
 	"go.opencensus.io/trace"
 	"google.golang.org/protobuf/proto"

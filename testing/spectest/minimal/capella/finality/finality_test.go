@@ -3,7 +3,7 @@ package finality
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/testing/spectest/shared/capella/finality"
+	"github.com/Kevionte/prysm_beacon/v5/testing/spectest/shared/capella/finality"
 )
 
 func TestMinimal_Capella_Finality(t *testing.T) {

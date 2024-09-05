@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
+	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/helpers"
+	e2e "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/params"
+	e2etypes "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/types"
+	proxy "github.com/Kevionte/prysm_beacon/v5/testing/middleware/engine-api-proxy"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
-	"github.com/prysmaticlabs/prysm/v5/testing/endtoend/helpers"
-	e2e "github.com/prysmaticlabs/prysm/v5/testing/endtoend/params"
-	e2etypes "github.com/prysmaticlabs/prysm/v5/testing/endtoend/types"
-	proxy "github.com/prysmaticlabs/prysm/v5/testing/middleware/engine-api-proxy"
 	log "github.com/sirupsen/logrus"
 )
 

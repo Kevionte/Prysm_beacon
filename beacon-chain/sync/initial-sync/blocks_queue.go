@@ -5,14 +5,14 @@ import (
 	"errors"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/startup"
+	beaconsync "github.com/Kevionte/prysm_beacon/v5/beacon-chain/sync"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/time/slots"
 	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/startup"
-	beaconsync "github.com/prysmaticlabs/prysm/v5/beacon-chain/sync"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	"github.com/sirupsen/logrus"
 )
 

@@ -8,19 +8,19 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Kevionte/Go-Sovereign/p2p/enode"
-	"github.com/Kevionte/Go-Sovereign/p2p/enr"
+	"github.com/Kevionte/go-sovereign/p2p/enode"
+	"github.com/Kevionte/go-sovereign/p2p/enr"
+	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/peers"
+	mockp2p "github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/testing"
+	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	corenet "github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	libp2ptest "github.com/libp2p/go-libp2p/p2p/host/peerstore/test"
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p/peers"
-	mockp2p "github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p/testing"
-	"github.com/prysmaticlabs/prysm/v5/network/httputil"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 )
 
 type testIdentity enode.ID

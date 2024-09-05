@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/api"
+	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/eth/helpers"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/eth/shared"
+	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
+	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
 	"github.com/gorilla/mux"
-	"github.com/prysmaticlabs/prysm/v5/api"
-	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/rpc/eth/helpers"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/rpc/eth/shared"
-	"github.com/prysmaticlabs/prysm/v5/network/httputil"
-	"github.com/prysmaticlabs/prysm/v5/runtime/version"
 	"go.opencensus.io/trace"
 )
 

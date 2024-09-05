@@ -1,18 +1,18 @@
-// This code was adapted from https://github.com/Kevionte/Go-Sovereign/blob/master/cmd/geth/usage.go
+// This code was adapted from https://github.com/Kevionte/go-sovereign/blob/master/cmd/geth/usage.go
 package main
 
 import (
 	"io"
 	"sort"
 
-	"github.com/prysmaticlabs/prysm/v5/cmd"
-	"github.com/prysmaticlabs/prysm/v5/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/v5/cmd/beacon-chain/storage"
-	backfill "github.com/prysmaticlabs/prysm/v5/cmd/beacon-chain/sync/backfill/flags"
-	"github.com/prysmaticlabs/prysm/v5/cmd/beacon-chain/sync/checkpoint"
-	"github.com/prysmaticlabs/prysm/v5/cmd/beacon-chain/sync/genesis"
-	"github.com/prysmaticlabs/prysm/v5/config/features"
-	"github.com/prysmaticlabs/prysm/v5/runtime/debug"
+	"github.com/Kevionte/prysm_beacon/v5/cmd"
+	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/storage"
+	backfill "github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/sync/backfill/flags"
+	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/sync/checkpoint"
+	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/sync/genesis"
+	"github.com/Kevionte/prysm_beacon/v5/config/features"
+	"github.com/Kevionte/prysm_beacon/v5/runtime/debug"
 	"github.com/urfave/cli/v2"
 )
 

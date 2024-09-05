@@ -1,10 +1,10 @@
 package stateutil
 
 import (
+	"github.com/Kevionte/prysm_beacon/v5/crypto/hash/htr"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/ssz"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/crypto/hash/htr"
-	"github.com/prysmaticlabs/prysm/v5/encoding/ssz"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 )
 
 // SyncCommitteeRoot computes the HashTreeRoot Merkleization of a committee root.

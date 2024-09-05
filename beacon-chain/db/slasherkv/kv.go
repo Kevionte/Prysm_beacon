@@ -9,10 +9,10 @@ import (
 	"path"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/iface"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db/iface"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
 	bolt "go.etcd.io/bbolt"
 )
 

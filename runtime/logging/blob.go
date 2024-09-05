@@ -3,7 +3,7 @@ package logging
 import (
 	"fmt"
 
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
 	"github.com/sirupsen/logrus"
 )
 

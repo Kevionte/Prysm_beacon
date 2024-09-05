@@ -1,11 +1,11 @@
 package node
 
 import (
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/builder"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db/filesystem"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/execution"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/builder"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/filesystem"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/execution"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
 )
 
 // Option for beacon node configuration.

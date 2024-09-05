@@ -6,6 +6,9 @@ import (
 	"net"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/config/features"
+	ecdsaprysm "github.com/Kevionte/prysm_beacon/v5/crypto/ecdsa"
+	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
 	"github.com/libp2p/go-libp2p"
 	mplex "github.com/libp2p/go-libp2p-mplex"
 	"github.com/libp2p/go-libp2p/core/network"
@@ -15,9 +18,6 @@ import (
 	gomplex "github.com/libp2p/go-mplex"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/config/features"
-	ecdsaprysm "github.com/prysmaticlabs/prysm/v5/crypto/ecdsa"
-	"github.com/prysmaticlabs/prysm/v5/runtime/version"
 )
 
 // MultiAddressBuilder takes in an ip address string and port to produce a go multiaddr format.

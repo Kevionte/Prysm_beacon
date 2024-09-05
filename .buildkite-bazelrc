@@ -51,7 +51,7 @@ build:nostamp --nostamp
 
 # Build metadata
 build --build_metadata=ROLE=CI
-build --build_metadata=REPO_URL=https://github.com/prysmaticlabs/prysm.git
+build --build_metadata=REPO_URL=https://github.com/Kevionte/prysm_beacon.git
 build --workspace_status_command=./hack/workspace_status_ci.sh
 
 # Buildbuddy

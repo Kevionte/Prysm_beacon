@@ -5,8 +5,8 @@ import (
 	"context"
 	"encoding/json"
 
+	"github.com/Kevionte/prysm_beacon/v5/validator/client/iface"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/validator/client/iface"
 )
 
 type aggregatedSyncSelectionResponse struct {

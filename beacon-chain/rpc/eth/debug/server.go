@@ -4,9 +4,9 @@
 package debug
 
 import (
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/rpc/lookup"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/lookup"
 )
 
 // Server defines a server implementation of the gRPC Beacon Chain service,

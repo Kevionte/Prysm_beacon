@@ -3,11 +3,11 @@ package sync
 import (
 	"context"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/monitoring/tracing"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/blocks"
-	"github.com/prysmaticlabs/prysm/v5/monitoring/tracing"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"go.opencensus.io/trace"
 )
 

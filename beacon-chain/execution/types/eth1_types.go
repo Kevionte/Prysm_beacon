@@ -5,9 +5,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Kevionte/Go-Sovereign/common"
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
+	"github.com/Kevionte/go-sovereign/common"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
 )
 
 // HeaderInfo specifies the block header information in the ETH 1.0 chain.

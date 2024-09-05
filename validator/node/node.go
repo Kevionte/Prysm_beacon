@@ -18,43 +18,43 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/api"
+	"github.com/Kevionte/prysm_beacon/v5/api/gateway"
+	"github.com/Kevionte/prysm_beacon/v5/api/server"
+	"github.com/Kevionte/prysm_beacon/v5/async/event"
+	"github.com/Kevionte/prysm_beacon/v5/cmd"
+	"github.com/Kevionte/prysm_beacon/v5/cmd/validator/flags"
+	"github.com/Kevionte/prysm_beacon/v5/config/features"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/config/proposer"
+	"github.com/Kevionte/prysm_beacon/v5/config/proposer/loader"
+	"github.com/Kevionte/prysm_beacon/v5/container/slice"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
+	"github.com/Kevionte/prysm_beacon/v5/monitoring/backup"
+	"github.com/Kevionte/prysm_beacon/v5/monitoring/prometheus"
+	tracing2 "github.com/Kevionte/prysm_beacon/v5/monitoring/tracing"
+	pb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/runtime"
+	"github.com/Kevionte/prysm_beacon/v5/runtime/debug"
+	"github.com/Kevionte/prysm_beacon/v5/runtime/prereqs"
+	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v5/validator/accounts/wallet"
+	"github.com/Kevionte/prysm_beacon/v5/validator/client"
+	"github.com/Kevionte/prysm_beacon/v5/validator/db"
+	"github.com/Kevionte/prysm_beacon/v5/validator/db/filesystem"
+	"github.com/Kevionte/prysm_beacon/v5/validator/db/iface"
+	"github.com/Kevionte/prysm_beacon/v5/validator/db/kv"
+	g "github.com/Kevionte/prysm_beacon/v5/validator/graffiti"
+	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager/local"
+	remoteweb3signer "github.com/Kevionte/prysm_beacon/v5/validator/keymanager/remote-web3signer"
+	"github.com/Kevionte/prysm_beacon/v5/validator/rpc"
+	"github.com/Kevionte/prysm_beacon/v5/validator/web"
 	"github.com/gorilla/mux"
 	gwruntime "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/pkg/errors"
 	fastssz "github.com/prysmaticlabs/fastssz"
-	"github.com/prysmaticlabs/prysm/v5/api"
-	"github.com/prysmaticlabs/prysm/v5/api/gateway"
-	"github.com/prysmaticlabs/prysm/v5/api/server"
-	"github.com/prysmaticlabs/prysm/v5/async/event"
-	"github.com/prysmaticlabs/prysm/v5/cmd"
-	"github.com/prysmaticlabs/prysm/v5/cmd/validator/flags"
-	"github.com/prysmaticlabs/prysm/v5/config/features"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/config/proposer"
-	"github.com/prysmaticlabs/prysm/v5/config/proposer/loader"
-	"github.com/prysmaticlabs/prysm/v5/container/slice"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
-	"github.com/prysmaticlabs/prysm/v5/monitoring/backup"
-	"github.com/prysmaticlabs/prysm/v5/monitoring/prometheus"
-	tracing2 "github.com/prysmaticlabs/prysm/v5/monitoring/tracing"
-	pb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/runtime"
-	"github.com/prysmaticlabs/prysm/v5/runtime/debug"
-	"github.com/prysmaticlabs/prysm/v5/runtime/prereqs"
-	"github.com/prysmaticlabs/prysm/v5/runtime/version"
-	"github.com/prysmaticlabs/prysm/v5/validator/accounts/wallet"
-	"github.com/prysmaticlabs/prysm/v5/validator/client"
-	"github.com/prysmaticlabs/prysm/v5/validator/db"
-	"github.com/prysmaticlabs/prysm/v5/validator/db/filesystem"
-	"github.com/prysmaticlabs/prysm/v5/validator/db/iface"
-	"github.com/prysmaticlabs/prysm/v5/validator/db/kv"
-	g "github.com/prysmaticlabs/prysm/v5/validator/graffiti"
-	"github.com/prysmaticlabs/prysm/v5/validator/keymanager/local"
-	remoteweb3signer "github.com/prysmaticlabs/prysm/v5/validator/keymanager/remote-web3signer"
-	"github.com/prysmaticlabs/prysm/v5/validator/rpc"
-	"github.com/prysmaticlabs/prysm/v5/validator/web"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 	"google.golang.org/protobuf/encoding/protojson"
@@ -225,7 +225,7 @@ func (c *ValidatorClient) getLegacyDatabaseLocation(
 	}
 
 	// We look in the previous, legacy directories.
-	// See https://github.com/prysmaticlabs/prysm/issues/13391
+	// See https://github.com/Kevionte/prysm_beacon/issues/13391
 	legacyDataDir := c.wallet.AccountsDir()
 	if isWeb3SignerURLFlagSet {
 		legacyDataDir = walletDir
@@ -360,7 +360,7 @@ func (c *ValidatorClient) initializeDB(cliCtx *cli.Context) error {
 	clearFlag := cliCtx.Bool(cmd.ClearDB.Name)
 	forceClearFlag := cliCtx.Bool(cmd.ForceClearDB.Name)
 
-	// Workaround for https://github.com/prysmaticlabs/prysm/issues/13391
+	// Workaround for https://github.com/Kevionte/prysm_beacon/issues/13391
 	kvDataDir, _, err := c.getLegacyDatabaseLocation(
 		isInteropNumValidatorsSet,
 		isWeb3SignerURLFlagSet,

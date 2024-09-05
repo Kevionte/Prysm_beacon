@@ -3,8 +3,8 @@ package server
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 )
 
 func TestNormalizeQueryValues(t *testing.T) {

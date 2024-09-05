@@ -9,16 +9,16 @@ import (
 	"os"
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/cache"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/execution"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	state_native "github.com/prysmaticlabs/prysm/v5/beacon-chain/state/state-native"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/runtime"
-	"github.com/prysmaticlabs/prysm/v5/runtime/interop"
-	"github.com/prysmaticlabs/prysm/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/cache"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/execution"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	state_native "github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/runtime"
+	"github.com/Kevionte/prysm_beacon/v5/runtime/interop"
+	"github.com/Kevionte/prysm_beacon/v5/time/slots"
 )
 
 var _ runtime.Service = (*Service)(nil)

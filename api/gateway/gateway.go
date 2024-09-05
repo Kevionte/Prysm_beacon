@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/api/server"
+	"github.com/Kevionte/prysm_beacon/v5/runtime"
 	"github.com/gorilla/mux"
 	gwruntime "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/api/server"
-	"github.com/prysmaticlabs/prysm/v5/runtime"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/connectivity"
 	"google.golang.org/grpc/credentials"

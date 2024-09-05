@@ -4,16 +4,16 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Kevionte/Go-Sovereign/accounts/abi/bind"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/container/trie"
-	contracts "github.com/prysmaticlabs/prysm/v5/contracts/deposit/mock"
-	"github.com/prysmaticlabs/prysm/v5/crypto/hash"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	"github.com/Kevionte/go-sovereign/accounts/abi/bind"
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/container/trie"
+	contracts "github.com/Kevionte/prysm_beacon/v5/contracts/deposit/mock"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 )
 
 func TestCreateTrieFromProto_Validation(t *testing.T) {

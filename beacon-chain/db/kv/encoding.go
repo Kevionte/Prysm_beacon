@@ -5,9 +5,9 @@ import (
 	"errors"
 	"reflect"
 
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/golang/snappy"
 	fastssz "github.com/prysmaticlabs/fastssz"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	"go.opencensus.io/trace"
 	"google.golang.org/protobuf/proto"
 )

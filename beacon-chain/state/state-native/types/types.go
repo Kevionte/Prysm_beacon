@@ -1,8 +1,8 @@
 package types
 
 import (
+	consensus_types "github.com/Kevionte/prysm_beacon/v5/consensus-types"
 	"github.com/pkg/errors"
-	consensus_types "github.com/prysmaticlabs/prysm/v5/consensus-types"
 )
 
 // DataType signifies the data type of the field.

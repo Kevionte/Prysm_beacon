@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"context"
 
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	forkchoice2 "github.com/Kevionte/prysm_beacon/v5/consensus-types/forkchoice"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/time/slots"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	forkchoice2 "github.com/prysmaticlabs/prysm/v5/consensus-types/forkchoice"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/time/slots"
 )
 
 // ProcessAttestationsThreshold  is the number of seconds after which we

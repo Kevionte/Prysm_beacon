@@ -3,10 +3,10 @@ package eth1
 import (
 	"context"
 
+	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/helpers"
+	e2e "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/params"
+	e2etypes "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/types"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/testing/endtoend/helpers"
-	e2e "github.com/prysmaticlabs/prysm/v5/testing/endtoend/params"
-	e2etypes "github.com/prysmaticlabs/prysm/v5/testing/endtoend/types"
 )
 
 // NodeSet represents a set of Eth1 nodes, none of which is a mining node.

@@ -12,8 +12,8 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
 )
 
 type ObjType int

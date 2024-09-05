@@ -3,7 +3,7 @@ package epoch_processing
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
 )
 
 func TestMain(m *testing.M) {

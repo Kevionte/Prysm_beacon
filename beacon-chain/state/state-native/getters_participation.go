@@ -1,10 +1,10 @@
 package state_native
 
 import (
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/time"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state/stateutil"
-	"github.com/prysmaticlabs/prysm/v5/config/features"
-	"github.com/prysmaticlabs/prysm/v5/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/time"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/stateutil"
+	"github.com/Kevionte/prysm_beacon/v5/config/features"
+	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
 )
 
 // CurrentEpochParticipation corresponding to participation bits on the beacon chain.

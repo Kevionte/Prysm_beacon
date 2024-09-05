@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/prysmaticlabs/prysm/v5/crypto/hash"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db"
 )
 
 // Initializer describes a type that is able to obtain the checkpoint sync data (BeaconState and SignedBeaconBlock)

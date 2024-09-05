@@ -7,16 +7,16 @@ import (
 	"context"
 	"io"
 
-	"github.com/Kevionte/Go-Sovereign/common"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db/filters"
-	slashertypes "github.com/prysmaticlabs/prysm/v5/beacon-chain/slasher/types"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/monitoring/backup"
-	"github.com/prysmaticlabs/prysm/v5/proto/dbval"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/go-sovereign/common"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/filters"
+	slashertypes "github.com/Kevionte/prysm_beacon/v5/beacon-chain/slasher/types"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/monitoring/backup"
+	"github.com/Kevionte/prysm_beacon/v5/proto/dbval"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 )
 
 // ReadOnlyDatabase defines a struct which only has read access to database methods.

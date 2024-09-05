@@ -3,14 +3,14 @@ package evaluators
 import (
 	"context"
 
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/ssz"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/policies"
+	e2etypes "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/types"
+	"github.com/Kevionte/prysm_beacon/v5/time/slots"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/encoding/ssz"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/testing/endtoend/policies"
-	e2etypes "github.com/prysmaticlabs/prysm/v5/testing/endtoend/types"
-	"github.com/prysmaticlabs/prysm/v5/time/slots"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 )

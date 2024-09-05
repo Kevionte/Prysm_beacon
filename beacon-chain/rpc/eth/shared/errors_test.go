@@ -6,10 +6,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/lookup"
+	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/rpc/lookup"
-	"github.com/prysmaticlabs/prysm/v5/network/httputil"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 )
 
 // TestWriteStateFetchError tests the WriteStateFetchError function

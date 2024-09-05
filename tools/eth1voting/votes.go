@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	v1alpha1 "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	v1alpha1 "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 )
 
 type votes struct {

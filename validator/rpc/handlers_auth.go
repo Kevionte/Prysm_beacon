@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"path/filepath"
 
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
+	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
+	"github.com/Kevionte/prysm_beacon/v5/validator/accounts/wallet"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
-	"github.com/prysmaticlabs/prysm/v5/network/httputil"
-	"github.com/prysmaticlabs/prysm/v5/validator/accounts/wallet"
 	"go.opencensus.io/trace"
 )
 

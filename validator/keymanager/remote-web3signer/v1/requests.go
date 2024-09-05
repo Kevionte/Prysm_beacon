@@ -3,10 +3,10 @@ package v1
 import (
 	"fmt"
 
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
+	validatorpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/validator-client"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/interfaces"
-	validatorpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1/validator-client"
 )
 
 // GetBlockSignRequest maps the request for signing type BLOCK.

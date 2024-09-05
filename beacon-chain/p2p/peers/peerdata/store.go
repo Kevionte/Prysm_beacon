@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Kevionte/Go-Sovereign/p2p/enr"
+	"github.com/Kevionte/go-sovereign/p2p/enr"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/metadata"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	ma "github.com/multiformats/go-multiaddr"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1/metadata"
 )
 
 var (

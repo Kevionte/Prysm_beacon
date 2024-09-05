@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
+	mock "github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain/testing"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/operations/attestations"
+	lruwrpr "github.com/Kevionte/prysm_beacon/v5/cache/lru"
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/testing/util"
 	"github.com/prysmaticlabs/go-bitfield"
-	mock "github.com/prysmaticlabs/prysm/v5/beacon-chain/blockchain/testing"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/operations/attestations"
-	lruwrpr "github.com/prysmaticlabs/prysm/v5/cache/lru"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"github.com/prysmaticlabs/prysm/v5/testing/util"
 )
 
 func TestBeaconAggregateProofSubscriber_CanSaveAggregatedAttestation(t *testing.T) {

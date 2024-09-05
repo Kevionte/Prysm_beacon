@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/execution"
+	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/execution"
-	"github.com/prysmaticlabs/prysm/v5/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
 	"github.com/urfave/cli/v2"
 )
 

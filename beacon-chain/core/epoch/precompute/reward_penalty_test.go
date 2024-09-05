@@ -4,21 +4,21 @@ import (
 	"context"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/epoch"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/time"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	state_native "github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native"
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/math"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/go-bitfield"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/epoch"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/helpers"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/time"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	state_native "github.com/prysmaticlabs/prysm/v5/beacon-chain/state/state-native"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/math"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/runtime/version"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 )
 
 func TestProcessRewardsAndPenaltiesPrecompute(t *testing.T) {
@@ -96,7 +96,7 @@ func TestAttestationDeltaPrecompute(t *testing.T) {
 	require.NoError(t, err)
 
 	// Add some variances to target and head balances.
-	// See: https://github.com/prysmaticlabs/prysm/issues/5593
+	// See: https://github.com/Kevionte/prysm_beacon/issues/5593
 	bp.PrevEpochTargetAttested /= 2
 	bp.PrevEpochHeadAttested = bp.PrevEpochHeadAttested * 2 / 3
 	rewards, penalties, err := AttestationsDelta(beaconState, bp, vp)

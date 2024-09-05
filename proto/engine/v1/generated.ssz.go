@@ -4,7 +4,7 @@ package enginev1
 
 import (
 	ssz "github.com/prysmaticlabs/fastssz"
-	github_com_prysmaticlabs_prysm_v5_consensus_types_primitives "github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
+	github_com_prysmaticlabs_prysm_v5_consensus_types_primitives "github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
 )
 
 // MarshalSSZ ssz marshals the ExecutionPayload object

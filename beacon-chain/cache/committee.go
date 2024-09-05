@@ -9,14 +9,14 @@ import (
 	"sync"
 	"time"
 
+	lruwrpr "github.com/Kevionte/prysm_beacon/v5/cache/lru"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/container/slice"
+	mathutil "github.com/Kevionte/prysm_beacon/v5/math"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	lruwrpr "github.com/prysmaticlabs/prysm/v5/cache/lru"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/container/slice"
-	mathutil "github.com/prysmaticlabs/prysm/v5/math"
 	log "github.com/sirupsen/logrus"
 )
 

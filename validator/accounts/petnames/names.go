@@ -3,8 +3,8 @@ package petnames
 import (
 	"strings"
 
-	"github.com/prysmaticlabs/prysm/v5/crypto/hash"
-	"github.com/prysmaticlabs/prysm/v5/crypto/rand"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/rand"
 )
 
 var (

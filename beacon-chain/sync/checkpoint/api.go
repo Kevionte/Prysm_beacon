@@ -3,10 +3,10 @@ package checkpoint
 import (
 	"context"
 
+	"github.com/Kevionte/prysm_beacon/v5/api/client/beacon"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/api/client/beacon"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
 )
 
 // APIInitializer manages initializing the beacon node using checkpoint sync, retrieving the checkpoint state and root

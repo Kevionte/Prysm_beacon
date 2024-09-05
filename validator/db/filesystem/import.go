@@ -6,14 +6,14 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/validator/db/common"
+	"github.com/Kevionte/prysm_beacon/v5/validator/db/iface"
+	"github.com/Kevionte/prysm_beacon/v5/validator/helpers"
+	"github.com/Kevionte/prysm_beacon/v5/validator/slashing-protection-history/format"
 	"github.com/pkg/errors"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/validator/db/common"
-	"github.com/prysmaticlabs/prysm/v5/validator/db/iface"
-	"github.com/prysmaticlabs/prysm/v5/validator/helpers"
-	"github.com/prysmaticlabs/prysm/v5/validator/slashing-protection-history/format"
 )
 
 // ImportStandardProtectionJSON takes in EIP-3076 compliant JSON file used for slashing protection

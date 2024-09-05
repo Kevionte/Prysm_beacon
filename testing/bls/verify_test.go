@@ -5,11 +5,11 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/bls/common"
+	"github.com/Kevionte/prysm_beacon/v5/testing/bls/utils"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/ghodss/yaml"
-	"github.com/prysmaticlabs/prysm/v5/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v5/crypto/bls/common"
-	"github.com/prysmaticlabs/prysm/v5/testing/bls/utils"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 )
 
 func TestVerify(t *testing.T) {

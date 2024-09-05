@@ -3,9 +3,9 @@ package slasher
 import (
 	"testing"
 
-	slashertypes "github.com/prysmaticlabs/prysm/v5/beacon-chain/slasher/types"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	slashertypes "github.com/Kevionte/prysm_beacon/v5/beacon-chain/slasher/types"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 )
 
 func Test_attestationsQueue(t *testing.T) {

@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"encoding/binary"
 
+	"github.com/Kevionte/prysm_beacon/v5/container/trie"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/hash/htr"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/ssz"
+	"github.com/Kevionte/prysm_beacon/v5/math"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/container/trie"
-	"github.com/prysmaticlabs/prysm/v5/crypto/hash"
-	"github.com/prysmaticlabs/prysm/v5/crypto/hash/htr"
-	"github.com/prysmaticlabs/prysm/v5/encoding/ssz"
-	"github.com/prysmaticlabs/prysm/v5/math"
 )
 
 // ReturnTrieLayer returns the representation of a merkle trie when

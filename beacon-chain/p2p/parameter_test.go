@@ -3,9 +3,9 @@ package p2p
 import (
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 )
 
 func TestOverlayParameters(t *testing.T) {

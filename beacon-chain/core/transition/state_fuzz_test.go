@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
+	state_native "github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	fuzz "github.com/google/gofuzz"
-	state_native "github.com/prysmaticlabs/prysm/v5/beacon-chain/state/state-native"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 )
 
 func TestGenesisBeaconState_1000(t *testing.T) {

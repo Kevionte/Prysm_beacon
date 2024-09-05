@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v5/io/prompt"
+	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v5/io/prompt"
-	"github.com/prysmaticlabs/prysm/v5/validator/keymanager"
 )
 
 // Delete the accounts that the user requests to be deleted from the wallet.
@@ -58,7 +58,7 @@ func (acm *CLIManager) Delete(ctx context.Context) error {
 	log.WithField("pubkeys", allAccountStr).Warn(
 		"Attempted to delete accounts. IMPORTANT: please run `validator accounts list` to ensure " +
 			"the public keys are indeed deleted. If they are still there, please file an issue at " +
-			"https://github.com/prysmaticlabs/prysm/issues/new")
+			"https://github.com/Kevionte/prysm_beacon/issues/new")
 	return nil
 }
 

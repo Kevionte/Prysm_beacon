@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Kevionte/prysm_beacon/v5/api/client"
+	"github.com/Kevionte/prysm_beacon/v5/validator/rpc"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/api/client"
-	"github.com/prysmaticlabs/prysm/v5/validator/rpc"
 )
 
 const (

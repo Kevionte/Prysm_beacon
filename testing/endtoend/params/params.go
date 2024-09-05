@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/Go-Sovereign/core/types"
+	"github.com/Kevionte/go-sovereign/core/types"
 
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
 )
 
 // params struct defines the parameters needed for running E2E tests to properly handle test sharding.

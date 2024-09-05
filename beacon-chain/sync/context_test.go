@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p"
+	p2ptest "github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/testing"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/util"
 	core "github.com/libp2p/go-libp2p/core"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p"
-	p2ptest "github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p/testing"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/util"
 )
 
 func TestContextWrite_NoWrites(t *testing.T) {

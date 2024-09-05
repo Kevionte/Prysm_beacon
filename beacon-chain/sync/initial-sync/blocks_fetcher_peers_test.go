@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/peers/scorers"
+	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	leakybucket "github.com/Kevionte/prysm_beacon/v5/container/leaky-bucket"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	prysmTime "github.com/Kevionte/prysm_beacon/v5/time"
 	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p/peers/scorers"
-	"github.com/prysmaticlabs/prysm/v5/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	leakybucket "github.com/prysmaticlabs/prysm/v5/container/leaky-bucket"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	prysmTime "github.com/prysmaticlabs/prysm/v5/time"
 )
 
 func TestBlocksFetcher_selectFailOverPeer(t *testing.T) {

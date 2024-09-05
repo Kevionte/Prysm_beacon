@@ -8,9 +8,9 @@ import (
 	"errors"
 	"time"
 
+	lruwrpr "github.com/Kevionte/prysm_beacon/v5/cache/lru"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
 	lru "github.com/hashicorp/golang-lru"
-	lruwrpr "github.com/prysmaticlabs/prysm/v5/cache/lru"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
 )
 
 var forkChoiceProcessedRootsSize = 1 << 16

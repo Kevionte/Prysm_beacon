@@ -4,15 +4,15 @@ import (
 	"context"
 	"sync"
 
-	"github.com/Kevionte/Go-Sovereign/crypto"
-	"github.com/Kevionte/Go-Sovereign/p2p/enode"
-	"github.com/Kevionte/Go-Sovereign/p2p/enr"
+	"github.com/Kevionte/go-sovereign/crypto"
+	"github.com/Kevionte/go-sovereign/p2p/enode"
+	"github.com/Kevionte/go-sovereign/p2p/enr"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/peers"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/peers/scorers"
+	pb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	ma "github.com/multiformats/go-multiaddr"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p/peers"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p/peers/scorers"
-	pb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 	log "github.com/sirupsen/logrus"
 )
 

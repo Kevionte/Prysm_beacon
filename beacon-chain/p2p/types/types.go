@@ -7,10 +7,10 @@ import (
 	"bytes"
 	"sort"
 
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	eth "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 	ssz "github.com/prysmaticlabs/fastssz"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	eth "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 )
 
 const rootLength = 32

@@ -3,9 +3,9 @@ package ssz_test
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/crypto/hash"
-	"github.com/prysmaticlabs/prysm/v5/encoding/ssz"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/ssz"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
 )
 
 func TestHash(t *testing.T) {

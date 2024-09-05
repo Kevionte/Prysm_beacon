@@ -4,10 +4,10 @@ import (
 	"path"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/altair"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	"github.com/prysmaticlabs/prysm/v5/testing/spectest/utils"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/altair"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v5/testing/spectest/utils"
 )
 
 // RunParticipationFlagUpdatesTests executes "epoch_processing/participation_flag_updates" tests.

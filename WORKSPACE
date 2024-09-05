@@ -30,7 +30,7 @@ http_archive(
 load("@hermetic_cc_toolchain//toolchain:defs.bzl", zig_toolchains = "toolchains")
 
 # Temporarily use a nightly build until 0.12.0 is released.
-# See: https://github.com/prysmaticlabs/prysm/issues/13130
+# See: https://github.com/Kevionte/prysm_beacon/issues/13130
 zig_toolchains(
     host_platform_sha256 = {
         "linux-aarch64": "45afb8e32adde825165f4f293fcea9ecea503f7f9ec0e9bf4435afe70e67fb70",

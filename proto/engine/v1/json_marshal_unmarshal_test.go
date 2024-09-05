@@ -6,14 +6,14 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Kevionte/Go-Sovereign/common"
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
-	gethtypes "github.com/Kevionte/Go-Sovereign/core/types"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	enginev1 "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	"github.com/Kevionte/go-sovereign/common"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	gethtypes "github.com/Kevionte/go-sovereign/core/types"
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	enginev1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 )
 
 type withdrawalJSON struct {

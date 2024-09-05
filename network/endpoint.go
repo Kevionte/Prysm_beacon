@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strings"
 
-	gethRPC "github.com/Kevionte/Go-Sovereign/rpc"
-	"github.com/prysmaticlabs/prysm/v5/network/authorization"
+	gethRPC "github.com/Kevionte/go-sovereign/rpc"
+	"github.com/Kevionte/prysm_beacon/v5/network/authorization"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"testing"
 
+	prefixed "github.com/Kevionte/prysm_beacon/v5/runtime/logging/logrus-prefixed-formatter"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/pkg/errors"
-	prefixed "github.com/prysmaticlabs/prysm/v5/runtime/logging/logrus-prefixed-formatter"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

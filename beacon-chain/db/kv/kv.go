@@ -9,16 +9,16 @@ import (
 	"path"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/iface"
+	"github.com/Kevionte/prysm_beacon/v5/config/features"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/io/file"
 	"github.com/dgraph-io/ristretto"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	prombolt "github.com/prysmaticlabs/prombbolt"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/db/iface"
-	"github.com/prysmaticlabs/prysm/v5/config/features"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v5/io/file"
 	bolt "go.etcd.io/bbolt"
 )
 
@@ -72,7 +72,7 @@ var BlockCacheSize = int64(1 << 21)
 
 // blockedBuckets represents the buckets that we want to restrict
 // from our metrics fetching for performance reasons. For a detailed
-// summary, it can be read in https://github.com/prysmaticlabs/prysm/issues/8274.
+// summary, it can be read in https://github.com/Kevionte/prysm_beacon/issues/8274.
 var blockedBuckets = [][]byte{
 	blocksBucket,
 	stateSummaryBucket,

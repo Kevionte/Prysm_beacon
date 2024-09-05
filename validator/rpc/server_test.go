@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/gorilla/mux"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 )
 
 func TestServer_InitializeRoutes(t *testing.T) {

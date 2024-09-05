@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
 	"github.com/golang/snappy"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
 )
 
 func TestSszNetworkEncoder_BufferedReader(t *testing.T) {

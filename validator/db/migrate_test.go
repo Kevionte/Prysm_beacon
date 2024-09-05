@@ -4,10 +4,10 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/cmd"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
-	dbtest "github.com/prysmaticlabs/prysm/v5/validator/db/testing"
+	"github.com/Kevionte/prysm_beacon/v5/cmd"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	dbtest "github.com/Kevionte/prysm_beacon/v5/validator/db/testing"
 	"github.com/urfave/cli/v2"
 )
 

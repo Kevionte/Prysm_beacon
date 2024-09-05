@@ -3,12 +3,12 @@ package beacon_api
 import (
 	"strconv"
 
-	"github.com/Kevionte/Go-Sovereign/common/hexutil"
+	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	enginev1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/api/server/structs"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	enginev1 "github.com/prysmaticlabs/prysm/v5/proto/engine/v1"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 )
 
 func convertProposerSlashingsToProto(jsonProposerSlashings []*structs.ProposerSlashing) ([]*ethpb.ProposerSlashing, error) {

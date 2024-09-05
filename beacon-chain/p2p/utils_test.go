@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Kevionte/Go-Sovereign/crypto"
-	"github.com/Kevionte/Go-Sovereign/p2p/enode"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/testing/assert"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
+	"github.com/Kevionte/go-sovereign/crypto"
+	"github.com/Kevionte/go-sovereign/p2p/enode"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 )
 

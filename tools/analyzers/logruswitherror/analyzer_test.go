@@ -3,7 +3,7 @@ package logruswitherror
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/build/bazel"
+	"github.com/Kevionte/prysm_beacon/v5/build/bazel"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

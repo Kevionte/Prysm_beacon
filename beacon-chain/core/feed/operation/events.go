@@ -2,8 +2,8 @@
 package operation
 
 import (
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 )
 
 const (

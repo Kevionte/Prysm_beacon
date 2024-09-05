@@ -3,10 +3,10 @@ package validator
 import (
 	"context"
 
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/blocks"
-	v "github.com/prysmaticlabs/prysm/v5/beacon-chain/core/validators"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/blocks"
+	v "github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/validators"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 )
 
 func (vs *Server) getSlashings(ctx context.Context, head state.BeaconState) ([]*ethpb.ProposerSlashing, []*ethpb.AttesterSlashing) {

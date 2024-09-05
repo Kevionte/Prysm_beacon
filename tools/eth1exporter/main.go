@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Kevionte/Go-Sovereign/common"
-	"github.com/Kevionte/Go-Sovereign/ethclient"
-	"github.com/Kevionte/Go-Sovereign/params"
+	"github.com/Kevionte/go-sovereign/common"
+	"github.com/Kevionte/go-sovereign/ethclient"
+	"github.com/Kevionte/go-sovereign/params"
 
-	_ "github.com/prysmaticlabs/prysm/v5/runtime/maxprocs"
+	_ "github.com/Kevionte/prysm_beacon/v5/runtime/maxprocs"
 	"github.com/sirupsen/logrus"
 )
 

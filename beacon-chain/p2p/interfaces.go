@@ -3,17 +3,17 @@ package p2p
 import (
 	"context"
 
-	"github.com/Kevionte/Go-Sovereign/p2p/enr"
+	"github.com/Kevionte/go-sovereign/p2p/enr"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/encoder"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/peers"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/metadata"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/connmgr"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p/encoder"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/p2p/peers"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1/metadata"
 	"google.golang.org/protobuf/proto"
 )
 

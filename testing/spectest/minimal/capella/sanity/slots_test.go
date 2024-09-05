@@ -3,7 +3,7 @@ package sanity
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v5/testing/spectest/shared/capella/sanity"
+	"github.com/Kevionte/prysm_beacon/v5/testing/spectest/shared/capella/sanity"
 )
 
 func TestMinimal_Capella_Sanity_Slots(t *testing.T) {

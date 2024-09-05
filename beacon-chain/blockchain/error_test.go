@@ -3,8 +3,8 @@ package blockchain
 import (
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v5/testing/require"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/testing/require"
 )
 
 func TestIsInvalidBlock(t *testing.T) {

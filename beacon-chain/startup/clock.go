@@ -3,8 +3,8 @@ package startup
 import (
 	"time"
 
-	types "github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/time/slots"
+	types "github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/time/slots"
 )
 
 // Nower is a function that can return the current time.

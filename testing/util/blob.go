@@ -1,8 +1,8 @@
 package util
 
 import (
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 )
 
 // HydrateBlobSidecar hydrates a blob sidecar with correct field length sizes

@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	lruwrpr "github.com/Kevionte/prysm_beacon/v5/cache/lru"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/state"
-	lruwrpr "github.com/prysmaticlabs/prysm/v5/cache/lru"
 	"go.opencensus.io/trace"
 )
 

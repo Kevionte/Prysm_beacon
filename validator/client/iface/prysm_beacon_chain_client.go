@@ -3,8 +3,8 @@ package iface
 import (
 	"context"
 
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/validator"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/validator"
 )
 
 var ErrNotSupported = errors.New("endpoint not supported")

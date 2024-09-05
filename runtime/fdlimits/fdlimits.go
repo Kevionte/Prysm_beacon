@@ -1,7 +1,7 @@
 package fdlimits
 
 import (
-	"github.com/Kevionte/Go-Sovereign/common/fdlimit"
+	"github.com/Kevionte/go-sovereign/common/fdlimit"
 	"github.com/sirupsen/logrus"
 )
 

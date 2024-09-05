@@ -3,11 +3,11 @@ package execution
 import (
 	"context"
 
-	"github.com/Kevionte/Go-Sovereign/common"
+	"github.com/Kevionte/go-sovereign/common"
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/blocks"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	ethpb "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
 )
 
 // DepositContractAddress returns the deposit contract address for the given chain.

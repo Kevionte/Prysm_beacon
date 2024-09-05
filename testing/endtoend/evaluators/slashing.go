@@ -4,20 +4,20 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/signing"
+	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v5/container/slice"
+	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	eth "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	e2e "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/params"
+	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/policies"
+	e2eTypes "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/types"
+	"github.com/Kevionte/prysm_beacon/v5/testing/util"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v5/beacon-chain/core/signing"
-	fieldparams "github.com/prysmaticlabs/prysm/v5/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v5/config/params"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v5/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v5/container/slice"
-	"github.com/prysmaticlabs/prysm/v5/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v5/encoding/bytesutil"
-	eth "github.com/prysmaticlabs/prysm/v5/proto/prysm/v1alpha1"
-	e2e "github.com/prysmaticlabs/prysm/v5/testing/endtoend/params"
-	"github.com/prysmaticlabs/prysm/v5/testing/endtoend/policies"
-	e2eTypes "github.com/prysmaticlabs/prysm/v5/testing/endtoend/types"
-	"github.com/prysmaticlabs/prysm/v5/testing/util"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
@@ -145,7 +145,7 @@ func insertDoubleAttestationIntoPool(_ *e2eTypes.EvaluationContext, conns ...*gr
 		}
 
 		// Need to send proposal to both beacon nodes to avoid flakiness.
-		// See: https://github.com/prysmaticlabs/prysm/issues/12415#issuecomment-1874643269
+		// See: https://github.com/Kevionte/prysm_beacon/issues/12415#issuecomment-1874643269
 		c := eth.NewBeaconNodeValidatorClient(conns[0])
 		att, err := h.getSlashableAttestation(i)
 		if err != nil {
