@@ -20,11 +20,11 @@ import (
 	"os"
 	"path"
 
-	"github.com/Kevionte/prysm_beacon/v5/io/file"
-	"github.com/Kevionte/prysm_beacon/v5/validator/accounts/wallet"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager/derived"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager/local"
+	"github.com/Kevionte/prysm_beacon/v1/io/file"
+	"github.com/Kevionte/prysm_beacon/v1/validator/accounts/wallet"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager/derived"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager/local"
 	"github.com/tyler-smith/go-bip39"
 	util "github.com/wealdtech/go-eth2-util"
 )

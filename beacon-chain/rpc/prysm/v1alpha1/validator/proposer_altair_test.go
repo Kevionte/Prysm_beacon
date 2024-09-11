@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/util"
 )
 
 func TestServer_SetSyncAggregate_EmptyCase(t *testing.T) {

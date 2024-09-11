@@ -4,10 +4,10 @@ import (
 	"path"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/epoch"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/spectest/utils"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/core/epoch"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1/testing/spectest/utils"
 )
 
 // RunParticipationRecordUpdatesTests executes "epoch_processing/participation_record_updates" tests.

@@ -7,12 +7,12 @@ import (
 	"strconv"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	types "github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v5/math"
-	v1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
-	eth "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+	types "github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v1math"
+	v1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
+	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

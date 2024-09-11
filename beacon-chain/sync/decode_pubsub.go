@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/pkg/errors"
 	ssz "github.com/prysmaticlabs/fastssz"

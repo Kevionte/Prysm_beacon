@@ -7,7 +7,7 @@ go_library(
         "reader.go",
         "writer.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v5/network/httputil",
+    importpath = "github.com/Kevionte/prysm_beacon/v1network/httputil",
     visibility = ["//visibility:public"],
     deps = [
         "//api:go_default_library",

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 

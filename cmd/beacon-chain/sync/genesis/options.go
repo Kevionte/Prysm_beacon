@@ -1,9 +1,9 @@
 package genesis
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/node"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/sync/genesis"
-	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/sync/checkpoint"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/node"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/sync/genesis"
+	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/sync/checkpoint"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"

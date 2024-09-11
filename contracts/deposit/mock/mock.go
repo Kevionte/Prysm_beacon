@@ -13,7 +13,7 @@ import (
 	"github.com/Kevionte/go-sovereign/core"
 	"github.com/Kevionte/go-sovereign/core/types"
 	"github.com/Kevionte/go-sovereign/crypto"
-	"github.com/Kevionte/prysm_beacon/v5/contracts/deposit"
+	"github.com/Kevionte/prysm_beacon/v1contracts/deposit"
 )
 
 var (

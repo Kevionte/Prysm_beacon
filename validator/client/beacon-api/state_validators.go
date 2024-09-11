@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
 	"github.com/pkg/errors"
 )
 

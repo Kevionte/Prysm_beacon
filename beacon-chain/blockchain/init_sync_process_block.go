@@ -3,8 +3,8 @@ package blockchain
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
 	"github.com/pkg/errors"
 )
 

@@ -3,10 +3,10 @@ package shared
 import (
 	"net/http"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/lookup"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/lookup"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v1network/httputil"
 )
 
 // WriteStateFetchError writes an appropriate error based on the supplied argument.

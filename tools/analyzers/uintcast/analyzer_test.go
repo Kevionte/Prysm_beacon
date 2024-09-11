@@ -3,8 +3,8 @@ package uintcast_test
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/build/bazel"
-	"github.com/Kevionte/prysm_beacon/v5/tools/analyzers/uintcast"
+	"github.com/Kevionte/prysm_beacon/v1/build/bazel"
+	"github.com/Kevionte/prysm_beacon/v1/tools/analyzers/uintcast"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

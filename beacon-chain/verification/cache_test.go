@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/signing"
-	forkchoicetypes "github.com/Kevionte/prysm_beacon/v5/beacon-chain/forkchoice/types"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
-	eth "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/interop"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/signing"
+	forkchoicetypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/forkchoice/types"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls"
+	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1runtime/interop"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/util"
 )
 
 func testSignedBlockBlobKeys(t *testing.T, valRoot []byte, slot primitives.Slot, nblobs int) (blocks.ROBlock, []blocks.ROBlob, bls.SecretKey, bls.PublicKey) {

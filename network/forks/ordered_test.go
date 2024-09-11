@@ -4,9 +4,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func TestOrderedConfigSchedule(t *testing.T) {

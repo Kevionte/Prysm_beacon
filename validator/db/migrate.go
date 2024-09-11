@@ -4,9 +4,9 @@ import (
 	"context"
 	"path"
 
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
-	"github.com/Kevionte/prysm_beacon/v5/io/file"
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/kv"
+	"github.com/Kevionte/prysm_beacon/v1/cmd"
+	"github.com/Kevionte/prysm_beacon/v1/io/file"
+	"github.com/Kevionte/prysm_beacon/v1/validator/db/kv"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"
 )

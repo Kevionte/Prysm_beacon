@@ -10,9 +10,9 @@ import (
 
 	"github.com/Kevionte/go-sovereign/common"
 	"github.com/Kevionte/go-sovereign/rpc"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/rand"
-	pb "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1crypto/rand"
+	pb "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 	"github.com/sirupsen/logrus"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 )

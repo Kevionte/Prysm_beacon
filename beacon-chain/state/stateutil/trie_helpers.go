@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/Kevionte/prysm_beacon/v5/container/trie"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/hash/htr"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/ssz"
-	"github.com/Kevionte/prysm_beacon/v5/math"
+	"github.com/Kevionte/prysm_beacon/v1container/trie"
+	"github.com/Kevionte/prysm_beacon/v1crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v1crypto/hash/htr"
+	"github.com/Kevionte/prysm_beacon/v1encoding/ssz"
+	"github.com/Kevionte/prysm_beacon/v1math"
 	"github.com/pkg/errors"
 )
 

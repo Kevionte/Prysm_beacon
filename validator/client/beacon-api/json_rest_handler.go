@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v5/api"
-	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
+	"github.com/Kevionte/prysm_beacon/v1api"
+	"github.com/Kevionte/prysm_beacon/v1network/httputil"
 	"github.com/pkg/errors"
 )
 

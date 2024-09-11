@@ -1,11 +1,11 @@
 package builder
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/api/client/builder"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/cache"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db"
-	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v1api/client/builder"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/cache"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/flags"
 	"github.com/urfave/cli/v2"
 )
 

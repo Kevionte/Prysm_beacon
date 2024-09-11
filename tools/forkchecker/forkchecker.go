@@ -16,9 +16,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	pb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1/config/params"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
+	pb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"

@@ -1,9 +1,9 @@
 package userprompt
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/cmd/validator/flags"
-	"github.com/Kevionte/prysm_beacon/v5/io/file"
-	"github.com/Kevionte/prysm_beacon/v5/io/prompt"
+	"github.com/Kevionte/prysm_beacon/v1/cmd/validator/flags"
+	"github.com/Kevionte/prysm_beacon/v1/io/file"
+	"github.com/Kevionte/prysm_beacon/v1/io/prompt"
 	"github.com/logrusorgru/aurora"
 	"github.com/manifoldco/promptui"
 	"github.com/pkg/errors"

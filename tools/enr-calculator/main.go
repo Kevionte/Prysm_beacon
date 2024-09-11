@@ -9,9 +9,9 @@ import (
 
 	"github.com/Kevionte/go-sovereign/p2p/enode"
 	"github.com/Kevionte/go-sovereign/p2p/enr"
-	ecdsaprysm "github.com/Kevionte/prysm_beacon/v5/crypto/ecdsa"
-	"github.com/Kevionte/prysm_beacon/v5/io/file"
-	_ "github.com/Kevionte/prysm_beacon/v5/runtime/maxprocs"
+	ecdsaprysm "github.com/Kevionte/prysm_beacon/v1/crypto/ecdsa"
+	"github.com/Kevionte/prysm_beacon/v1/io/file"
+	_ "github.com/Kevionte/prysm_beacon/v1/runtime/maxprocs"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	log "github.com/sirupsen/logrus"
 )

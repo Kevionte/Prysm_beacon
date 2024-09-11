@@ -3,8 +3,8 @@ package slasher
 import (
 	"context"
 
-	slashertypes "github.com/Kevionte/prysm_beacon/v5/beacon-chain/slasher/types"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	slashertypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/slasher/types"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 	"go.opencensus.io/trace"
 )

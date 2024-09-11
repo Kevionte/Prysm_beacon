@@ -3,7 +3,7 @@ load("@prysm//tools/go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["mock_stream.go"],
-    importpath = "github.com/Kevionte/prysm_beacon/v5/io/logs/mock",
+    importpath = "github.com/Kevionte/prysm_beacon/v1io/logs/mock",
     visibility = ["//visibility:public"],
     deps = ["//async/event:go_default_library"],
 )

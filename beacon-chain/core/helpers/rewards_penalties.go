@@ -3,12 +3,12 @@ package helpers
 import (
 	"errors"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/cache"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	mathutil "github.com/Kevionte/prysm_beacon/v5/math"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/cache"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	mathutil "github.com/Kevionte/prysm_beacon/v1math"
+	"github.com/Kevionte/prysm_beacon/v1time/slots"
 )
 
 var balanceCache = cache.NewEffectiveBalanceCache()

@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/Kevionte/prysm_beacon/v5/monitoring/tracing"
-	v2 "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1monitoring/tracing"
+	v2 "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	bolt "go.etcd.io/bbolt"
 	"go.opencensus.io/trace"
 	"google.golang.org/protobuf/proto"

@@ -3,11 +3,11 @@ package forkchoice
 import (
 	"context"
 
-	forkchoicetypes "github.com/Kevionte/prysm_beacon/v5/beacon-chain/forkchoice/types"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	forkchoice2 "github.com/Kevionte/prysm_beacon/v5/consensus-types/forkchoice"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	forkchoicetypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/forkchoice/types"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+	forkchoice2 "github.com/Kevionte/prysm_beacon/v1consensus-types/forkchoice"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
 )
 
 // BalancesByRooter is a handler to obtain the effective balances of the state

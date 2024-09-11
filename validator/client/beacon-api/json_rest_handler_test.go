@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/api"
-	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
-	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1api"
+	"github.com/Kevionte/prysm_beacon/v1api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v1network/httputil"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 	"github.com/pkg/errors"
 )
 

@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/network"
+	"github.com/Kevionte/prysm_beacon/v1network"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

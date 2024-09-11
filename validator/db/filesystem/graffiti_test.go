@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
 )
 
 func TestStore_SaveGraffitiOrderedIndex(t *testing.T) {

@@ -3,11 +3,11 @@ package accounts
 import (
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v5/validator/accounts"
-	"github.com/Kevionte/prysm_beacon/v5/validator/accounts/iface"
-	"github.com/Kevionte/prysm_beacon/v5/validator/accounts/wallet"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
-	remote_web3signer "github.com/Kevionte/prysm_beacon/v5/validator/keymanager/remote-web3signer"
+	"github.com/Kevionte/prysm_beacon/v1validator/accounts"
+	"github.com/Kevionte/prysm_beacon/v1validator/accounts/iface"
+	"github.com/Kevionte/prysm_beacon/v1validator/accounts/wallet"
+	"github.com/Kevionte/prysm_beacon/v1validator/keymanager"
+	remote_web3signer "github.com/Kevionte/prysm_beacon/v1validator/keymanager/remote-web3signer"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"
 )

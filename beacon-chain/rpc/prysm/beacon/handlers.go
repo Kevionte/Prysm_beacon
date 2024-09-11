@@ -7,12 +7,12 @@ import (
 	"strconv"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/eth/shared"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/eth/shared"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1network/httputil"
+	"github.com/Kevionte/prysm_beacon/v1time/slots"
 	"go.opencensus.io/trace"
 )
 

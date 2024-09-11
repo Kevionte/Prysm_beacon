@@ -1,7 +1,7 @@
 package stategen
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
 	"github.com/pkg/errors"
 )
 

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Kevionte/prysm_beacon/v5/math"
+	"github.com/Kevionte/prysm_beacon/v1math"
 )
 
 // ToBytes returns integer x to bytes in little-endian format at the specified length.

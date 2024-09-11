@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v5/io/prompt"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v1/io/prompt"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
 	"github.com/pkg/errors"
 )
 

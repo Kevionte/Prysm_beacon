@@ -12,7 +12,7 @@ package mock
 import (
 	reflect "reflect"
 
-	common "github.com/Kevionte/prysm_beacon/v5/crypto/bls/common"
+	common "github.com/Kevionte/prysm_beacon/v1crypto/bls/common"
 	gomock "go.uber.org/mock/gomock"
 )
 

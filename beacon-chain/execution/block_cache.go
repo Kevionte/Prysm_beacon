@@ -6,8 +6,8 @@ import (
 	"sync"
 
 	"github.com/Kevionte/go-sovereign/common"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/execution/types"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/execution/types"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"k8s.io/client-go/tools/cache"

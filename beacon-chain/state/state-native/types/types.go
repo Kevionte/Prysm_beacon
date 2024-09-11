@@ -1,7 +1,7 @@
 package types
 
 import (
-	consensus_types "github.com/Kevionte/prysm_beacon/v5/consensus-types"
+	consensus_types "github.com/Kevionte/prysm_beacon/v1consensus-types"
 	"github.com/pkg/errors"
 )
 

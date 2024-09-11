@@ -8,17 +8,17 @@ import (
 	"time"
 
 	"github.com/Kevionte/go-sovereign/common"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/execution"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/startup"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/verification"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/blockchain"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/execution"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/startup"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/verification"
+	"github.com/Kevionte/prysm_beacon/v1/config/params"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
 )
 
 type Builder struct {

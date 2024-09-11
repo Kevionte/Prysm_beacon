@@ -3,8 +3,8 @@ package das
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
 )
 
 // MockAvailabilityStore is an implementation of AvailabilityStore that can be used by other packages in tests.

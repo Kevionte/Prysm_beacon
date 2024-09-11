@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
 	"github.com/Kevionte/prysm_beacon/v5/async"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
+
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v1crypto/hash"
 	"github.com/pkg/errors"
 )
 

@@ -6,17 +6,17 @@ import (
 	"io"
 	"testing"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/config/proposer"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1/config/proposer"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/common"
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/iface"
-	"github.com/Kevionte/prysm_beacon/v5/validator/slashing-protection-history/format"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1/validator/db/common"
+	"github.com/Kevionte/prysm_beacon/v1/validator/db/iface"
+	"github.com/Kevionte/prysm_beacon/v1/validator/slashing-protection-history/format"
 )
 
 type ValidatorDBMock struct {

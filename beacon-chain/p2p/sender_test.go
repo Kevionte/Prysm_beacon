@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	testp2p "github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/testing"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	testp2p "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/testing"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/util"
 	"github.com/libp2p/go-libp2p/core/network"
 	"google.golang.org/protobuf/proto"
 )

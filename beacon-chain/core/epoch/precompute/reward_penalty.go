@@ -1,12 +1,12 @@
 package precompute
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/time"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/math"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/time"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1math"
 	"github.com/pkg/errors"
 )
 

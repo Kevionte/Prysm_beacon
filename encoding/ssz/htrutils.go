@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	enginev1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

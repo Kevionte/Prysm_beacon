@@ -1,10 +1,10 @@
 package gateway
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/api"
-	"github.com/Kevionte/prysm_beacon/v5/api/gateway"
-	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/flags"
-	ethpbalpha "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1api"
+	"github.com/Kevionte/prysm_beacon/v1api/gateway"
+	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/flags"
+	ethpbalpha "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	gwruntime "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"google.golang.org/protobuf/encoding/protojson"
 )

@@ -1,12 +1,12 @@
 package blocks
 
 import (
-	field_params "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v5/container/trie"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/ssz"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	field_params "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v1container/trie"
+	"github.com/Kevionte/prysm_beacon/v1encoding/ssz"
+	"github.com/Kevionte/prysm_beacon/v1runtime/version"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/gohashtree"
 )

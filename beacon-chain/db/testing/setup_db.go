@@ -6,10 +6,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/iface"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/kv"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/slasherkv"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db/iface"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db/kv"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db/slasherkv"
 )
 
 // SetupDB instantiates and returns database backed by key value store.

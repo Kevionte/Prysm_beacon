@@ -5,16 +5,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/async/abool"
-	mockChain "github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain/testing"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p"
-	p2ptest "github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/testing"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/startup"
-	mockSync "github.com/Kevionte/prysm_beacon/v5/beacon-chain/sync/initial-sync/testing"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/network/forks"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1async/abool"
+	mockChain "github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain/testing"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p"
+	p2ptest "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/testing"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/startup"
+	mockSync "github.com/Kevionte/prysm_beacon/v1beacon-chain/sync/initial-sync/testing"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1network/forks"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
 )
 
 func TestService_CheckForNextEpochFork(t *testing.T) {

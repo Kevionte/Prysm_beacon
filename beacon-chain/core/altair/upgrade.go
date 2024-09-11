@@ -3,13 +3,13 @@ package altair
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/time"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	state_native "github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/attestation"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/time"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
+	state_native "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1/attestation"
 )
 
 // UpgradeToAltair updates input state to return the version Altair state.

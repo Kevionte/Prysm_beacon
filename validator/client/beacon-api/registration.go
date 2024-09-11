@@ -5,8 +5,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1api/server/structs"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

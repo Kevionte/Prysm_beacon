@@ -1,9 +1,9 @@
 package payloadattribute
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	enginev1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
+	"github.com/Kevionte/prysm_beacon/v1runtime/version"
 	"github.com/pkg/errors"
 )
 

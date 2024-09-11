@@ -8,11 +8,11 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/validator/client/beacon-api/mock"
+	"github.com/Kevionte/prysm_beacon/v1/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1/validator/client/beacon-api/mock"
 	"go.uber.org/mock/gomock"
 )
 

@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/util"
 	"go.etcd.io/bbolt"
 )
 

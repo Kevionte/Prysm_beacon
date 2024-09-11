@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v5/api/client"
-	"github.com/Kevionte/prysm_beacon/v5/validator/rpc"
+	"github.com/Kevionte/prysm_beacon/v1api/client"
+	"github.com/Kevionte/prysm_beacon/v1validator/rpc"
 	"github.com/pkg/errors"
 )
 

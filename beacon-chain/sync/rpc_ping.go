@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 	"strings"
+	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p"
-	p2ptypes "github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/types"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/time"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p"
+	p2ptypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/types"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1time/slots"
 	libp2pcore "github.com/libp2p/go-libp2p/core"
 	"github.com/libp2p/go-libp2p/core/peer"
 )

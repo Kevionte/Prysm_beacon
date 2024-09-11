@@ -6,12 +6,12 @@ import (
 
 	"github.com/Kevionte/go-sovereign/common"
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/config/proposer"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/validator"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1/config/params"
+	"github.com/Kevionte/prysm_beacon/v1/config/proposer"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/validator"
+	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
 )
 
 func TestStore_ProposerSettings_ReadAndWrite(t *testing.T) {

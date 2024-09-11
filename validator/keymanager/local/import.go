@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v1/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
 	"github.com/k0kubun/go-ansi"
 	"github.com/pkg/errors"
 	"github.com/schollz/progressbar/v3"

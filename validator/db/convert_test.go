@@ -7,17 +7,17 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/config/proposer"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/io/file"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/common"
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/filesystem"
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/iface"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1/config/proposer"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1/io/file"
+	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1/validator/db/common"
+	"github.com/Kevionte/prysm_beacon/v1/validator/db/filesystem"
+	"github.com/Kevionte/prysm_beacon/v1/validator/db/iface"
 
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/kv"
+	"github.com/Kevionte/prysm_beacon/v1/validator/db/kv"
 )
 
 func getPubkeyFromString(t *testing.T, pubkeyString string) [fieldparams.BLSPubkeyLength]byte {

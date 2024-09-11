@@ -7,11 +7,11 @@ import (
 
 	"github.com/Kevionte/go-sovereign/p2p/enode"
 	"github.com/Kevionte/go-sovereign/p2p/enr"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/network/forks"
-	pb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	prysmTime "github.com/Kevionte/prysm_beacon/v5/time"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1network/forks"
+	pb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	prysmTime "github.com/Kevionte/prysm_beacon/v1time"
+	"github.com/Kevionte/prysm_beacon/v1time/slots"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

@@ -3,7 +3,7 @@ package initialsync
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func BenchmarkStateMachine_trigger(b *testing.B) {

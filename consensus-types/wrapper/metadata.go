@@ -1,9 +1,9 @@
 package wrapper
 
 import (
-	pb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/metadata"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	pb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1/metadata"
+	"github.com/Kevionte/prysm_beacon/v1runtime/version"
 	"github.com/prysmaticlabs/go-bitfield"
 	"google.golang.org/protobuf/proto"
 )

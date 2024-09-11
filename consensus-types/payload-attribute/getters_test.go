@@ -3,9 +3,9 @@ package payloadattribute
 import (
 	"testing"
 
-	enginev1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
+	"github.com/Kevionte/prysm_beacon/v1runtime/version"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func TestPayloadAttributeGetters(t *testing.T) {

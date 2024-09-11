@@ -1,10 +1,10 @@
 package verify
 
 import (
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v1runtime/version"
 	"github.com/pkg/errors"
 )
 

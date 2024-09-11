@@ -1,10 +1,10 @@
 package state_native
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native/types"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/stateutil"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/types"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stateutil"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1runtime/version"
 )
 
 // SetPreviousParticipationBits for the beacon state. Updates the entire

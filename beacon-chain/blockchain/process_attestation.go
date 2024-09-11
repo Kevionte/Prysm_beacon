@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/attestation"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1/attestation"
+	"github.com/Kevionte/prysm_beacon/v1time/slots"
 	"github.com/pkg/errors"
 	"go.opencensus.io/trace"
 )

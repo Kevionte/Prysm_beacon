@@ -6,15 +6,15 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v1cmd/validator/flags"
+	"github.com/Kevionte/prysm_beacon/v1io/file"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v1validator/db/common"
+	dbTest "github.com/Kevionte/prysm_beacon/v1validator/db/testing"
+	"github.com/Kevionte/prysm_beacon/v1validator/slashing-protection-history/format"
+	mocks "github.com/Kevionte/prysm_beacon/v1validator/testing"
 	"github.com/Kevionte/prysm_beacon/v5/cmd"
-	"github.com/Kevionte/prysm_beacon/v5/cmd/validator/flags"
-	"github.com/Kevionte/prysm_beacon/v5/io/file"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/common"
-	dbTest "github.com/Kevionte/prysm_beacon/v5/validator/db/testing"
-	"github.com/Kevionte/prysm_beacon/v5/validator/slashing-protection-history/format"
-	mocks "github.com/Kevionte/prysm_beacon/v5/validator/testing"
 	"github.com/urfave/cli/v2"
 )
 

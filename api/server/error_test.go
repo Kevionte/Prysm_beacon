@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
 )
 
 func TestDecodeError(t *testing.T) {

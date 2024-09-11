@@ -1,7 +1,7 @@
 package bls
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls/common"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls/common"
 )
 
 // PublicKey represents a BLS public key.

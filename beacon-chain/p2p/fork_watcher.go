@@ -1,8 +1,8 @@
 package p2p
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1time/slots"
 )
 
 // A background routine which listens for new and upcoming forks and

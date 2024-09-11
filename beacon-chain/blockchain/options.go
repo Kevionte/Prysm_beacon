@@ -1,22 +1,22 @@
 package blockchain
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/async/event"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/cache"
-	statefeed "github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/feed/state"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/filesystem"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/execution"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/forkchoice"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/operations/attestations"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/operations/blstoexec"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/operations/slashings"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/operations/voluntaryexits"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/startup"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/stategen"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1async/event"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/cache"
+	statefeed "github.com/Kevionte/prysm_beacon/v1beacon-chain/core/feed/state"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db/filesystem"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/execution"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/forkchoice"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/operations/attestations"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/operations/blstoexec"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/operations/slashings"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/operations/voluntaryexits"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/startup"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stategen"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 )
 
 type Option func(s *Service) error

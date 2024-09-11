@@ -3,7 +3,7 @@
 package blst
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls/common"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls/common"
 )
 
 // This stub file exists until build issues can be resolved for libfuzz.

@@ -4,11 +4,11 @@ import (
 	"reflect"
 	"testing"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	v1 "github.com/Kevionte/prysm_beacon/v5/validator/keymanager/remote-web3signer/v1"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager/remote-web3signer/v1/mock"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	v1 "github.com/Kevionte/prysm_beacon/v1/validator/keymanager/remote-web3signer/v1"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager/remote-web3signer/v1/mock"
 	"github.com/prysmaticlabs/go-bitfield"
 )
 

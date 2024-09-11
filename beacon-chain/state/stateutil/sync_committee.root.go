@@ -1,9 +1,9 @@
 package stateutil
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/crypto/hash/htr"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/ssz"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1crypto/hash/htr"
+	"github.com/Kevionte/prysm_beacon/v1encoding/ssz"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

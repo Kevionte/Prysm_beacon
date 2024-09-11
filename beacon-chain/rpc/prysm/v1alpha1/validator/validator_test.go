@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
 	"github.com/sirupsen/logrus"
 )
 

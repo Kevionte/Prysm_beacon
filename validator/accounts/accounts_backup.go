@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Kevionte/prysm_beacon/v5/io/file"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v1/io/file"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
 )

@@ -8,11 +8,11 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/common"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/spectest/utils"
-	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1/testing/spectest/utils"
+	"github.com/Kevionte/prysm_beacon/v1/testing/util"
 	"github.com/go-yaml/yaml"
 )
 

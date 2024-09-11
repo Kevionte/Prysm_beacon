@@ -1,9 +1,9 @@
 package db
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/tos"
-	validatordb "github.com/Kevionte/prysm_beacon/v5/validator/db"
+	"github.com/Kevionte/prysm_beacon/v1cmd"
+	"github.com/Kevionte/prysm_beacon/v1runtime/tos"
+	validatordb "github.com/Kevionte/prysm_beacon/v1validator/db"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

@@ -3,8 +3,8 @@ package structs
 import (
 	"testing"
 
-	eth "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func TestDepositSnapshotFromConsensus(t *testing.T) {

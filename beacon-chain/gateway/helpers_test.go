@@ -3,9 +3,9 @@ package gateway
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/api/gateway"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1api/gateway"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func TestDefaultConfig(t *testing.T) {

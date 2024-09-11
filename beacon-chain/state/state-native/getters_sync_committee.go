@@ -1,9 +1,9 @@
 package state_native
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1runtime/version"
 )
 
 // CurrentSyncCommittee of the current sync committee in beacon chain state.

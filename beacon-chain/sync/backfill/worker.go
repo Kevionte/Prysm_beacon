@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/filesystem"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/startup"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/sync"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/verification"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db/filesystem"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/startup"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/sync"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/verification"
 	"github.com/pkg/errors"
 )
 

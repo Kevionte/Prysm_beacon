@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func TestDepositTreeSnapshot_CalculateRoot(t *testing.T) {

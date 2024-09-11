@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/validator/accounts/wallet"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager/local"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1/validator/accounts/wallet"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager/local"
 )
 
 const testMnemonic = "abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about"

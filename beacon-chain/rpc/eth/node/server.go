@@ -4,11 +4,11 @@
 package node
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/execution"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/sync"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/execution"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/sync"
 	"google.golang.org/grpc"
 )
 

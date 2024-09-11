@@ -5,9 +5,9 @@ package cache
 import (
 	"sync"
 
-	forkchoicetypes "github.com/Kevionte/prysm_beacon/v5/beacon-chain/forkchoice/types"
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	forkchoicetypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/forkchoice/types"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 )

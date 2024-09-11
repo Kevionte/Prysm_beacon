@@ -1,6 +1,6 @@
 package beaconapi
 
-import "github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+import "github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
 
 type endpoint interface {
 	getBasePath() string

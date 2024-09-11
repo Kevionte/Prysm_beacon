@@ -1,10 +1,10 @@
 package depositsnapshot
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/container/trie"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	protodb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1container/trie"
+	"github.com/Kevionte/prysm_beacon/v1crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	protodb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 )
 
 // DepositTreeSnapshot represents the data used to create a deposit tree given a snapshot.

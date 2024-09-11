@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/encoder"
-	"github.com/Kevionte/prysm_beacon/v5/network/forks"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/encoder"
+	"github.com/Kevionte/prysm_beacon/v1network/forks"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 )
 

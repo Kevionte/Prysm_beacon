@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/lookup"
-	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/lookup"
+	"github.com/Kevionte/prysm_beacon/v1network/httputil"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
 	"github.com/pkg/errors"
 )
 

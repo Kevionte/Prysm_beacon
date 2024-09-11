@@ -3,7 +3,7 @@ package sanity
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/spectest/shared/capella/sanity"
+	"github.com/Kevionte/prysm_beacon/v1testing/spectest/shared/capella/sanity"
 )
 
 func TestMainnet_Capella_Sanity_Blocks(t *testing.T) {

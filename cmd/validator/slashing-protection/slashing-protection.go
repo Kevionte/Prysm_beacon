@@ -1,10 +1,10 @@
 package historycmd
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
-	"github.com/Kevionte/prysm_beacon/v5/cmd/validator/flags"
-	"github.com/Kevionte/prysm_beacon/v5/config/features"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/tos"
+	"github.com/Kevionte/prysm_beacon/v1cmd"
+	"github.com/Kevionte/prysm_beacon/v1cmd/validator/flags"
+	"github.com/Kevionte/prysm_beacon/v1config/features"
+	"github.com/Kevionte/prysm_beacon/v1runtime/tos"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

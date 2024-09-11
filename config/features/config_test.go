@@ -4,8 +4,8 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 	"github.com/urfave/cli/v2"
 )
 

@@ -3,8 +3,8 @@ package stateutil
 import (
 	"encoding/binary"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/ssz"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1encoding/ssz"
 	"github.com/pkg/errors"
 )
 

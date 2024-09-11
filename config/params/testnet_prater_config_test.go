@@ -4,9 +4,9 @@ import (
 	"path"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/build/bazel"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1build/bazel"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func TestPraterConfigMatchesUpstreamYaml(t *testing.T) {

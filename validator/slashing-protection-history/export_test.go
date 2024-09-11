@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"testing"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	dbtest "github.com/Kevionte/prysm_beacon/v5/validator/db/testing"
-	"github.com/Kevionte/prysm_beacon/v5/validator/slashing-protection-history/format"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	dbtest "github.com/Kevionte/prysm_beacon/v1/validator/db/testing"
+	"github.com/Kevionte/prysm_beacon/v1/validator/slashing-protection-history/format"
 )
 
 func TestExportStandardProtectionJSON_EmptyGenesisRoot(t *testing.T) {

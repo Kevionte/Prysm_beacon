@@ -4,21 +4,21 @@
 package beacon
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain"
-	blockfeed "github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/feed/block"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/feed/operation"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/execution"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/operations/attestations"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/operations/blstoexec"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/operations/slashings"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/operations/voluntaryexits"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/core"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/lookup"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/stategen"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/sync"
-	eth "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain"
+	blockfeed "github.com/Kevionte/prysm_beacon/v1beacon-chain/core/feed/block"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/feed/operation"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/execution"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/operations/attestations"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/operations/blstoexec"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/operations/slashings"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/operations/voluntaryexits"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/core"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/lookup"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stategen"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/sync"
+	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 )
 
 // Server defines a server implementation of the gRPC Beacon Chain service,

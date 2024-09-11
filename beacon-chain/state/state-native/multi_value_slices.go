@@ -3,11 +3,11 @@ package state_native
 import (
 	"runtime"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native/types"
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	multi_value_slice "github.com/Kevionte/prysm_beacon/v5/container/multi-value-slice"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/types"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+	multi_value_slice "github.com/Kevionte/prysm_beacon/v1container/multi-value-slice"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 )

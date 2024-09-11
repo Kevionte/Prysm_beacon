@@ -10,11 +10,11 @@ import (
 
 	"github.com/Kevionte/go-sovereign/p2p/discover"
 	"github.com/Kevionte/go-sovereign/p2p/enode"
-	ecdsaprysm "github.com/Kevionte/prysm_beacon/v5/crypto/ecdsa"
-	"github.com/Kevionte/prysm_beacon/v5/network"
-	_ "github.com/Kevionte/prysm_beacon/v5/runtime/maxprocs"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	ecdsaprysm "github.com/Kevionte/prysm_beacon/v1/crypto/ecdsa"
+	"github.com/Kevionte/prysm_beacon/v1/network"
+	_ "github.com/Kevionte/prysm_beacon/v1/runtime/maxprocs"
+	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/sirupsen/logrus"
 )

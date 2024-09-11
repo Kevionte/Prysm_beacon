@@ -3,15 +3,15 @@ package altair
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/signing"
-	p2pType "github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/types"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/signing"
+	p2pType "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/types"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1time/slots"
 	"github.com/pkg/errors"
 )
 

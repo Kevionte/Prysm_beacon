@@ -5,7 +5,7 @@ import (
 	"regexp"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v5/container/slice"
+	"github.com/Kevionte/prysm_beacon/v1container/slice"
 	"github.com/pkg/errors"
 )
 

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
-	"github.com/Kevionte/prysm_beacon/v5/io/file"
+	"github.com/Kevionte/prysm_beacon/v1crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v1io/file"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db"
 	"github.com/pkg/errors"
 )
 

@@ -3,8 +3,8 @@ package doublylinkedtree
 import (
 	"fmt"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
 )
 
 // applyProposerBoostScore applies the current proposer boost scores to the

@@ -8,21 +8,21 @@ import (
 
 	"github.com/Kevionte/go-sovereign/p2p/enode"
 	"github.com/Kevionte/go-sovereign/p2p/enr"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/cache"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
-	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/flags"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/wrapper"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	mathutil "github.com/Kevionte/prysm_beacon/v5/math"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/cache"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/wrapper"
+	"github.com/Kevionte/prysm_beacon/v1crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	mathutil "github.com/Kevionte/prysm_beacon/v1math"
 	"github.com/holiman/uint256"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/go-bitfield"
 	"go.opencensus.io/trace"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	pb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	pb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 )
 
 var attestationSubnetCount = params.BeaconConfig().AttestationSubnetCount

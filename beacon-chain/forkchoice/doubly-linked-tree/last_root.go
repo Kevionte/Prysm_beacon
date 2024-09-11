@@ -1,8 +1,8 @@
 package doublylinkedtree
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1time/slots"
 )
 
 // LastRoot returns the last canonical block root in the given epoch

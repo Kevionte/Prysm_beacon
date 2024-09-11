@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	aggtesting "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/attestation/aggregation/testing"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	aggtesting "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1/attestation/aggregation/testing"
 	"github.com/prysmaticlabs/go-bitfield"
 )
 

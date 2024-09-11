@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
 	"github.com/urfave/cli/v2"
 )
 

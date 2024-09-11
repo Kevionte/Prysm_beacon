@@ -1,6 +1,6 @@
 package mock
 
-import "github.com/Kevionte/prysm_beacon/v5/async/event"
+import "github.com/Kevionte/prysm_beacon/v1async/event"
 
 type MockStreamer struct {
 	logs [][]byte

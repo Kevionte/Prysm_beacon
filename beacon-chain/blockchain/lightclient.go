@@ -5,14 +5,14 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	ethpbv1 "github.com/Kevionte/prysm_beacon/v5/proto/eth/v1"
-	ethpbv2 "github.com/Kevionte/prysm_beacon/v5/proto/eth/v2"
-	"github.com/Kevionte/prysm_beacon/v5/proto/migration"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	ethpbv1 "github.com/Kevionte/prysm_beacon/v1proto/eth/v1"
+	ethpbv2 "github.com/Kevionte/prysm_beacon/v1proto/eth/v2"
+	"github.com/Kevionte/prysm_beacon/v1proto/migration"
+	"github.com/Kevionte/prysm_beacon/v1time/slots"
 )
 
 const (

@@ -3,7 +3,7 @@ package verification
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
 )
 
 // BlobSidecarNoop is a FAKE verification function that simply launders a ROBlob->VerifiedROBlob.

@@ -5,8 +5,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/iface"
-	"github.com/Kevionte/prysm_beacon/v5/validator/slashing-protection-history/format"
+	"github.com/Kevionte/prysm_beacon/v1/validator/db/iface"
+	"github.com/Kevionte/prysm_beacon/v1/validator/slashing-protection-history/format"
 	"github.com/pkg/errors"
 )
 

@@ -1,7 +1,7 @@
 package params
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
 	"github.com/mohae/deepcopy"
 )
 

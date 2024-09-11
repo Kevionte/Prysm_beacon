@@ -16,7 +16,7 @@ import (
 
 	"github.com/Kevionte/go-sovereign/core/types"
 
-	"github.com/Kevionte/prysm_beacon/v5/io/file"
+	"github.com/Kevionte/prysm_beacon/v1io/file"
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
 )
 

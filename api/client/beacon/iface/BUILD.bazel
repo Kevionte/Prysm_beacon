@@ -3,6 +3,6 @@ load("@prysm//tools/go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["health.go"],
-    importpath = "github.com/Kevionte/prysm_beacon/v5/api/client/beacon/iface",
+    importpath = "github.com/Kevionte/prysm_beacon/v1api/client/beacon/iface",
     visibility = ["//visibility:public"],
 )

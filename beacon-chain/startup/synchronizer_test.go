@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func TestSynchronizerErrOnSecondSet(t *testing.T) {

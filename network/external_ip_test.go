@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/network"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1network"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func TestExternalIPv4(t *testing.T) {

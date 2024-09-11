@@ -9,7 +9,7 @@ go_library(
         "health.go",
         "log.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v5/api/client/beacon",
+    importpath = "github.com/Kevionte/prysm_beacon/v1api/client/beacon",
     visibility = ["//visibility:public"],
     deps = [
         "//api/client:go_default_library",

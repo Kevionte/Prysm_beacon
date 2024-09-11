@@ -15,9 +15,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/filters"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/kv"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/db/filters"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/db/kv"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
 	"github.com/emicklei/dot"
 )
 

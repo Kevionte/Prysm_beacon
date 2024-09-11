@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	forkchoice2 "github.com/Kevionte/prysm_beacon/v5/consensus-types/forkchoice"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	forkchoice2 "github.com/Kevionte/prysm_beacon/v1consensus-types/forkchoice"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1time/slots"
 	"github.com/pkg/errors"
 )
 

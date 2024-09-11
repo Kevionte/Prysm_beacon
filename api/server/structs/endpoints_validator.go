@@ -3,7 +3,7 @@ package structs
 import (
 	"encoding/json"
 
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
 )
 
 type AggregateAttestationResponse struct {

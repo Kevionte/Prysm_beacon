@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v5/api"
-	"github.com/Kevionte/prysm_beacon/v5/api/client"
+	"github.com/Kevionte/prysm_beacon/v1api"
+	"github.com/Kevionte/prysm_beacon/v1api/client"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

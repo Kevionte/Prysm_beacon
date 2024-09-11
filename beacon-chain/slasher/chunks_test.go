@@ -5,12 +5,12 @@ import (
 	"math"
 	"testing"
 
-	dbtest "github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/testing"
-	slashertypes "github.com/Kevionte/prysm_beacon/v5/beacon-chain/slasher/types"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	dbtest "github.com/Kevionte/prysm_beacon/v1beacon-chain/db/testing"
+	slashertypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/slasher/types"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 var (

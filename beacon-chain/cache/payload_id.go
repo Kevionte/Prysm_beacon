@@ -3,7 +3,7 @@ package cache
 import (
 	"sync"
 
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
 )
 
 // RootToPayloadIDMap is a map with keys the head root and values the

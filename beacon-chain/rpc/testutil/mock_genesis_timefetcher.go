@@ -3,8 +3,8 @@ package testutil
 import (
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
 )
 
 // MockGenesisTimeFetcher is a fake implementation of the blockchain.TimeFetcher

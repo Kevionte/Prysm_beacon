@@ -3,8 +3,8 @@ package iface
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
-	remoteweb3signer "github.com/Kevionte/prysm_beacon/v5/validator/keymanager/remote-web3signer"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
+	remoteweb3signer "github.com/Kevionte/prysm_beacon/v1/validator/keymanager/remote-web3signer"
 )
 
 // InitKeymanagerConfig defines configuration options for initializing a keymanager.

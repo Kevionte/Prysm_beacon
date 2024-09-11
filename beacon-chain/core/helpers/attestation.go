@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	prysmTime "github.com/Kevionte/prysm_beacon/v5/time"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1crypto/hash"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	prysmTime "github.com/Kevionte/prysm_beacon/v1time"
+	"github.com/Kevionte/prysm_beacon/v1time/slots"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/common"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
 )
 
 func TestRoundtrip_HeaderInfo(t *testing.T) {

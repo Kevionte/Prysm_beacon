@@ -8,7 +8,7 @@ import (
 	context "context"
 	reflect "reflect"
 
-	v2 "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	v2 "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	gomock "go.uber.org/mock/gomock"
 	metadata "google.golang.org/grpc/metadata"
 )

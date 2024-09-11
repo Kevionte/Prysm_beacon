@@ -5,10 +5,10 @@ import (
 	"math"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/peers/peerdata"
-	p2ptypes "github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/types"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	pb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers/peerdata"
+	p2ptypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/types"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	pb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

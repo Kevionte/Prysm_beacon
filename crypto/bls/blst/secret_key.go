@@ -6,9 +6,9 @@ import (
 	"crypto/subtle"
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls/common"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/rand"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls/common"
+	"github.com/Kevionte/prysm_beacon/v1crypto/rand"
 	blst "github.com/supranational/blst/bindings/go"
 )
 

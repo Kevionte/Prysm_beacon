@@ -3,7 +3,7 @@ package iface
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/validator"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/validator"
 	"github.com/pkg/errors"
 )
 

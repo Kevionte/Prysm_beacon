@@ -9,11 +9,11 @@ import (
 
 	"github.com/Kevionte/go-sovereign/ethclient"
 	gethRPC "github.com/Kevionte/go-sovereign/rpc"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	contracts "github.com/Kevionte/prysm_beacon/v5/contracts/deposit"
-	"github.com/Kevionte/prysm_beacon/v5/io/logs"
-	"github.com/Kevionte/prysm_beacon/v5/network"
-	"github.com/Kevionte/prysm_beacon/v5/network/authorization"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	contracts "github.com/Kevionte/prysm_beacon/v1contracts/deposit"
+	"github.com/Kevionte/prysm_beacon/v1io/logs"
+	"github.com/Kevionte/prysm_beacon/v1network"
+	"github.com/Kevionte/prysm_beacon/v1network/authorization"
 	"github.com/pkg/errors"
 )
 

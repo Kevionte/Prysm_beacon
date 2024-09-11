@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v5/monitoring/tracing"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v1monitoring/tracing"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/pkg/errors"
 	"go.opencensus.io/trace"

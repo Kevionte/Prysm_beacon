@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	ev "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/evaluators"
-	e2eParams "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/params"
-	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/types"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	ev "github.com/Kevionte/prysm_beacon/v1testing/endtoend/evaluators"
+	e2eParams "github.com/Kevionte/prysm_beacon/v1testing/endtoend/params"
+	"github.com/Kevionte/prysm_beacon/v1testing/endtoend/types"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func TestEndToEnd_Slasher_MinimalConfig(t *testing.T) {

@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"reflect"
 
-	customtypes "github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native/custom-types"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native/types"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/stateutil"
-	multi_value_slice "github.com/Kevionte/prysm_beacon/v5/container/multi-value-slice"
-	pmath "github.com/Kevionte/prysm_beacon/v5/math"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	customtypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/custom-types"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/types"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stateutil"
+	multi_value_slice "github.com/Kevionte/prysm_beacon/v1container/multi-value-slice"
+	pmath "github.com/Kevionte/prysm_beacon/v1math"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

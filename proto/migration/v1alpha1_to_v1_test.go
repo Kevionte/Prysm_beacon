@@ -3,10 +3,10 @@ package migration
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	ethpbv1 "github.com/Kevionte/prysm_beacon/v5/proto/eth/v1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	ethpbv1 "github.com/Kevionte/prysm_beacon/v1proto/eth/v1"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func Test_V1ValidatorToV1Alpha1(t *testing.T) {

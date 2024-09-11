@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/Kevionte/prysm_beacon/v5/cache/nonblocking"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls/common"
+	"github.com/Kevionte/prysm_beacon/v1cache/nonblocking"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls/common"
 	blst "github.com/supranational/blst/bindings/go"
 )
 

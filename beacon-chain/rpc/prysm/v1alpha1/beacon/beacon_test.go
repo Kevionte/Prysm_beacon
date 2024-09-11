@@ -3,8 +3,8 @@ package beacon
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/flags"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
 )
 
 func TestMain(m *testing.M) {

@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/features"
-	ecdsaprysm "github.com/Kevionte/prysm_beacon/v5/crypto/ecdsa"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v1config/features"
+	ecdsaprysm "github.com/Kevionte/prysm_beacon/v1crypto/ecdsa"
+	"github.com/Kevionte/prysm_beacon/v1runtime/version"
 	"github.com/libp2p/go-libp2p"
 	mplex "github.com/libp2p/go-libp2p-mplex"
 	"github.com/libp2p/go-libp2p/core/network"

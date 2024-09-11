@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
 )
 
 // Uint64FromString converts a string into a uint64 representation.

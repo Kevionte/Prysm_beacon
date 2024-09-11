@@ -1,11 +1,11 @@
 package beacon
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain"
-	beacondb "github.com/Kevionte/prysm_beacon/v5/beacon-chain/db"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/lookup"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/stategen"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/sync"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain"
+	beacondb "github.com/Kevionte/prysm_beacon/v1beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/lookup"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stategen"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/sync"
 )
 
 type Server struct {

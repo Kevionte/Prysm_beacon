@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/components"
-	e2eparams "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/params"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1testing/endtoend/components"
+	e2eparams "github.com/Kevionte/prysm_beacon/v1testing/endtoend/params"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func TestWeb3RemoteSigner_StartsAndReturnsPublicKeys(t *testing.T) {

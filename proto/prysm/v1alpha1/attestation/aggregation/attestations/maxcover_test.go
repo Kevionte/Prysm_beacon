@@ -3,10 +3,10 @@ package attestations
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/attestation/aggregation"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1/attestation/aggregation"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
 	"github.com/prysmaticlabs/go-bitfield"
 )
 

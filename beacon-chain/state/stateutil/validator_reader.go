@@ -1,8 +1,8 @@
 package stateutil
 
 import (
-	multi_value_slice "github.com/Kevionte/prysm_beacon/v5/container/multi-value-slice"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	multi_value_slice "github.com/Kevionte/prysm_beacon/v1container/multi-value-slice"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 )
 
 // ValReader specifies an interface through which we can access the validator registry.

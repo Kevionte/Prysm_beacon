@@ -6,14 +6,14 @@ import (
 	"testing"
 
 	gethtypes "github.com/Kevionte/go-sovereign/core/types"
-	mocks "github.com/Kevionte/prysm_beacon/v5/beacon-chain/execution/testing"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	enginev1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	mocks "github.com/Kevionte/prysm_beacon/v1beacon-chain/execution/testing"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/util"
 	"github.com/holiman/uint256"
 )
 

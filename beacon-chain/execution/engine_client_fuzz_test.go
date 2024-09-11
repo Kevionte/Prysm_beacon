@@ -14,9 +14,9 @@ import (
 	"github.com/Kevionte/go-sovereign/beacon/engine"
 	"github.com/Kevionte/go-sovereign/common"
 	"github.com/Kevionte/go-sovereign/core/types"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/execution"
-	pb "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/execution"
+	pb "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
 	"github.com/pkg/errors"
 )
 

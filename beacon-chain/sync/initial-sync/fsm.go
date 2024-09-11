@@ -6,10 +6,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	prysmTime "github.com/Kevionte/prysm_beacon/v5/time"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	prysmTime "github.com/Kevionte/prysm_beacon/v1time"
+	"github.com/Kevionte/prysm_beacon/v1time/slots"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

@@ -6,8 +6,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
-	slashing "github.com/Kevionte/prysm_beacon/v5/validator/slashing-protection-history"
+	"github.com/Kevionte/prysm_beacon/v1/network/httputil"
+	slashing "github.com/Kevionte/prysm_beacon/v1/validator/slashing-protection-history"
 	"github.com/pkg/errors"
 	"go.opencensus.io/trace"
 )

@@ -7,12 +7,12 @@ import (
 	"math"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	v1alpha1 "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1/config/params"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
+	v1alpha1 "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1/time/slots"
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/grpc"
 )

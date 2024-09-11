@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math"
 
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/validator/accounts/wallet"
-	"github.com/Kevionte/prysm_beacon/v5/validator/client/iface"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
+	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1/validator/accounts/wallet"
+	"github.com/Kevionte/prysm_beacon/v1/validator/client/iface"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
 	"github.com/pkg/errors"
 )
 

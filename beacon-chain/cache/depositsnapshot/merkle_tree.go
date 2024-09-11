@@ -1,10 +1,10 @@
 package depositsnapshot
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/container/slice"
-	"github.com/Kevionte/prysm_beacon/v5/container/trie"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
-	"github.com/Kevionte/prysm_beacon/v5/math"
+	"github.com/Kevionte/prysm_beacon/v1container/slice"
+	"github.com/Kevionte/prysm_beacon/v1container/trie"
+	"github.com/Kevionte/prysm_beacon/v1crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v1math"
 	"github.com/pkg/errors"
 )
 

@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	types "github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/rand"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/time/slots"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/blocks"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	types "github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1crypto/rand"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1time/slots"
 )
 
 const broadcastBLSChangesRateLimit = 128

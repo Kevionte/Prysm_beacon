@@ -23,7 +23,7 @@ go_library(
         "sync_committee.go",
         "wait_timeout.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v5/testing/util",
+    importpath = "github.com/Kevionte/prysm_beacon/v1/testing/util",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/core/altair:go_default_library",

@@ -3,7 +3,7 @@ package flags
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
 )
 
 func TestEnableHTTPPrysmAPI(t *testing.T) {

@@ -3,12 +3,12 @@ package testing
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v5/api/client/builder"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	v1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1api/client/builder"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	v1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 )
 
 // MockClient is a mock implementation of BuilderClient.

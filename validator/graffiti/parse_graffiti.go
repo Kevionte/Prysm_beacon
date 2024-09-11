@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1/crypto/hash"
 	"gopkg.in/yaml.v2"
 )
 

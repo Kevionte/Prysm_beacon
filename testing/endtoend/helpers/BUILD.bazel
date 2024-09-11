@@ -8,7 +8,7 @@ go_library(
         "helpers.go",
         "keystore.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/helpers",
+    importpath = "github.com/Kevionte/prysm_beacon/v1testing/endtoend/helpers",
     visibility = ["//testing/endtoend:__subpackages__"],
     deps = [
         "//config/params:go_default_library",

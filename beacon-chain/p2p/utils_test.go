@@ -6,9 +6,9 @@ import (
 
 	"github.com/Kevionte/go-sovereign/crypto"
 	"github.com/Kevionte/go-sovereign/p2p/enode"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 )
 

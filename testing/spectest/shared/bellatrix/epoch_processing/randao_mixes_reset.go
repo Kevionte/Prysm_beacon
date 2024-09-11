@@ -4,10 +4,10 @@ import (
 	"path"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/epoch"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/spectest/utils"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/epoch"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/spectest/utils"
 )
 
 // RunRandaoMixesResetTests executes "epoch_processing/randao_mixes_reset" tests.

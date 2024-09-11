@@ -7,11 +7,11 @@ import (
 
 	"github.com/Kevionte/go-sovereign"
 	"github.com/Kevionte/go-sovereign/common"
-	depositcontract "github.com/Kevionte/prysm_beacon/v5/contracts/deposit"
-	"github.com/Kevionte/prysm_beacon/v5/contracts/deposit/mock"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/interop"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	depositcontract "github.com/Kevionte/prysm_beacon/v1contracts/deposit"
+	"github.com/Kevionte/prysm_beacon/v1contracts/deposit/mock"
+	"github.com/Kevionte/prysm_beacon/v1runtime/interop"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func TestSetupRegistrationContract_OK(t *testing.T) {

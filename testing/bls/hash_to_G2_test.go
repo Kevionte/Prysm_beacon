@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/bls/utils"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/bls/utils"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 	"github.com/ghodss/yaml"
 	blst "github.com/supranational/blst/bindings/go"
 )

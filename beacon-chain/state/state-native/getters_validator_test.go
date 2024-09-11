@@ -4,12 +4,12 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	statenative "github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native"
-	testtmpl "github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/testing"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
+	statenative "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native"
+	testtmpl "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/testing"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/util"
 )
 
 func TestBeaconState_ValidatorAtIndexReadOnly_HandlesNilSlice_Phase0(t *testing.T) {

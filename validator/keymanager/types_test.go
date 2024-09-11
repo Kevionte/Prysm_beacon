@@ -5,12 +5,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager/derived"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager/local"
-	remoteweb3signer "github.com/Kevionte/prysm_beacon/v5/validator/keymanager/remote-web3signer"
+	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager/derived"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager/local"
+	remoteweb3signer "github.com/Kevionte/prysm_beacon/v1/validator/keymanager/remote-web3signer"
 )
 
 var (

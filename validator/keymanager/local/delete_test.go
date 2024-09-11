@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	mock "github.com/Kevionte/prysm_beacon/v5/validator/accounts/testing"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	mock "github.com/Kevionte/prysm_beacon/v1/validator/accounts/testing"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"
 )

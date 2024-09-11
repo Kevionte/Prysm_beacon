@@ -8,11 +8,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls/blst"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls/common"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls/blst"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls/common"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func TestMarshalUnmarshal(t *testing.T) {

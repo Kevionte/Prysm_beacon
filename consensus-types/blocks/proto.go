@@ -3,11 +3,11 @@ package blocks
 import (
 	"math/big"
 
-	consensus_types "github.com/Kevionte/prysm_beacon/v5/consensus-types"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	enginev1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
-	eth "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	consensus_types "github.com/Kevionte/prysm_beacon/v1consensus-types"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
+	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1runtime/version"
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 )

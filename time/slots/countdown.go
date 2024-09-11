@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	prysmTime "github.com/Kevionte/prysm_beacon/v5/time"
+	"github.com/Kevionte/prysm_beacon/v1/config/params"
+	prysmTime "github.com/Kevionte/prysm_beacon/v1/time"
 	"github.com/sirupsen/logrus"
 )
 

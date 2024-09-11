@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/components"
-	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/components/eth1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/helpers"
-	e2e "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/params"
-	e2etypes "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/types"
+	"github.com/Kevionte/prysm_beacon/v1testing/endtoend/components"
+	"github.com/Kevionte/prysm_beacon/v1testing/endtoend/components/eth1"
+	"github.com/Kevionte/prysm_beacon/v1testing/endtoend/helpers"
+	e2e "github.com/Kevionte/prysm_beacon/v1testing/endtoend/params"
+	e2etypes "github.com/Kevionte/prysm_beacon/v1testing/endtoend/types"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 )

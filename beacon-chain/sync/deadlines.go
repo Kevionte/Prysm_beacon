@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/sirupsen/logrus"
 )

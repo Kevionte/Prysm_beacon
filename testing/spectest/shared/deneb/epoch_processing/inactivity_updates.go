@@ -5,11 +5,11 @@ import (
 	"path"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/altair"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/spectest/utils"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/core/altair"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1/testing/spectest/utils"
 )
 
 // RunInactivityUpdatesTest executes "epoch_processing/inactivity_updates" tests.

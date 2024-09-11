@@ -4,14 +4,14 @@ import (
 	"context"
 	"testing"
 
-	mock "github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain/testing"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/operations/attestations"
-	lruwrpr "github.com/Kevionte/prysm_beacon/v5/cache/lru"
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	mock "github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain/testing"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/operations/attestations"
+	lruwrpr "github.com/Kevionte/prysm_beacon/v1cache/lru"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/util"
 	"github.com/prysmaticlabs/go-bitfield"
 )
 

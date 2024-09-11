@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
-	validator2 "github.com/Kevionte/prysm_beacon/v5/consensus-types/validator"
-	"github.com/Kevionte/prysm_beacon/v5/validator/client/iface"
+	"github.com/Kevionte/prysm_beacon/v1api/server/structs"
+	validator2 "github.com/Kevionte/prysm_beacon/v1consensus-types/validator"
+	"github.com/Kevionte/prysm_beacon/v1validator/client/iface"
 	"github.com/pkg/errors"
 )
 

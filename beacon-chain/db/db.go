@@ -3,7 +3,7 @@
 package db
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/kv"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db/kv"
 )
 
 // NewFileName uses the KVStoreDatafilePath so that if this layer of

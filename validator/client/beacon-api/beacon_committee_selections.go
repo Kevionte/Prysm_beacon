@@ -5,7 +5,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/Kevionte/prysm_beacon/v5/validator/client/iface"
+	"github.com/Kevionte/prysm_beacon/v1validator/client/iface"
 
 	"github.com/pkg/errors"
 )

@@ -3,9 +3,9 @@ package altair
 import (
 	"context"
 
-	e "github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/epoch"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/epoch/precompute"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	e "github.com/Kevionte/prysm_beacon/v1beacon-chain/core/epoch"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/epoch/precompute"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
 	"github.com/pkg/errors"
 	"go.opencensus.io/trace"
 )

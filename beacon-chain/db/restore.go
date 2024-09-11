@@ -5,10 +5,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/kv"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
-	"github.com/Kevionte/prysm_beacon/v5/io/file"
-	"github.com/Kevionte/prysm_beacon/v5/io/prompt"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db/kv"
+	"github.com/Kevionte/prysm_beacon/v1cmd"
+	"github.com/Kevionte/prysm_beacon/v1io/file"
+	"github.com/Kevionte/prysm_beacon/v1io/prompt"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"
 )

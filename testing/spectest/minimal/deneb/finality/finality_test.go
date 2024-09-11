@@ -3,7 +3,7 @@ package finality
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/spectest/shared/deneb/finality"
+	"github.com/Kevionte/prysm_beacon/v1testing/spectest/shared/deneb/finality"
 )
 
 func TestMinimal_Deneb_Finality(t *testing.T) {

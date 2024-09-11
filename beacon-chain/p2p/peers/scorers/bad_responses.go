@@ -3,7 +3,7 @@ package scorers
 import (
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/peers/peerdata"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers/peerdata"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/interop"
-	"github.com/Kevionte/prysm_beacon/v5/tools/unencrypted-keys-gen/keygen"
+	"github.com/Kevionte/prysm_beacon/v1/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v1/runtime/interop"
+	"github.com/Kevionte/prysm_beacon/v1/tools/unencrypted-keys-gen/keygen"
 )
 
 var (

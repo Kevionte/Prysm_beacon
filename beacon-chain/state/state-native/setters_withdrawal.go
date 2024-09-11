@@ -1,9 +1,9 @@
 package state_native
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native/types"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/types"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1runtime/version"
 )
 
 // SetNextWithdrawalIndex sets the index that will be assigned to the next withdrawal.

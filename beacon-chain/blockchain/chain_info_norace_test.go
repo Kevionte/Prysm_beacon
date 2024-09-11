@@ -4,14 +4,14 @@ import (
 	"context"
 	"testing"
 
-	testDB "github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/testing"
-	doublylinkedtree "github.com/Kevionte/prysm_beacon/v5/beacon-chain/forkchoice/doubly-linked-tree"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/stategen"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	testDB "github.com/Kevionte/prysm_beacon/v1beacon-chain/db/testing"
+	doublylinkedtree "github.com/Kevionte/prysm_beacon/v1beacon-chain/forkchoice/doubly-linked-tree"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stategen"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/util"
 )
 
 func TestHeadSlot_DataRace(t *testing.T) {

@@ -3,8 +3,8 @@ package p2p
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 )
 

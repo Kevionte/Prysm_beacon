@@ -5,7 +5,7 @@ load("//tools:prysm_image.bzl", "prysm_image_upload")
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "github.com/Kevionte/prysm_beacon/v5/tools/http-request-sink",
+    importpath = "github.com/Kevionte/prysm_beacon/v1/tools/http-request-sink",
     visibility = ["//visibility:private"],
     deps = ["//config/params:go_default_library"],
 )

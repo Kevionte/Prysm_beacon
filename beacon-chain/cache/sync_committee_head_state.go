@@ -3,10 +3,10 @@ package cache
 import (
 	"sync"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	lruwrpr "github.com/Kevionte/prysm_beacon/v5/cache/lru"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
+	lruwrpr "github.com/Kevionte/prysm_beacon/v1cache/lru"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1runtime/version"
 	lru "github.com/hashicorp/golang-lru"
 )
 

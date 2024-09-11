@@ -1,10 +1,10 @@
 package blockchaincmd
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
-	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v1cmd"
+	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/flags"
 	"github.com/urfave/cli/v2"
 )
 

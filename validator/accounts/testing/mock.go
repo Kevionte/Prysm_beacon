@@ -7,15 +7,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/api/client/beacon"
-	"github.com/Kevionte/prysm_beacon/v5/api/client/event"
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/config/proposer"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/validator/accounts/iface"
-	iface2 "github.com/Kevionte/prysm_beacon/v5/validator/client/iface"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v1/api/client/beacon"
+	"github.com/Kevionte/prysm_beacon/v1/api/client/event"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1/config/proposer"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1/validator/accounts/iface"
+	iface2 "github.com/Kevionte/prysm_beacon/v1/validator/client/iface"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
 )
 
 // Wallet contains an in-memory, simulated wallet implementation.

@@ -7,8 +7,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Kevionte/prysm_beacon/v5/api"
-	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/params"
+	"github.com/Kevionte/prysm_beacon/v1api"
+	"github.com/Kevionte/prysm_beacon/v1testing/endtoend/params"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

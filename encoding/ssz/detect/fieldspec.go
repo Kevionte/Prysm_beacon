@@ -3,7 +3,7 @@ package detect
 import (
 	"encoding/binary"
 
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
 	"github.com/pkg/errors"
 )
 

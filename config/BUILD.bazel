@@ -17,7 +17,7 @@ config_setting(
 go_library(
     name = "go_default_library",
     srcs = ["util.go"],
-    importpath = "github.com/Kevionte/prysm_beacon/v5/config",
+    importpath = "github.com/Kevionte/prysm_beacon/v1config",
     visibility = ["//visibility:public"],
     deps = [
         "@com_github_ethereum_go_ethereum//common:go_default_library",

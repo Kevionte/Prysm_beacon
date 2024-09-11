@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	eth "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	dto "github.com/prometheus/client_model/go"
 	"github.com/prometheus/prom2json"
 	log "github.com/sirupsen/logrus"

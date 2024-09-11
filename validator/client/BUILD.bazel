@@ -17,7 +17,7 @@ go_library(
         "validator.go",
         "wait_for_activation.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v5/validator/client",
+    importpath = "github.com/Kevionte/prysm_beacon/v1/validator/client",
     visibility = [
         "//cmd:__subpackages__",
         "//validator:__subpackages__",

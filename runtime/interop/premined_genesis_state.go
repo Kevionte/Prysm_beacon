@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	coreState "github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/transition"
-	statenative "github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/state-native"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/container/trie"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	coreState "github.com/Kevionte/prysm_beacon/v1beacon-chain/core/transition"
+	statenative "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1container/trie"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

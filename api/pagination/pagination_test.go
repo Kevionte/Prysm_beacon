@@ -3,9 +3,9 @@ package pagination_test
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/api/pagination"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1api/pagination"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func TestStartAndEndPage(t *testing.T) {

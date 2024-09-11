@@ -5,7 +5,7 @@ package accounts_test
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/validator/accounts"
+	"github.com/Kevionte/prysm_beacon/v1validator/accounts"
 )
 
 func FuzzValidateMnemonic(f *testing.F) {

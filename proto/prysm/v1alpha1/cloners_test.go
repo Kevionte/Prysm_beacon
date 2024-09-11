@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	enginev1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
-	v1alpha1 "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
+	v1alpha1 "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
 )
 
 func TestCopyETH1Data(t *testing.T) {

@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"sync"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls/common"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/rand"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls/common"
+	"github.com/Kevionte/prysm_beacon/v1crypto/rand"
 	"github.com/pkg/errors"
 	blst "github.com/supranational/blst/bindings/go"
 )

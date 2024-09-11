@@ -1,9 +1,9 @@
 package payloadattribute
 
 import (
-	consensus_types "github.com/Kevionte/prysm_beacon/v5/consensus-types"
-	enginev1 "github.com/Kevionte/prysm_beacon/v5/proto/engine/v1"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	consensus_types "github.com/Kevionte/prysm_beacon/v1consensus-types"
+	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
+	"github.com/Kevionte/prysm_beacon/v1runtime/version"
 )
 
 // Version returns the version of the payload attribute.

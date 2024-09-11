@@ -3,7 +3,7 @@ package iface
 import (
 	"context"
 
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
 	"github.com/golang/protobuf/ptypes/empty"
 )
 

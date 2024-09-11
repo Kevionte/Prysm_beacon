@@ -5,17 +5,17 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/helpers"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/signing"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/time"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	consensusblocks "github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/blocks"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/signing"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/time"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	consensusblocks "github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/util"
 )
 
 func TestProcessRandao_IncorrectProposerFailsVerification(t *testing.T) {

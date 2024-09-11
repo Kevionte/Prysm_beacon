@@ -1,9 +1,9 @@
 package migration
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	ethpbv2 "github.com/Kevionte/prysm_beacon/v5/proto/eth/v2"
-	ethpbalpha "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	ethpbv2 "github.com/Kevionte/prysm_beacon/v1proto/eth/v2"
+	ethpbalpha "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 )
 
 // V1Alpha1SyncCommitteeToV2 converts a v1alpha1 SyncCommittee object to its v2 equivalent.

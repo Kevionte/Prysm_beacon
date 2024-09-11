@@ -3,7 +3,7 @@ package nop
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/build/bazel"
+	"github.com/Kevionte/prysm_beacon/v1/build/bazel"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

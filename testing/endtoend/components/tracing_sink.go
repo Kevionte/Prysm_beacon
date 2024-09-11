@@ -11,9 +11,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/helpers"
-	e2e "github.com/Kevionte/prysm_beacon/v5/testing/endtoend/params"
-	"github.com/Kevionte/prysm_beacon/v5/testing/endtoend/types"
+	"github.com/Kevionte/prysm_beacon/v1testing/endtoend/helpers"
+	e2e "github.com/Kevionte/prysm_beacon/v1testing/endtoend/params"
+	"github.com/Kevionte/prysm_beacon/v1testing/endtoend/types"
 	"github.com/pkg/errors"
 )
 

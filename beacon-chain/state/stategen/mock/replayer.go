@@ -3,9 +3,9 @@ package mock
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state/stategen"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stategen"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
 )
 
 func NewReplayerBuilder(opt ...ReplayerBuilderOption) *ReplayerBuilder {

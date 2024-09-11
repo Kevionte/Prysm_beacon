@@ -4,8 +4,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/flags"
-	"github.com/Kevionte/prysm_beacon/v5/config/features"
+	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v1config/features"
 	"github.com/sirupsen/logrus"
 )
 

@@ -3,7 +3,7 @@ package synccommittee
 import (
 	"sync"
 
-	"github.com/Kevionte/prysm_beacon/v5/container/queue"
+	"github.com/Kevionte/prysm_beacon/v1container/queue"
 )
 
 // Store defines the caches for various sync committee objects

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

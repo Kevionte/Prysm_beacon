@@ -1,8 +1,8 @@
 package monitor
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/interfaces"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	"github.com/sirupsen/logrus"
 )
 

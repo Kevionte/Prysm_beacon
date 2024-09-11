@@ -3,7 +3,7 @@ package customtypes
 import (
 	"fmt"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
 	fssz "github.com/prysmaticlabs/fastssz"
 )
 

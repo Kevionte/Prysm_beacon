@@ -6,13 +6,13 @@ import (
 	"encoding/json"
 	"testing"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/common"
-	"github.com/Kevionte/prysm_beacon/v5/validator/slashing-protection-history/format"
-	valtest "github.com/Kevionte/prysm_beacon/v5/validator/testing"
+	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
+	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1/validator/db/common"
+	"github.com/Kevionte/prysm_beacon/v1/validator/slashing-protection-history/format"
+	valtest "github.com/Kevionte/prysm_beacon/v1/validator/testing"
 )
 
 func TestStore_ImportInterchangeData_BadJSON(t *testing.T) {

@@ -3,9 +3,9 @@ package attestations
 import (
 	"sort"
 
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1/attestation/aggregation"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1/attestation/aggregation"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/go-bitfield"
 )

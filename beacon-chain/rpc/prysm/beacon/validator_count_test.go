@@ -12,19 +12,19 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v1api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/lookup"
-	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/lookup"
+	"github.com/Kevionte/prysm_beacon/v1network/httputil"
 
-	chainMock "github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain/testing"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/testutil"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	eth "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	chainMock "github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain/testing"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/testutil"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v1testing/util"
 	"github.com/gorilla/mux"
 )
 

@@ -5,10 +5,10 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/transition/interop"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/db/kv"
-	"github.com/Kevionte/prysm_beacon/v5/config/features"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/core/transition/interop"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/db/kv"
+	"github.com/Kevionte/prysm_beacon/v1/config/features"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
 )
 
 var (

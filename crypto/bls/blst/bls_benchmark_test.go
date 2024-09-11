@@ -5,9 +5,9 @@ package blst_test
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls/blst"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls/common"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls/blst"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls/common"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 )
 
 func BenchmarkSignature_Verify(b *testing.B) {

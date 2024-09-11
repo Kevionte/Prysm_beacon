@@ -1,7 +1,7 @@
 package require
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/testing/assertions"
+	"github.com/Kevionte/prysm_beacon/v1testing/assertions"
 	"github.com/sirupsen/logrus/hooks/test"
 )
 

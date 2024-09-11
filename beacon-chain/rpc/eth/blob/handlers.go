@@ -8,11 +8,11 @@ import (
 	"strings"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v5/api/server/structs"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/rpc/core"
-	field_params "github.com/Kevionte/prysm_beacon/v5/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v5/network/httputil"
-	eth "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/core"
+	field_params "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v1network/httputil"
+	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
 	"go.opencensus.io/trace"
 )
 

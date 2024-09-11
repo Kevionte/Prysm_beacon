@@ -3,10 +3,10 @@ package forkchoice
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/testing/util"
+	"github.com/Kevionte/prysm_beacon/v1/consensus-types/blocks"
+	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1/testing/util"
 )
 
 func TestBuilderTick(t *testing.T) {

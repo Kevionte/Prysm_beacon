@@ -25,8 +25,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/crypto/bls"
-	prysmTime "github.com/Kevionte/prysm_beacon/v5/time"
+	"github.com/Kevionte/prysm_beacon/v1crypto/bls"
+	prysmTime "github.com/Kevionte/prysm_beacon/v1time"
 )
 
 func aesCTRXOR(key, inText, iv []byte) ([]byte, error) {

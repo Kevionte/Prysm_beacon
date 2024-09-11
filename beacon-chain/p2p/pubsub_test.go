@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	mock "github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain/testing"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/encoder"
-	testp2p "github.com/Kevionte/prysm_beacon/v5/beacon-chain/p2p/testing"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/startup"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	mock "github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain/testing"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/encoder"
+	testp2p "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/testing"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/startup"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 	"github.com/pkg/errors"
 )
 

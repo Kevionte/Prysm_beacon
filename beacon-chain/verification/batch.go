@@ -3,9 +3,9 @@ package verification
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/blockchain/kzg"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain/kzg"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
 	"github.com/pkg/errors"
 )
 

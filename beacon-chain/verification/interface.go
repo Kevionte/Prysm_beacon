@@ -3,7 +3,7 @@ package verification
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
 )
 
 // BlobVerifier defines the methods implemented by the ROBlobVerifier.

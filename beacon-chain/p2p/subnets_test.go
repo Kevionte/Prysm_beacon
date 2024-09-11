@@ -11,12 +11,12 @@ import (
 
 	"github.com/Kevionte/go-sovereign/p2p/enode"
 	"github.com/Kevionte/go-sovereign/p2p/enr"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/cache"
-	"github.com/Kevionte/prysm_beacon/v5/cmd/beacon-chain/flags"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	ecdsaprysm "github.com/Kevionte/prysm_beacon/v5/crypto/ecdsa"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/cache"
+	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v1config/params"
+	ecdsaprysm "github.com/Kevionte/prysm_beacon/v1crypto/ecdsa"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1testing/require"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/prysmaticlabs/go-bitfield"
 )

@@ -1,14 +1,14 @@
 package validator
 
 import (
-	"github.com/Kevionte/prysm_beacon/v5/async/event"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/blocks"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/feed"
-	blockfeed "github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/feed/block"
-	statefeed "github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/feed/state"
-	"github.com/Kevionte/prysm_beacon/v5/consensus-types/primitives"
-	ethpb "github.com/Kevionte/prysm_beacon/v5/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v1async/event"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/blocks"
+	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/feed"
+	blockfeed "github.com/Kevionte/prysm_beacon/v1beacon-chain/core/feed/block"
+	statefeed "github.com/Kevionte/prysm_beacon/v1beacon-chain/core/feed/state"
+	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v1runtime/version"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

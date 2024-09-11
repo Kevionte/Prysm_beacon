@@ -3,12 +3,12 @@ package main
 import (
 	"os"
 
-	"github.com/Kevionte/prysm_beacon/v5/cmd/prysmctl/checkpointsync"
-	"github.com/Kevionte/prysm_beacon/v5/cmd/prysmctl/db"
-	"github.com/Kevionte/prysm_beacon/v5/cmd/prysmctl/p2p"
-	"github.com/Kevionte/prysm_beacon/v5/cmd/prysmctl/testnet"
-	"github.com/Kevionte/prysm_beacon/v5/cmd/prysmctl/validator"
-	"github.com/Kevionte/prysm_beacon/v5/cmd/prysmctl/weaksubjectivity"
+	"github.com/Kevionte/prysm_beacon/v1cmd/prysmctl/checkpointsync"
+	"github.com/Kevionte/prysm_beacon/v1cmd/prysmctl/db"
+	"github.com/Kevionte/prysm_beacon/v1cmd/prysmctl/p2p"
+	"github.com/Kevionte/prysm_beacon/v1cmd/prysmctl/testnet"
+	"github.com/Kevionte/prysm_beacon/v1cmd/prysmctl/validator"
+	"github.com/Kevionte/prysm_beacon/v1cmd/prysmctl/weaksubjectivity"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

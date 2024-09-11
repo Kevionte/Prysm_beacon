@@ -9,15 +9,15 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/validator/accounts"
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/common"
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/filesystem"
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/iface"
-	"github.com/Kevionte/prysm_beacon/v5/validator/db/kv"
-	"github.com/Kevionte/prysm_beacon/v5/validator/keymanager"
-	"github.com/Kevionte/prysm_beacon/v5/validator/slashing-protection-history/format"
-	mocks "github.com/Kevionte/prysm_beacon/v5/validator/testing"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1/validator/accounts"
+	"github.com/Kevionte/prysm_beacon/v1/validator/db/common"
+	"github.com/Kevionte/prysm_beacon/v1/validator/db/filesystem"
+	"github.com/Kevionte/prysm_beacon/v1/validator/db/iface"
+	"github.com/Kevionte/prysm_beacon/v1/validator/db/kv"
+	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v1/validator/slashing-protection-history/format"
+	mocks "github.com/Kevionte/prysm_beacon/v1/validator/testing"
 )
 
 func TestImportSlashingProtection_Preconditions(t *testing.T) {

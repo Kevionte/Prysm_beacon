@@ -7,8 +7,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v5/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v1testing/assert"
 )
 
 func TestToBytes(t *testing.T) {

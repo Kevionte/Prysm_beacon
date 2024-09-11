@@ -3,12 +3,12 @@ package util
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/signing"
-	"github.com/Kevionte/prysm_beacon/v5/beacon-chain/core/time"
-	"github.com/Kevionte/prysm_beacon/v5/config/params"
-	"github.com/Kevionte/prysm_beacon/v5/crypto/hash"
-	"github.com/Kevionte/prysm_beacon/v5/encoding/ssz"
-	"github.com/Kevionte/prysm_beacon/v5/testing/require"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/core/signing"
+	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/core/time"
+	"github.com/Kevionte/prysm_beacon/v1/config/params"
+	"github.com/Kevionte/prysm_beacon/v1/crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v1/encoding/ssz"
+	"github.com/Kevionte/prysm_beacon/v1/testing/require"
 )
 
 func TestGenerateBLSToExecutionChange(t *testing.T) {

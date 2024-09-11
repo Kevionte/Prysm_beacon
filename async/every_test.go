@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v5/async"
+	"github.com/Kevionte/prysm_beacon/v1async"
 )
 
 func TestEveryRuns(t *testing.T) {

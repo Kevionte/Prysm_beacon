@@ -3,7 +3,7 @@ package helpers
 import (
 	"time"
 
-	prysmTime "github.com/Kevionte/prysm_beacon/v5/time"
+	prysmTime "github.com/Kevionte/prysm_beacon/v1time"
 )
 
 // EpochTicker is a special ticker for timing epoch changes.
