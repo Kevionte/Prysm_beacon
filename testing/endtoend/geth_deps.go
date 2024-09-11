@@ -12,7 +12,6 @@ import (
 	_ "github.com/Kevionte/go-sovereign/eth"               // Required for go-ethereum e2e.
 	_ "github.com/Kevionte/go-sovereign/eth/downloader"    // Required for go-ethereum e2e.
 	_ "github.com/Kevionte/go-sovereign/ethclient"         // Required for go-ethereum e2e.
-	_ "github.com/Kevionte/go-sovereign/les"               // Required for go-ethereum e2e.
 	_ "github.com/Kevionte/go-sovereign/log"               // Required for go-ethereum e2e.
 	_ "github.com/Kevionte/go-sovereign/metrics"           // Required for go-ethereum e2e.
 	_ "github.com/Kevionte/go-sovereign/node"              // Required for go-ethereum e2e.
