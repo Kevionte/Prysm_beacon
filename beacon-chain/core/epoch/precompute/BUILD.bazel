@@ -10,7 +10,7 @@ go_library(
         "slashing.go",
         "type.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1beacon-chain/core/epoch/precompute",
+    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/core/epoch/precompute",
     visibility = [
         "//beacon-chain:__subpackages__",
         "//testing/spectest:__subpackages__",

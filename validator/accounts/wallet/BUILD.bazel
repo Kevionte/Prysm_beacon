@@ -6,7 +6,7 @@ go_library(
         "log.go",
         "wallet.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1/validator/accounts/wallet",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/validator/accounts/wallet",
     visibility = [
         "//cmd:__subpackages__",
         "//tools:__subpackages__",

@@ -4,7 +4,7 @@ go_library(
     name = "go_default_library",
     testonly = True,
     srcs = ["finality.go"],
-    importpath = "github.com/Kevionte/prysm_beacon/v1testing/spectest/shared/altair/finality",
+    importpath = "github.com/Kevionte/prysm_beacon/v2testing/spectest/shared/altair/finality",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/core/helpers:go_default_library",

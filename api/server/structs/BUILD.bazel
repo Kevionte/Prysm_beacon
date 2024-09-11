@@ -20,7 +20,7 @@ go_library(
         "other.go",
         "state.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1api/server/structs",
+    importpath = "github.com/Kevionte/prysm_beacon/v2api/server/structs",
     visibility = ["//visibility:public"],
     deps = [
         "//api/server:go_default_library",

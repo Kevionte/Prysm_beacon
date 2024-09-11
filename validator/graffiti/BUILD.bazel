@@ -6,7 +6,7 @@ go_library(
         "log.go",
         "parse_graffiti.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1/validator/graffiti",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/validator/graffiti",
     visibility = ["//validator:__subpackages__"],
     deps = [
         "//consensus-types/primitives:go_default_library",

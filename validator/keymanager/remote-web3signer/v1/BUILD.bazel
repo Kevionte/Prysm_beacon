@@ -7,7 +7,7 @@ go_library(
         "requests.go",
         "web3signer_types.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1/validator/keymanager/remote-web3signer/v1",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/validator/keymanager/remote-web3signer/v1",
     visibility = ["//visibility:public"],
     deps = [
         "//consensus-types/blocks:go_default_library",

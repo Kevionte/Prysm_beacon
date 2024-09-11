@@ -6,7 +6,7 @@ go_library(
         "events.go",
         "server.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/eth/events",
+    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/rpc/eth/events",
     visibility = ["//visibility:public"],
     deps = [
         "//api:go_default_library",

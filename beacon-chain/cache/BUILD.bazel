@@ -27,7 +27,7 @@ go_library(
         "sync_subnet_ids.go",
         "tracked_validators.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1beacon-chain/cache",
+    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/cache",
     visibility = [
         "//beacon-chain:__subpackages__",
         "//testing/spectest:__subpackages__",

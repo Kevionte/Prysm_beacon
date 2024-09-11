@@ -19,7 +19,7 @@ go_library(
         "slashing_helper.go",
         "validator.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1testing/endtoend/evaluators",
+    importpath = "github.com/Kevionte/prysm_beacon/v2testing/endtoend/evaluators",
     visibility = ["//testing/endtoend:__subpackages__"],
     deps = [
         "//api/client/beacon:go_default_library",

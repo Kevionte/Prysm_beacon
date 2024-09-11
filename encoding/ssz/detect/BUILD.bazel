@@ -6,7 +6,7 @@ go_library(
         "configfork.go",
         "fieldspec.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1encoding/ssz/detect",
+    importpath = "github.com/Kevionte/prysm_beacon/v2encoding/ssz/detect",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/state:go_default_library",

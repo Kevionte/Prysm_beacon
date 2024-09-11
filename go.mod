@@ -1,4 +1,4 @@
-module github.com/Kevionte/prysm_beacon/v1/
+module github.com/Kevionte/prysm_beacon/v2
 
 go 1.22.1
 

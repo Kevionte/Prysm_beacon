@@ -6,7 +6,7 @@ go_library(
         "blocker.go",
         "stater.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/lookup",
+    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/rpc/lookup",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/blockchain:go_default_library",

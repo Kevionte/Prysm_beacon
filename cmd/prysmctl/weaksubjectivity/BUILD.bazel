@@ -6,7 +6,7 @@ go_library(
         "checkpoint.go",
         "cmd.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1cmd/prysmctl/weaksubjectivity",
+    importpath = "github.com/Kevionte/prysm_beacon/v2cmd/prysmctl/weaksubjectivity",
     visibility = ["//visibility:public"],
     deps = [
         "//api/client:go_default_library",

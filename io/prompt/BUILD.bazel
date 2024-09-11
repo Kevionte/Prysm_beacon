@@ -6,7 +6,7 @@ go_library(
         "prompt.go",
         "validate.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1io/prompt",
+    importpath = "github.com/Kevionte/prysm_beacon/v2io/prompt",
     visibility = ["//visibility:public"],
     deps = [
         "//io/file:go_default_library",

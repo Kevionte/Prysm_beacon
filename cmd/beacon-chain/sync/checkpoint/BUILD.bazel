@@ -3,7 +3,7 @@ load("@prysm//tools/go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["options.go"],
-    importpath = "github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/sync/checkpoint",
+    importpath = "github.com/Kevionte/prysm_beacon/v2cmd/beacon-chain/sync/checkpoint",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/node:go_default_library",

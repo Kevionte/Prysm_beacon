@@ -7,7 +7,7 @@ go_library(
         "signature.go",
         "signing_root.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1beacon-chain/core/signing",
+    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/core/signing",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/state:go_default_library",

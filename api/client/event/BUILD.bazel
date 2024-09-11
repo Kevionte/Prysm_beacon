@@ -3,7 +3,7 @@ load("@prysm//tools/go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["event_stream.go"],
-    importpath = "github.com/Kevionte/prysm_beacon/v1api/client/event",
+    importpath = "github.com/Kevionte/prysm_beacon/v2api/client/event",
     visibility = ["//visibility:public"],
     deps = [
         "//api:go_default_library",

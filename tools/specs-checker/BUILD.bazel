@@ -16,7 +16,7 @@ go_library(
         "data/ssz/merkle-proofs.md",
         "data/extra.md",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1/tools/specs-checker",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/tools/specs-checker",
     visibility = ["//visibility:public"],
     deps = [
         "//config/params:go_default_library",

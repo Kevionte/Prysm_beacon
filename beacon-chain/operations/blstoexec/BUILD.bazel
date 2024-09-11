@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "pool.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1beacon-chain/operations/blstoexec",
+    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/operations/blstoexec",
     visibility = [
         "//beacon-chain:__subpackages__",
     ],

@@ -7,7 +7,7 @@ go_library(
         "helper.go",
         "mock_validator.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1/validator/client/testutil",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/validator/client/testutil",
     visibility = ["//validator:__subpackages__"],
     deps = [
         "//api/client:go_default_library",

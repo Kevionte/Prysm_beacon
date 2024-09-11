@@ -10,7 +10,7 @@ go_library(
         "password_reader.go",
         "wrap_flags.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1cmd",
+    importpath = "github.com/Kevionte/prysm_beacon/v2cmd",
     visibility = ["//visibility:public"],
     deps = [
         "//config/fieldparams:go_default_library",

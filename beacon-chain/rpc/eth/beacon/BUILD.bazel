@@ -10,7 +10,7 @@ go_library(
         "log.go",
         "server.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/eth/beacon",
+    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/rpc/eth/beacon",
     visibility = ["//visibility:public"],
     deps = [
         "//api:go_default_library",

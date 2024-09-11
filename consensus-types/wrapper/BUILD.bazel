@@ -3,7 +3,7 @@ load("@prysm//tools/go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["metadata.go"],
-    importpath = "github.com/Kevionte/prysm_beacon/v1consensus-types/wrapper",
+    importpath = "github.com/Kevionte/prysm_beacon/v2consensus-types/wrapper",
     visibility = ["//visibility:public"],
     deps = [
         "//proto/prysm/v1alpha1:go_default_library",

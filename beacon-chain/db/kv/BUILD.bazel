@@ -30,7 +30,7 @@ go_library(
         "validated_checkpoint.go",
         "wss.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v1beacon-chain/db/kv",
+    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/db/kv",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/core/blocks:go_default_library",

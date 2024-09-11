@@ -3,7 +3,7 @@ load("@prysm//tools/go:def.bzl", "go_library", "go_test")
 go_library(
     name = "go_default_library",
     srcs = ["handlers.go"],
-    importpath = "github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/eth/config",
+    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/rpc/eth/config",
     visibility = ["//visibility:public"],
     deps = [
         "//api/server/structs:go_default_library",
