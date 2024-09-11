@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/Kevionte/prysm_beacon/v1async/event"
+	"github.com/Kevionte/prysm_beacon/v2/async/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

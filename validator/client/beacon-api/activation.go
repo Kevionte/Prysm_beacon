@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v1/config/params"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
-	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 )

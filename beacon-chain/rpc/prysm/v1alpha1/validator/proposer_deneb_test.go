@@ -4,13 +4,13 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1testing/util"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	enginev1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 )
 
 func TestAdd(t *testing.T) {

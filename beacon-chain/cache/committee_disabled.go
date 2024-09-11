@@ -6,7 +6,7 @@ package cache
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 )
 
 // FakeCommitteeCache is a struct with 1 queue for looking up shuffled indices list by seed.

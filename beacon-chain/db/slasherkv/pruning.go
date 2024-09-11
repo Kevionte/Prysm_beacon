@@ -5,8 +5,8 @@ import (
 	"context"
 	"encoding/binary"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1time/slots"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 	fssz "github.com/prysmaticlabs/fastssz"
 	bolt "go.etcd.io/bbolt"
 )

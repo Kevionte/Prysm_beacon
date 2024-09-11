@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v1cmd"
-	"github.com/Kevionte/prysm_beacon/v1crypto/rand"
-	"github.com/Kevionte/prysm_beacon/v1io/file"
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/rand"
+	"github.com/Kevionte/prysm_beacon/v2/io/file"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

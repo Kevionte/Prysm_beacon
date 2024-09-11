@@ -3,8 +3,8 @@ package doublylinkedtree
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1time/slots"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 	"github.com/pkg/errors"
 )
 

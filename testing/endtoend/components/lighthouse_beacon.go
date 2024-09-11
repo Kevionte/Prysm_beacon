@@ -11,11 +11,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1io/file"
-	"github.com/Kevionte/prysm_beacon/v1testing/endtoend/helpers"
-	e2e "github.com/Kevionte/prysm_beacon/v1testing/endtoend/params"
-	e2etypes "github.com/Kevionte/prysm_beacon/v1testing/endtoend/types"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/io/file"
+	"github.com/Kevionte/prysm_beacon/v2/testing/endtoend/helpers"
+	e2e "github.com/Kevionte/prysm_beacon/v2/testing/endtoend/params"
+	e2etypes "github.com/Kevionte/prysm_beacon/v2/testing/endtoend/types"
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
 	"github.com/pkg/errors"
 )

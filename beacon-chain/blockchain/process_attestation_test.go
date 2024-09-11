@@ -6,16 +6,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/transition"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1testing/util"
-	"github.com/Kevionte/prysm_beacon/v1time/slots"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/transition"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
+	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 )
 
 func TestStore_OnAttestation_ErrorConditions(t *testing.T) {

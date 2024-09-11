@@ -3,10 +3,10 @@ package helpers
 import (
 	"errors"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/lookup"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stategen"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/rpc/lookup"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/stategen"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

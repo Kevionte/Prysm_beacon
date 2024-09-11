@@ -1,8 +1,8 @@
 package state_native
 
 import (
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1runtime/version"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/version"
 )
 
 // PreviousEpochAttestations corresponding to blocks on the beacon chain.

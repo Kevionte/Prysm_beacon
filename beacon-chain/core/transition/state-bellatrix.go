@@ -3,17 +3,17 @@ package transition
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/altair"
-	b "github.com/Kevionte/prysm_beacon/v1beacon-chain/core/blocks"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/helpers"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	state_native "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stateutil"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/altair"
+	b "github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	state_native "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/stateutil"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	enginev1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

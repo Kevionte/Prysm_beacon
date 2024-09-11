@@ -3,10 +3,10 @@ package p2p
 import (
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/forkchoice"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1time/slots"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/forkchoice"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 )
 
 type mockChain struct {

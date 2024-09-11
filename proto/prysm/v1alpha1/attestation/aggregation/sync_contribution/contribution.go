@@ -1,8 +1,8 @@
 package sync_contribution
 
 import (
-	v2 "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1/attestation/aggregation"
+	v2 "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1/attestation/aggregation"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

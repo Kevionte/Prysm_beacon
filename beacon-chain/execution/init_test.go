@@ -1,7 +1,7 @@
 package execution
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
 )
 
 func init() {

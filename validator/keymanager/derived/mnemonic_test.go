@@ -3,8 +3,8 @@ package derived
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"github.com/pkg/errors"
 	"github.com/tyler-smith/go-bip39"
 	"github.com/tyler-smith/go-bip39/wordlists"

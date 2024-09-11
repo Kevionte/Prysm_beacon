@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
-	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
-	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1runtime/version"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
+	enginev1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/version"
 	"github.com/pkg/errors"
 )
 

@@ -22,7 +22,7 @@ go_library(
         "testutils_develop.go",  # keep
         "values.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2config/params",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/config/params",
     visibility = ["//visibility:public"],
     deps = [
         "//config/fieldparams:go_default_library",

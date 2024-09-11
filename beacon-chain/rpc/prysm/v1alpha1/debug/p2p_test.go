@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	mockP2p "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/testing"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	mockP2p "github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/testing"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"github.com/golang/protobuf/ptypes/empty"
 )
 

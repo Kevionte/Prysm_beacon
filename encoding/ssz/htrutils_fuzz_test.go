@@ -5,9 +5,9 @@ package ssz_test
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1encoding/ssz"
-	pb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/ssz"
+	pb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 	fssz "github.com/prysmaticlabs/fastssz"
 )

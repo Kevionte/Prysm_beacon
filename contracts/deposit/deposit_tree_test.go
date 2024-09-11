@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/accounts/abi/bind"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1container/trie"
-	depositcontract "github.com/Kevionte/prysm_beacon/v1contracts/deposit/mock"
-	"github.com/Kevionte/prysm_beacon/v1runtime/interop"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/container/trie"
+	depositcontract "github.com/Kevionte/prysm_beacon/v2/contracts/deposit/mock"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/interop"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestDepositTrieRoot_OK(t *testing.T) {

@@ -7,14 +7,14 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v1api/server/structs"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1validator/client/beacon-api/mock"
-	test_helpers "github.com/Kevionte/prysm_beacon/v1validator/client/beacon-api/test-helpers"
+	"github.com/Kevionte/prysm_beacon/v2/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	enginev1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/validator/client/beacon-api/mock"
+	test_helpers "github.com/Kevionte/prysm_beacon/v2/validator/client/beacon-api/test-helpers"
 	"go.uber.org/mock/gomock"
 )
 

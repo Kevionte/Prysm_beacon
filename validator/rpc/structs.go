@@ -5,13 +5,13 @@ import (
 	"strconv"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v1/api/server"
-	"github.com/Kevionte/prysm_beacon/v1/api/server/structs"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
-	eth "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v2/api/server"
+	"github.com/Kevionte/prysm_beacon/v2/api/server/structs"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
 )
 
 // local keymanager api

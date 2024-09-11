@@ -3,7 +3,7 @@ package shuffle
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1testing/spectest/shared/phase0/shuffling/core/shuffle"
+	"github.com/Kevionte/prysm_beacon/v2/testing/spectest/shared/phase0/shuffling/core/shuffle"
 )
 
 func TestMainnet_Phase0_Shuffling_Core_Shuffle(t *testing.T) {

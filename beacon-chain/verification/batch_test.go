@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v1testing/util"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 )

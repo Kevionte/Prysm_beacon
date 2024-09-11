@@ -3,14 +3,14 @@ package verification
 import (
 	"context"
 
-	forkchoicetypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/forkchoice/types"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v1runtime/logging"
-	"github.com/Kevionte/prysm_beacon/v1time/slots"
+	forkchoicetypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/forkchoice/types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/logging"
+	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

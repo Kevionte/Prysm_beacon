@@ -3,8 +3,8 @@ package checkpoint
 import (
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/node"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/sync/checkpoint"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/node"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/sync/checkpoint"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"
 )

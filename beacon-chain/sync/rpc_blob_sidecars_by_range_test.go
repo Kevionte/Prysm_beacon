@@ -3,14 +3,14 @@ package sync
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	types "github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1time/slots"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	types "github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 )
 
 func (c *blobsTestCase) defaultOldestSlotByRange(t *testing.T) types.Slot {

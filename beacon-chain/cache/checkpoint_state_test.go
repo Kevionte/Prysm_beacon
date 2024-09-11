@@ -3,14 +3,14 @@ package cache
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	state_native "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	state_native "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"google.golang.org/protobuf/proto"
 )
 

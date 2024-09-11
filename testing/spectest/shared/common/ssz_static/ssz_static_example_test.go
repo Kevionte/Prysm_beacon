@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	state_native "github.com/Kevionte/prysm_beacon/v1/beacon-chain/state/state-native"
-	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
-	common "github.com/Kevionte/prysm_beacon/v1/testing/spectest/shared/common/ssz_static"
+	state_native "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	common "github.com/Kevionte/prysm_beacon/v2/testing/spectest/shared/common/ssz_static"
 	"github.com/pkg/errors"
 	fssz "github.com/prysmaticlabs/fastssz"
 )

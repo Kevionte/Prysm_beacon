@@ -9,12 +9,12 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/common"
-	"github.com/Kevionte/prysm_beacon/v1cmd"
-	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/flags"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
+	"github.com/Kevionte/prysm_beacon/v2/cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 	"github.com/urfave/cli/v2"
 )

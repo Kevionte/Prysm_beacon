@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers/peerdata"
-	prysmTime "github.com/Kevionte/prysm_beacon/v1time"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers/peerdata"
+	prysmTime "github.com/Kevionte/prysm_beacon/v2/time"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/sirupsen/logrus"

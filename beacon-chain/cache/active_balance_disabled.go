@@ -3,7 +3,7 @@
 package cache
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
 )
 
 // FakeBalanceCache is a fake struct with 1 LRU cache for looking up balance by epoch.

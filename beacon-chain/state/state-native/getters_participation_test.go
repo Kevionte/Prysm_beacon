@@ -3,9 +3,9 @@ package state_native
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestState_UnrealizedCheckpointBalances(t *testing.T) {

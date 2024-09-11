@@ -1,10 +1,10 @@
 package blocks
 
 import (
-	field_params "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	field_params "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

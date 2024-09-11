@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1testing/util"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -14,7 +14,7 @@ go_library(
         "verify.go",
         "worker.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/sync/backfill",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/beacon-chain/sync/backfill",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/core/helpers:go_default_library",

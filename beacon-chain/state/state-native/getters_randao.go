@@ -1,9 +1,9 @@
 package state_native
 
 import (
-	customtypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/custom-types"
-	"github.com/Kevionte/prysm_beacon/v1config/features"
-	consensus_types "github.com/Kevionte/prysm_beacon/v1consensus-types"
+	customtypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native/custom-types"
+	"github.com/Kevionte/prysm_beacon/v2/config/features"
+	consensus_types "github.com/Kevionte/prysm_beacon/v2/consensus-types"
 	"github.com/pkg/errors"
 )
 

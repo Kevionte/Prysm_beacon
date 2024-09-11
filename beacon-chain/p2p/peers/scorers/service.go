@@ -5,8 +5,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers/peerdata"
-	"github.com/Kevionte/prysm_beacon/v1config/features"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers/peerdata"
+	"github.com/Kevionte/prysm_beacon/v2/config/features"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

@@ -4,11 +4,11 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/core"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/rpc/core"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
 )
 
 // MockBlocker is a fake implementation of lookup.Blocker.

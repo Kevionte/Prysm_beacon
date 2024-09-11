@@ -5,11 +5,11 @@ import (
 	"path"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/core/epoch"
-	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/core/helpers"
-	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
-	"github.com/Kevionte/prysm_beacon/v1/testing/spectest/utils"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/epoch"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/spectest/utils"
 )
 
 // RunRegistryUpdatesTests executes "epoch_processing/registry_updates" tests.

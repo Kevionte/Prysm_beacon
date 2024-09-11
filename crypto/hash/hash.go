@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
 	"github.com/minio/highwayhash"
 	"github.com/minio/sha256-simd"
 	fastssz "github.com/prysmaticlabs/fastssz"

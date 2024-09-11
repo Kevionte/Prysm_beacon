@@ -7,7 +7,7 @@ go_library(
         "factory.go",
         "mutator.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2consensus-types/blocks/testing",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks/testing",
     visibility = ["//visibility:public"],
     deps = [
         "//consensus-types/blocks:go_default_library",

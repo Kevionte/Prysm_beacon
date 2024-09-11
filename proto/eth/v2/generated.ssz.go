@@ -4,9 +4,9 @@ package eth
 
 import (
 	ssz "github.com/prysmaticlabs/fastssz"
-	github_com_prysmaticlabs_prysm_v5_consensus_types_primitives "github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	v11 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
-	v1 "github.com/Kevionte/prysm_beacon/v1proto/eth/v1"
+	github_com_prysmaticlabs_prysm_v5_consensus_types_primitives "github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	v11 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
+	v1 "github.com/Kevionte/prysm_beacon/v2/proto/eth/v1"
 )
 
 // MarshalSSZ ssz marshals the SignedBeaconBlockAltair object

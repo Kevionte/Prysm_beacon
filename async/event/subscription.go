@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1time/mclock"
+	"github.com/Kevionte/prysm_beacon/v2/time/mclock"
 )
 
 // waitQuotient is divided against the max backoff time, in order to have N requests based on the full

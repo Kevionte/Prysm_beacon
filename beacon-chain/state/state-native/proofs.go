@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/binary"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/fieldtrie"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/types"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v1runtime/version"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/fieldtrie"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native/types"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/version"
 )
 
 const (

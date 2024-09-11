@@ -9,14 +9,14 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1/config/params"
-	"github.com/Kevionte/prysm_beacon/v1/crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
-	"github.com/Kevionte/prysm_beacon/v1/validator/accounts/iface"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager/local"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/validator/accounts/iface"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager/local"
 )
 
 func TestImportAccounts_NoPassword(t *testing.T) {

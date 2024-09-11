@@ -3,9 +3,9 @@ package logs
 import (
 	"io"
 
-	"github.com/Kevionte/prysm_beacon/v1async/event"
-	lruwrpr "github.com/Kevionte/prysm_beacon/v1cache/lru"
-	"github.com/Kevionte/prysm_beacon/v1crypto/rand"
+	"github.com/Kevionte/prysm_beacon/v2/async/event"
+	lruwrpr "github.com/Kevionte/prysm_beacon/v2/cache/lru"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/rand"
 	lru "github.com/hashicorp/golang-lru"
 )
 

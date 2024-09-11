@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v1/api"
+	"github.com/Kevionte/prysm_beacon/v2/api"
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc"

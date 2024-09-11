@@ -1,14 +1,14 @@
 package state_native
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	mathutil "github.com/Kevionte/prysm_beacon/v1math"
-	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1runtime/version"
-	"github.com/Kevionte/prysm_beacon/v1time/slots"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	mathutil "github.com/Kevionte/prysm_beacon/v2/math"
+	enginev1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 	"github.com/pkg/errors"
 )
 

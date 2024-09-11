@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1api/server"
-	"github.com/Kevionte/prysm_beacon/v1runtime"
+	"github.com/Kevionte/prysm_beacon/v2/api/server"
+	"github.com/Kevionte/prysm_beacon/v2/runtime"
 	"github.com/gorilla/mux"
 	gwruntime "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"github.com/pkg/errors"

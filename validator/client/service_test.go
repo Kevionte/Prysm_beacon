@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1/runtime"
-	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/runtime"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 	"google.golang.org/grpc/metadata"
 )

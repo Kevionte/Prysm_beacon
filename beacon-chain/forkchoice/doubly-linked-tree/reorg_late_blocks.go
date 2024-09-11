@@ -3,8 +3,8 @@ package doublylinkedtree
 import (
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1time/slots"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 )
 
 // orphanLateBlockProposingEarly determines the maximum threshold that we

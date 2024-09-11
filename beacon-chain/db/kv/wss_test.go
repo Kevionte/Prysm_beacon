@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/genesis"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1testing/util"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/genesis"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 )
 
 func TestSaveOrigin(t *testing.T) {

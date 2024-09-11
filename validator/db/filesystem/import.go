@@ -7,12 +7,12 @@ import (
 	"strings"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1/validator/db/common"
-	"github.com/Kevionte/prysm_beacon/v1/validator/db/iface"
-	"github.com/Kevionte/prysm_beacon/v1/validator/helpers"
-	"github.com/Kevionte/prysm_beacon/v1/validator/slashing-protection-history/format"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/validator/db/common"
+	"github.com/Kevionte/prysm_beacon/v2/validator/db/iface"
+	"github.com/Kevionte/prysm_beacon/v2/validator/helpers"
+	"github.com/Kevionte/prysm_beacon/v2/validator/slashing-protection-history/format"
 	"github.com/pkg/errors"
 )
 

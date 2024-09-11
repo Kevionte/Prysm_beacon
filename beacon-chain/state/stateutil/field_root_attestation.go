@@ -5,9 +5,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	params "github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1encoding/ssz"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	params "github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/ssz"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

@@ -1,8 +1,8 @@
 package util
 
 import (
-	v2 "github.com/Kevionte/prysm_beacon/v1proto/eth/v2"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	v2 "github.com/Kevionte/prysm_beacon/v2/proto/eth/v2"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 )
 
 // NewBeaconBlockBellatrix creates a beacon block with minimum marshalable fields.

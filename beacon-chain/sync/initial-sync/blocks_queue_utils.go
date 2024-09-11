@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 )
 
 // resetWithBlocks removes all state machines, then re-adds enough machines to contain all provided

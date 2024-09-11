@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/Kevionte/prysm_beacon/v1/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
 	"github.com/urfave/cli/v2"
 )
 

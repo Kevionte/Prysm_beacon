@@ -1,6 +1,6 @@
 package db
 
-import "github.com/Kevionte/prysm_beacon/v1/validator/db/iface"
+import "github.com/Kevionte/prysm_beacon/v2/validator/db/iface"
 
 // Database defines the necessary methods for Prysm's validator client backend which may be implemented by any
 // key-value or relational database in practice. This is the full database interface which should

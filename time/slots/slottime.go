@@ -5,10 +5,10 @@ import (
 	"math"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1/config/params"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
-	mathutil "github.com/Kevionte/prysm_beacon/v1/math"
-	prysmTime "github.com/Kevionte/prysm_beacon/v1/time"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	mathutil "github.com/Kevionte/prysm_beacon/v2/math"
+	prysmTime "github.com/Kevionte/prysm_beacon/v2/time"
 	"github.com/pkg/errors"
 )
 

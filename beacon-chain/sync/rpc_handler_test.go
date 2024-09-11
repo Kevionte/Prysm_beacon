@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	p2ptest "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/testing"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1testing/util"
+	p2ptest "github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/testing"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
 )

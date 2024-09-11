@@ -1,7 +1,7 @@
 package stateutil
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1encoding/ssz"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/ssz"
 	"github.com/pkg/errors"
 )
 

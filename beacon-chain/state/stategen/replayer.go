@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"

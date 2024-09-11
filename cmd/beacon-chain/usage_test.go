@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1config/features"
+	"github.com/Kevionte/prysm_beacon/v2/config/features"
 	"github.com/urfave/cli/v2"
 )
 

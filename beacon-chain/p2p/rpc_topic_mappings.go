@@ -3,10 +3,10 @@ package p2p
 import (
 	"reflect"
 
-	p2ptypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/types"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	pb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	p2ptypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/types"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	pb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

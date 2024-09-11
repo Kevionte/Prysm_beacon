@@ -6,14 +6,14 @@ import (
 	"strings"
 	"testing"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
-	validatorpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1/validator-client"
-	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
-	mock "github.com/Kevionte/prysm_beacon/v1/validator/accounts/testing"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	validatorpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1/validator-client"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	mock "github.com/Kevionte/prysm_beacon/v2/validator/accounts/testing"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
 	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"
 )
 

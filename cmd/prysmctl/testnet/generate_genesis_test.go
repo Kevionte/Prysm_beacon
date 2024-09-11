@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v1runtime/interop"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/interop"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func Test_genesisStateFromJSONValidators(t *testing.T) {

@@ -13,8 +13,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	structs "github.com/Kevionte/prysm_beacon/v1api/server/structs"
-	primitives "github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	structs "github.com/Kevionte/prysm_beacon/v2/api/server/structs"
+	primitives "github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 	gomock "go.uber.org/mock/gomock"
 )
 

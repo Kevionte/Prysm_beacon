@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	log "github.com/sirupsen/logrus"
 )
 

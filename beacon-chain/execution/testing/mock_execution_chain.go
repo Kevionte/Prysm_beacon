@@ -14,12 +14,12 @@ import (
 	"github.com/Kevionte/go-sovereign/common/hexutil"
 	gethTypes "github.com/Kevionte/go-sovereign/core/types"
 	"github.com/Kevionte/go-sovereign/rpc"
-	"github.com/Kevionte/prysm_beacon/v1async/event"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/execution/types"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/async/event"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/execution/types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

@@ -3,18 +3,18 @@ package blstoexec
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/signing"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/time"
-	state_native "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v1crypto/bls/common"
-	"github.com/Kevionte/prysm_beacon/v1crypto/hash"
-	"github.com/Kevionte/prysm_beacon/v1encoding/ssz"
-	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/signing"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/time"
+	state_native "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls/common"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/ssz"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestPendingBLSToExecChanges(t *testing.T) {

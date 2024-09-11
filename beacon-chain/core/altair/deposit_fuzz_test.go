@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/altair"
-	state_native "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/altair"
+	state_native "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	fuzz "github.com/google/gofuzz"
 )
 

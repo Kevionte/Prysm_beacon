@@ -3,10 +3,10 @@ package testing
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1api/server/structs"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v1network/httputil"
+	"github.com/Kevionte/prysm_beacon/v2/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v2/network/httputil"
 )
 
 type MockBlockRewardFetcher struct {

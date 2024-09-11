@@ -7,7 +7,7 @@ import (
 
 	"github.com/Kevionte/go-sovereign/common"
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
 )
 
 // HeaderInfo specifies the block header information in the ETH 1.0 chain.

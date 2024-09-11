@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
 )

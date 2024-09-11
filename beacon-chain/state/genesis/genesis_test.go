@@ -3,8 +3,8 @@ package genesis_test
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/genesis"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/genesis"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
 )
 
 func TestGenesisState(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/Kevionte/prysm_beacon/v1monitoring/clientstats"
+	"github.com/Kevionte/prysm_beacon/v2/monitoring/clientstats"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

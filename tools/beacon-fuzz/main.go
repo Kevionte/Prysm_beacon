@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"text/template"
 
-	"github.com/Kevionte/prysm_beacon/v1/io/file"
+	"github.com/Kevionte/prysm_beacon/v2/io/file"
 )
 
 var (

@@ -7,7 +7,7 @@ go_library(
         "validation.go",
     ],
     embedsrcs = ["trusted_setup.json"],
-    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/blockchain/kzg",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/beacon-chain/blockchain/kzg",
     visibility = ["//visibility:public"],
     deps = [
         "//consensus-types/blocks:go_default_library",

@@ -3,10 +3,10 @@ package kv
 import (
 	"fmt"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/config/params"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
 )
 
 const (

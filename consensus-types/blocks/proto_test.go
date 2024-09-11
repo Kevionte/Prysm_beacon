@@ -4,12 +4,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
-	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1runtime/version"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	enginev1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"github.com/prysmaticlabs/go-bitfield"
 )
 

@@ -5,7 +5,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/Kevionte/prysm_beacon/v1cmd/client-stats/flags"
+	"github.com/Kevionte/prysm_beacon/v2/cmd/client-stats/flags"
 	"github.com/Kevionte/prysm_beacon/v5/cmd"
 	"github.com/urfave/cli/v2"
 )

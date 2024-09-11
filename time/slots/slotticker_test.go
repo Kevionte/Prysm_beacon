@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1/config/params"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 	"github.com/stretchr/testify/require"
 )
 

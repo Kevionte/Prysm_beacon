@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1network/httputil"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1validator/client/beacon-api/mock"
+	"github.com/Kevionte/prysm_beacon/v2/network/httputil"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/validator/client/beacon-api/mock"
 	"go.uber.org/mock/gomock"
 )
 

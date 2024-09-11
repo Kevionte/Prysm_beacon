@@ -8,11 +8,11 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1/api/server/structs"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
-	"github.com/Kevionte/prysm_beacon/v1/validator/client/beacon-api/mock"
+	"github.com/Kevionte/prysm_beacon/v2/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/validator/client/beacon-api/mock"
 	"go.uber.org/mock/gomock"
 )
 

@@ -3,12 +3,12 @@ package client
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1/validator/client/iface"
+	"github.com/Kevionte/prysm_beacon/v2/validator/client/iface"
 	"github.com/pkg/errors"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	validator2 "github.com/Kevionte/prysm_beacon/v1/consensus-types/validator"
-	eth "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	validator2 "github.com/Kevionte/prysm_beacon/v2/consensus-types/validator"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"go.opencensus.io/trace"
 )
 

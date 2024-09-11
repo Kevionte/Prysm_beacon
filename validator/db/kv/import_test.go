@@ -8,14 +8,14 @@ import (
 	"reflect"
 	"testing"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
-	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
-	"github.com/Kevionte/prysm_beacon/v1/validator/db/common"
-	"github.com/Kevionte/prysm_beacon/v1/validator/slashing-protection-history/format"
-	valtest "github.com/Kevionte/prysm_beacon/v1/validator/testing"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/validator/db/common"
+	"github.com/Kevionte/prysm_beacon/v2/validator/slashing-protection-history/format"
+	valtest "github.com/Kevionte/prysm_beacon/v2/validator/testing"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 )
 

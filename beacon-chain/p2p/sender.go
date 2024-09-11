@@ -3,7 +3,7 @@ package p2p
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1monitoring/tracing"
+	"github.com/Kevionte/prysm_beacon/v2/monitoring/tracing"
 	"github.com/kr/pretty"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"

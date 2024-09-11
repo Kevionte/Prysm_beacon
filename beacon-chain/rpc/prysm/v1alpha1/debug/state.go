@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	pbrpc "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	pbrpc "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -5,11 +5,11 @@ import (
 
 	"github.com/Kevionte/go-sovereign/common"
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v1config"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/validator"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	validatorpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1/validator-client"
+	"github.com/Kevionte/prysm_beacon/v2/config"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/validator"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	validatorpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1/validator-client"
 	"github.com/pkg/errors"
 )
 

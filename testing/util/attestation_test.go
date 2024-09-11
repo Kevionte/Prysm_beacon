@@ -3,11 +3,11 @@ package util
 import (
 	"testing"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/config/params"
-	v1 "github.com/Kevionte/prysm_beacon/v1/proto/eth/v1"
-	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	v1 "github.com/Kevionte/prysm_beacon/v2/proto/eth/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestHydrateAttestation(t *testing.T) {

@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v1/crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager/local"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager/local"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 )
 

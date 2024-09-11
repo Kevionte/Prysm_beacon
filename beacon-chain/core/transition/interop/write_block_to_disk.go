@@ -5,9 +5,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/Kevionte/prysm_beacon/v1config/features"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v1io/file"
+	"github.com/Kevionte/prysm_beacon/v2/config/features"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v2/io/file"
 )
 
 // WriteBlockToDisk as a block ssz. Writes to temp directory. Debug!

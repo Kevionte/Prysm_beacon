@@ -3,11 +3,11 @@ package validator
 import (
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v1math"
-	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1runtime/version"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v2/math"
+	enginev1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/version"
 	"google.golang.org/protobuf/proto"
 )
 

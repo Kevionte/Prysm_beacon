@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/blocks"
-	dbIface "github.com/Kevionte/prysm_beacon/v1beacon-chain/db/iface"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v1encoding/ssz/detect"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/blocks"
+	dbIface "github.com/Kevionte/prysm_beacon/v2/beacon-chain/db/iface"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/ssz/detect"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

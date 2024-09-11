@@ -6,14 +6,14 @@ import (
 	"path"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/core/altair"
-	b "github.com/Kevionte/prysm_beacon/v1/beacon-chain/core/blocks"
-	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/interfaces"
-	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
-	"github.com/Kevionte/prysm_beacon/v1/testing/spectest/utils"
-	"github.com/Kevionte/prysm_beacon/v1/testing/util"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/altair"
+	b "github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/spectest/utils"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 	"github.com/golang/snappy"
 )
 

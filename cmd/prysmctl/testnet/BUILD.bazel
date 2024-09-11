@@ -6,7 +6,7 @@ go_library(
         "generate_genesis.go",
         "testnet.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2cmd/prysmctl/testnet",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/cmd/prysmctl/testnet",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/state:go_default_library",

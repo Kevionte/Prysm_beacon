@@ -1,8 +1,8 @@
 package state_native
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1runtime/version"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/version"
 )
 
 func (b *BeaconState) ProportionalSlashingMultiplier() (uint64, error) {

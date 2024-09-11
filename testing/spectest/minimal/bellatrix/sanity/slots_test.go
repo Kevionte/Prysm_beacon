@@ -3,7 +3,7 @@ package sanity
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1testing/spectest/shared/bellatrix/sanity"
+	"github.com/Kevionte/prysm_beacon/v2/testing/spectest/shared/bellatrix/sanity"
 )
 
 func TestMinimal_Bellatrix_Sanity_Slots(t *testing.T) {

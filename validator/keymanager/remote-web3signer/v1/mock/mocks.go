@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	eth "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
-	validatorpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1/validator-client"
-	"github.com/Kevionte/prysm_beacon/v1/testing/util"
-	v1 "github.com/Kevionte/prysm_beacon/v1/validator/keymanager/remote-web3signer/v1"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	validatorpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1/validator-client"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
+	v1 "github.com/Kevionte/prysm_beacon/v2/validator/keymanager/remote-web3signer/v1"
 	"github.com/prysmaticlabs/go-bitfield"
 )
 

@@ -4,17 +4,17 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1config/features"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/util"
+	"github.com/Kevionte/prysm_beacon/v2/config/features"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 	"google.golang.org/protobuf/proto"
 
-	mock "github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain/testing"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/operations/slashings"
-	mockp2p "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/testing"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	mock "github.com/Kevionte/prysm_beacon/v2/beacon-chain/blockchain/testing"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/operations/slashings"
+	mockp2p "github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/testing"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestServer_SubmitProposerSlashing(t *testing.T) {

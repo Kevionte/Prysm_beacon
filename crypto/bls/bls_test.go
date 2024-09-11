@@ -3,8 +3,8 @@ package bls
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1crypto/bls/common"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls/common"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestDisallowZeroSecretKeys(t *testing.T) {

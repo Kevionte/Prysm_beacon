@@ -18,7 +18,7 @@ import (
 	"github.com/Kevionte/go-sovereign/ethclient"
 	"github.com/Kevionte/go-sovereign/params"
 
-	_ "github.com/Kevionte/prysm_beacon/v1/runtime/maxprocs"
+	_ "github.com/Kevionte/prysm_beacon/v2/runtime/maxprocs"
 	"github.com/sirupsen/logrus"
 )
 

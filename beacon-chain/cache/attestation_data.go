@@ -4,8 +4,8 @@ import (
 	"errors"
 	"sync"
 
-	forkchoicetypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/forkchoice/types"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	forkchoicetypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/forkchoice/types"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 )
 
 type AttestationConsensusData struct {

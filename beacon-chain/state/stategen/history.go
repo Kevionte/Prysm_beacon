@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 	"github.com/pkg/errors"
 	"go.opencensus.io/trace"
 )

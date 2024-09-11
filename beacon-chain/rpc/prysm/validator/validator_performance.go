@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/Kevionte/prysm_beacon/v1api/server/structs"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/rpc/core"
-	"github.com/Kevionte/prysm_beacon/v1network/httputil"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/rpc/core"
+	"github.com/Kevionte/prysm_beacon/v2/network/httputil"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"go.opencensus.io/trace"
 )
 

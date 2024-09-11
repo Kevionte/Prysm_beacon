@@ -3,10 +3,10 @@ package attestations
 import (
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	prysmTime "github.com/Kevionte/prysm_beacon/v1time"
-	"github.com/Kevionte/prysm_beacon/v1time/slots"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	prysmTime "github.com/Kevionte/prysm_beacon/v2/time"
+	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 )
 
 // pruneAttsPool prunes attestations pool on every slot interval.

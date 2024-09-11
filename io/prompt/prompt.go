@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v1io/file"
+	"github.com/Kevionte/prysm_beacon/v2/io/file"
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"

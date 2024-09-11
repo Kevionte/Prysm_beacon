@@ -3,8 +3,8 @@ package params
 import (
 	"fmt"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1runtime/version"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/version"
 	"github.com/pkg/errors"
 )
 

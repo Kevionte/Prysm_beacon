@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1api/client"
-	"github.com/Kevionte/prysm_beacon/v1api/client/beacon"
+	"github.com/Kevionte/prysm_beacon/v2/api/client"
+	"github.com/Kevionte/prysm_beacon/v2/api/client/beacon"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

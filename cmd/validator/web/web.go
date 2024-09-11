@@ -3,11 +3,11 @@ package web
 import (
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1cmd"
-	"github.com/Kevionte/prysm_beacon/v1cmd/validator/flags"
-	"github.com/Kevionte/prysm_beacon/v1config/features"
-	"github.com/Kevionte/prysm_beacon/v1runtime/tos"
-	"github.com/Kevionte/prysm_beacon/v1validator/rpc"
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
+	"github.com/Kevionte/prysm_beacon/v2/cmd/validator/flags"
+	"github.com/Kevionte/prysm_beacon/v2/config/features"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/tos"
+	"github.com/Kevionte/prysm_beacon/v2/validator/rpc"
 	"github.com/urfave/cli/v2"
 )
 

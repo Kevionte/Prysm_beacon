@@ -3,7 +3,7 @@ package doublylinkedtree
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
 	"github.com/pkg/errors"
 )
 

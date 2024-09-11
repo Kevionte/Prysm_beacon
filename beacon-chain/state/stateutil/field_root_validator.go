@@ -6,10 +6,10 @@ import (
 	"runtime"
 	"sync"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1crypto/hash/htr"
-	"github.com/Kevionte/prysm_beacon/v1encoding/ssz"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/hash/htr"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/ssz"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

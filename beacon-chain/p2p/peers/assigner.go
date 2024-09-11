@@ -1,9 +1,9 @@
 package peers
 
 import (
-	forkchoicetypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/forkchoice/types"
-	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/flags"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
+	forkchoicetypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/forkchoice/types"
+	"github.com/Kevionte/prysm_beacon/v2/cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

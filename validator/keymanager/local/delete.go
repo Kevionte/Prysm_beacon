@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"context"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
 	"github.com/sirupsen/logrus"
 )
 

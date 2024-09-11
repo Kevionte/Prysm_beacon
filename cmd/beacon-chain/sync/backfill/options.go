@@ -1,10 +1,10 @@
 package backfill
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/node"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/sync/backfill"
-	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/sync/backfill/flags"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/node"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/sync/backfill"
+	"github.com/Kevionte/prysm_beacon/v2/cmd/beacon-chain/sync/backfill/flags"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 	"github.com/urfave/cli/v2"
 )
 

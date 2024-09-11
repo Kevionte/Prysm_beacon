@@ -4,9 +4,9 @@ import (
 	"strconv"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v1/api/server/structs"
-	enginev1 "github.com/Kevionte/prysm_beacon/v1/proto/engine/v1"
-	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/api/server/structs"
+	enginev1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 )
 
 func jsonifyTransactions(transactions [][]byte) []string {

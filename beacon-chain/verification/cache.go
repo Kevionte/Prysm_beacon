@@ -4,21 +4,21 @@ import (
 	"context"
 	"fmt"
 
-	lruwrpr "github.com/Kevionte/prysm_beacon/v1cache/lru"
+	lruwrpr "github.com/Kevionte/prysm_beacon/v2/cache/lru"
 	lru "github.com/hashicorp/golang-lru"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/helpers"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/signing"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/transition"
-	forkchoicetypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/forkchoice/types"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v1network/forks"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1time/slots"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/signing"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/transition"
+	forkchoicetypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/forkchoice/types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v2/network/forks"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 )
 
 const (

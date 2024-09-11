@@ -3,9 +3,9 @@ package db
 import (
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/slasher"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/slasher/types"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/slasher"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/slasher/types"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"

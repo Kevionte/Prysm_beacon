@@ -3,7 +3,7 @@ package kv
 import (
 	"context"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
 	bolt "go.etcd.io/bbolt"
 	"go.opencensus.io/trace"
 )

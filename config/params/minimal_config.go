@@ -3,7 +3,7 @@ package params
 import (
 	"math"
 
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
 )
 
 // MinimalSpecConfig retrieves the minimal config used in spec tests.

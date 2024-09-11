@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1/async/event"
-	"github.com/Kevionte/prysm_beacon/v1/crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
-	mock "github.com/Kevionte/prysm_beacon/v1/validator/accounts/testing"
+	"github.com/Kevionte/prysm_beacon/v2/async/event"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	mock "github.com/Kevionte/prysm_beacon/v2/validator/accounts/testing"
 	"github.com/google/uuid"
 	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"
 )

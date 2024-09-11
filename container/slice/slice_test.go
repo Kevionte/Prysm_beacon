@@ -5,9 +5,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1container/slice"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/container/slice"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestSubsetUint64(t *testing.T) {

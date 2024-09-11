@@ -8,10 +8,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1crypto/bls/blst"
-	"github.com/Kevionte/prysm_beacon/v1crypto/bls/common"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls/blst"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls/common"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestPublicKeyFromBytes(t *testing.T) {

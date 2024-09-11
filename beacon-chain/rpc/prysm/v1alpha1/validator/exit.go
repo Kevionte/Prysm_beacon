@@ -3,11 +3,11 @@ package validator
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/blocks"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/feed"
-	opfeed "github.com/Kevionte/prysm_beacon/v1beacon-chain/core/feed/operation"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/feed"
+	opfeed "github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/feed/operation"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

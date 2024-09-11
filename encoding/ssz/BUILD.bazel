@@ -8,7 +8,7 @@ go_library(
         "htrutils.go",
         "merkleize.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2encoding/ssz",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/encoding/ssz",
     visibility = ["//visibility:public"],
     deps = [
         "//config/fieldparams:go_default_library",

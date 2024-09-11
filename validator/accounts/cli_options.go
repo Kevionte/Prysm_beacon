@@ -4,9 +4,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1/crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v1/validator/accounts/wallet"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v2/validator/accounts/wallet"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
 	"google.golang.org/grpc"
 )
 

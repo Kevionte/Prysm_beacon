@@ -9,12 +9,12 @@ import (
 
 	"github.com/Kevionte/go-sovereign/common"
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/config/proposer"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/config/proposer"
 
-	"github.com/Kevionte/prysm_beacon/v1/crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v1/io/file"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v2/io/file"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func getPubKeys(t *testing.T, count int) [][fieldparams.BLSPubkeyLength]byte {

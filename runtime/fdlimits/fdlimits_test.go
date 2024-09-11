@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	gethLimit "github.com/Kevionte/go-sovereign/common/fdlimit"
-	"github.com/Kevionte/prysm_beacon/v1runtime/fdlimits"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/fdlimits"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
 )
 
 func TestSetMaxFdLimits(t *testing.T) {

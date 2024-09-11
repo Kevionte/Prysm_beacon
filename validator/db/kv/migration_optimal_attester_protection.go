@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"context"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/config/params"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v1/monitoring/progress"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/monitoring/progress"
 	bolt "go.etcd.io/bbolt"
 )
 

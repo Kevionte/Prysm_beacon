@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v1/async/event"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/crypto/bls"
-	validatorpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1/validator-client"
+	"github.com/Kevionte/prysm_beacon/v2/async/event"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls"
+	validatorpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1/validator-client"
 )
 
 // IKeymanager defines a general keymanager interface for Prysm wallets.

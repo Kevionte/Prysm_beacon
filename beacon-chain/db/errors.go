@@ -4,7 +4,7 @@ import (
 	"errors"
 	"os"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db/kv"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/db/kv"
 )
 
 // ErrNotFound can be used to determine if an error from a method in the database package

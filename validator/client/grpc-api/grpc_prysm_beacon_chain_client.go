@@ -7,13 +7,13 @@ import (
 
 	"github.com/golang/protobuf/ptypes/empty"
 
-	"github.com/Kevionte/prysm_beacon/v1/beacon-chain/rpc/eth/helpers"
-	statenative "github.com/Kevionte/prysm_beacon/v1/beacon-chain/state/state-native"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/validator"
-	eth "github.com/Kevionte/prysm_beacon/v1/proto/eth/v1"
-	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1/validator/client/iface"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/rpc/eth/helpers"
+	statenative "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/validator"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/eth/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/validator/client/iface"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 )

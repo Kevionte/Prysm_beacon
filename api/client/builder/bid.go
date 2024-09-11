@@ -1,11 +1,11 @@
 package builder
 
 import (
-	consensus_types "github.com/Kevionte/prysm_beacon/v1consensus-types"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1runtime/version"
+	consensus_types "github.com/Kevionte/prysm_beacon/v2/consensus-types"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/version"
 	"github.com/pkg/errors"
 	ssz "github.com/prysmaticlabs/fastssz"
 )

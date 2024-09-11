@@ -3,7 +3,7 @@ package cache
 import (
 	"sync"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 )
 
 type TrackedValidator struct {

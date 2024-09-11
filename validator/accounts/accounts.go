@@ -1,7 +1,7 @@
 package accounts
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
 )
 
 var (

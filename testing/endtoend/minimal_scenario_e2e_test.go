@@ -3,9 +3,9 @@ package endtoend
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1runtime/version"
-	"github.com/Kevionte/prysm_beacon/v1testing/endtoend/types"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v2/testing/endtoend/types"
 )
 
 func TestEndToEnd_MultiScenarioRun(t *testing.T) {

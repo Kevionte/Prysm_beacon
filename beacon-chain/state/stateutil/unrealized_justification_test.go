@@ -3,10 +3,10 @@ package stateutil
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	multi_value_slice "github.com/Kevionte/prysm_beacon/v1container/multi-value-slice"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	multi_value_slice "github.com/Kevionte/prysm_beacon/v2/container/multi-value-slice"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestState_UnrealizedCheckpointBalances(t *testing.T) {

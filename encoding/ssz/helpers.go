@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
 	"github.com/minio/sha256-simd"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/go-bitfield"

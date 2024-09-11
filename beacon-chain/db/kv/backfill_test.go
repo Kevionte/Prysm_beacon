@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v1proto/dbval"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/proto/dbval"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"google.golang.org/protobuf/proto"
 )
 

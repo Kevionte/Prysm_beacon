@@ -8,7 +8,7 @@ go_library(
         "server.go",
         "state.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/rpc/prysm/v1alpha1/debug",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/beacon-chain/rpc/prysm/v1alpha1/debug",
     visibility = ["//beacon-chain:__subpackages__"],
     deps = [
         "//beacon-chain/blockchain:go_default_library",

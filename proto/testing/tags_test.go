@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	pb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	pb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestSSZTagSize(t *testing.T) {

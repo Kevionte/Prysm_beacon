@@ -3,11 +3,11 @@
 package deposit
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/signing"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v1crypto/hash"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/signing"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/hash"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

@@ -7,7 +7,7 @@ go_library(
         "log.go",
         "status.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/p2p/peers",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers",
     visibility = [
         "//beacon-chain:__subpackages__",
         "//cmd:__subpackages__",

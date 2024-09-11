@@ -3,7 +3,7 @@ package ssz_static
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1testing/spectest/shared/phase0/ssz_static"
+	"github.com/Kevionte/prysm_beacon/v2/testing/spectest/shared/phase0/ssz_static"
 )
 
 func TestMinimal_Phase0_SSZStatic(t *testing.T) {

@@ -3,7 +3,7 @@ package kv
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1proto/dbval"
+	"github.com/Kevionte/prysm_beacon/v2/proto/dbval"
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"
 	"go.opencensus.io/trace"

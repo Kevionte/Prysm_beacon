@@ -1,7 +1,7 @@
 package flags
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1cmd"
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	"github.com/urfave/cli/v2"
 )
 

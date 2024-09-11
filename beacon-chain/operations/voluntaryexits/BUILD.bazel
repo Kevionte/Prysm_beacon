@@ -6,7 +6,7 @@ go_library(
         "doc.go",
         "pool.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/operations/voluntaryexits",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/beacon-chain/operations/voluntaryexits",
     visibility = [
         "//beacon-chain:__subpackages__",
     ],

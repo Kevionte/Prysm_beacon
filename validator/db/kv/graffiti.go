@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
 	bolt "go.etcd.io/bbolt"
 )
 

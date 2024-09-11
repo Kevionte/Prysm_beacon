@@ -1,7 +1,7 @@
 package kzg
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
 	GoKZG "github.com/crate-crypto/go-kzg-4844"
 )
 

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"github.com/golang-jwt/jwt/v4"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

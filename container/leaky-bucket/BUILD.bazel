@@ -7,7 +7,7 @@ go_library(
         "heap.go",
         "leakybucket.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2container/leaky-bucket",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/container/leaky-bucket",
     visibility = ["//visibility:public"],
 )
 

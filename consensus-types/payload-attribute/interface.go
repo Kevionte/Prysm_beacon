@@ -1,7 +1,7 @@
 package payloadattribute
 
 import (
-	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
+	enginev1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
 )
 
 type Attributer interface {

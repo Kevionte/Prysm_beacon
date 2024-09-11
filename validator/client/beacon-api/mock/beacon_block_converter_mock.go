@@ -12,8 +12,8 @@ package mock
 import (
 	reflect "reflect"
 
-	structs "github.com/Kevionte/prysm_beacon/v1api/server/structs"
-	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	structs "github.com/Kevionte/prysm_beacon/v2/api/server/structs"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	gomock "go.uber.org/mock/gomock"
 )
 

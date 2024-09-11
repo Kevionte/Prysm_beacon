@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p"
-	p2ptypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/types"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1time/slots"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p"
+	p2ptypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/types"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 	libp2pcore "github.com/libp2p/go-libp2p/core"
 	"github.com/libp2p/go-libp2p/core/peer"
 )

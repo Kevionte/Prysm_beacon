@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
-	"github.com/Kevionte/prysm_beacon/v1/validator/accounts"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/validator/accounts"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
 )
 
 func TestInitialize(t *testing.T) {

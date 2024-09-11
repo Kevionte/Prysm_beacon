@@ -7,15 +7,15 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	customtypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/custom-types"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/types"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stateutil"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	mvslice "github.com/Kevionte/prysm_beacon/v1container/multi-value-slice"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	customtypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native/custom-types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native/types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/stateutil"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	mvslice "github.com/Kevionte/prysm_beacon/v2/container/multi-value-slice"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func Test_handlePendingAttestation_OutOfRange(t *testing.T) {

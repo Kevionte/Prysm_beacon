@@ -4,14 +4,14 @@ import (
 	"strconv"
 	"testing"
 
-	state_native "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/validator"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/eth/v1"
-	"github.com/Kevionte/prysm_beacon/v1proto/migration"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	state_native "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/validator"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/eth/v1"
+	"github.com/Kevionte/prysm_beacon/v2/proto/migration"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func Test_ValidatorStatus(t *testing.T) {

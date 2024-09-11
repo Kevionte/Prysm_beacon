@@ -1,8 +1,8 @@
 package common
 
 import (
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/primitives"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 )
 
 const FailedBlockSignLocalErr = "block rejected by local protection"

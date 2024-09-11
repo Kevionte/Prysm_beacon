@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers/scorers"
-	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/flags"
-	"github.com/Kevionte/prysm_beacon/v1config/features"
-	"github.com/Kevionte/prysm_beacon/v1crypto/rand"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers/scorers"
+	"github.com/Kevionte/prysm_beacon/v2/cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v2/config/features"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/rand"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

@@ -3,10 +3,10 @@ package beacon_api
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1/api/server/structs"
-	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
-	test_helpers "github.com/Kevionte/prysm_beacon/v1/validator/client/beacon-api/test-helpers"
+	"github.com/Kevionte/prysm_beacon/v2/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	test_helpers "github.com/Kevionte/prysm_beacon/v2/validator/client/beacon-api/test-helpers"
 )
 
 func TestGetBeaconBlockConverter_Phase0Valid(t *testing.T) {

@@ -1,11 +1,11 @@
 package state_native
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/types"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stateutil"
-	"github.com/Kevionte/prysm_beacon/v1config/features"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	consensus_types "github.com/Kevionte/prysm_beacon/v1consensus-types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native/types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/stateutil"
+	"github.com/Kevionte/prysm_beacon/v2/config/features"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	consensus_types "github.com/Kevionte/prysm_beacon/v2/consensus-types"
 	"github.com/pkg/errors"
 )
 

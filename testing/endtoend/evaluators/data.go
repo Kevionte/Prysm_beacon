@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	e2etypes "github.com/Kevionte/prysm_beacon/v1testing/endtoend/types"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	e2etypes "github.com/Kevionte/prysm_beacon/v2/testing/endtoend/types"
 	"google.golang.org/grpc"
 )
 

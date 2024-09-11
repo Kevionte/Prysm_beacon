@@ -3,9 +3,9 @@ package attestations
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/operations/attestations/kv"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/operations/attestations/kv"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 )
 
 // Pool defines the necessary methods for Prysm attestations pool to serve

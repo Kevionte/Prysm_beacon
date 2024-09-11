@@ -1,6 +1,6 @@
 package common
 
-import fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
+import fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
 
 // ZeroSecretKey represents a zero secret key.
 var ZeroSecretKey = [32]byte{}

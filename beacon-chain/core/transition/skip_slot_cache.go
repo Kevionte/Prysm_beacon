@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/cache"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v1crypto/hash"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/cache"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
 )
 
 // SkipSlotCache exists for the unlikely scenario that is a large gap between the head state and

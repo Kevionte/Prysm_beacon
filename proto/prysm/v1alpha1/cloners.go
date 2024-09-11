@@ -1,8 +1,8 @@
 package eth
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	enginev1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
 )
 
 // CopyETH1Data copies the provided eth1data object.

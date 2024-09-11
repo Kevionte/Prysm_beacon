@@ -6,12 +6,12 @@ import (
 	"math"
 	"time"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	validator2 "github.com/Kevionte/prysm_beacon/v1/consensus-types/validator"
-	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v1/monitoring/tracing"
-	ethpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1/validator/client/iface"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	validator2 "github.com/Kevionte/prysm_beacon/v2/consensus-types/validator"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/monitoring/tracing"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/validator/client/iface"
 	"github.com/pkg/errors"
 	"go.opencensus.io/trace"
 )

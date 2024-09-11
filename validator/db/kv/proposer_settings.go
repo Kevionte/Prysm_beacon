@@ -3,8 +3,8 @@ package kv
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1/config/proposer"
-	validatorpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1/validator-client"
+	"github.com/Kevionte/prysm_beacon/v2/config/proposer"
+	validatorpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1/validator-client"
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"
 	"go.opencensus.io/trace"

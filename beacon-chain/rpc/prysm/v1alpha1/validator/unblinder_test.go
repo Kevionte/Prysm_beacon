@@ -3,9 +3,9 @@ package validator
 import (
 	"testing"
 
-	consensusblocks "github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	consensusblocks "github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
 )
 
 func TestUnblinder_UnblindBlobSidecars_InvalidBundle(t *testing.T) {

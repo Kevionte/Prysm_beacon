@@ -6,12 +6,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1config/features"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1crypto/hash"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	attaggregation "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1/attestation/aggregation/attestations"
-	"github.com/Kevionte/prysm_beacon/v1time/slots"
+	"github.com/Kevionte/prysm_beacon/v2/config/features"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/hash"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	attaggregation "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1/attestation/aggregation/attestations"
+	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 	"github.com/prysmaticlabs/go-bitfield"
 	"go.opencensus.io/trace"
 )

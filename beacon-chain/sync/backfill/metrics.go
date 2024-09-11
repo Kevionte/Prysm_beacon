@@ -1,9 +1,9 @@
 package backfill
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/sync"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/sync"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 )

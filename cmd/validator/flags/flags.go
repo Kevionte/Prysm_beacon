@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1io/file"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/io/file"
 	"github.com/urfave/cli/v2"
 )
 

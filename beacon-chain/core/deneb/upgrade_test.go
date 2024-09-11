@@ -3,13 +3,13 @@ package deneb_test
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/deneb"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/time"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1testing/util"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/deneb"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/time"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	enginev1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 )
 
 func TestUpgradeToDeneb(t *testing.T) {

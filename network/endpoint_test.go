@@ -3,9 +3,9 @@ package network
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1network/authorization"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/network/authorization"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 )
 

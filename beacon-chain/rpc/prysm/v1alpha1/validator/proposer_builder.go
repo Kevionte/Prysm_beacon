@@ -3,11 +3,11 @@ package validator
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/cache"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db/kv"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1monitoring/tracing"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/cache"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/db/kv"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/monitoring/tracing"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"

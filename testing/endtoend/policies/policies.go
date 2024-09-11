@@ -1,6 +1,6 @@
 package policies
 
-import "github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+import "github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 
 // AfterNthEpoch runs for every epoch after the provided epoch.
 func AfterNthEpoch(afterEpoch primitives.Epoch) func(epoch primitives.Epoch) bool {

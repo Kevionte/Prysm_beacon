@@ -6,14 +6,14 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/fieldtrie"
-	customtypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/custom-types"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/types"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stateutil"
-	"github.com/Kevionte/prysm_beacon/v1config/features"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/fieldtrie"
+	customtypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native/custom-types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native/types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/stateutil"
+	"github.com/Kevionte/prysm_beacon/v2/config/features"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	enginev1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/prysmaticlabs/go-bitfield"
 )
 

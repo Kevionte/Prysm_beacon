@@ -4,10 +4,10 @@ import (
 	"path"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/epoch"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1testing/spectest/utils"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/epoch"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/spectest/utils"
 )
 
 // RunEth1DataResetTests executes "epoch_processing/eth1_data_reset" tests.

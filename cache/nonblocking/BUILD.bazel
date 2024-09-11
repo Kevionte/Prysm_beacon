@@ -6,7 +6,7 @@ go_library(
         "list.go",
         "lru.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2cache/nonblocking",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/cache/nonblocking",
     visibility = ["//visibility:public"],
 )
 

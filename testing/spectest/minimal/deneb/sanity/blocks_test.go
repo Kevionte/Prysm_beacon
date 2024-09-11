@@ -3,7 +3,7 @@ package sanity
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1testing/spectest/shared/deneb/sanity"
+	"github.com/Kevionte/prysm_beacon/v2/testing/spectest/shared/deneb/sanity"
 )
 
 func TestMinimal_Deneb_Sanity_Blocks(t *testing.T) {

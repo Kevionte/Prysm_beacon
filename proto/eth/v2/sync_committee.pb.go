@@ -10,8 +10,8 @@ import (
 	reflect "reflect"
 	sync "sync"
 
-	github_com_prysmaticlabs_prysm_v5_consensus_types_primitives "github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	_ "github.com/Kevionte/prysm_beacon/v1proto/eth/ext"
+	github_com_prysmaticlabs_prysm_v5_consensus_types_primitives "github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	_ "github.com/Kevionte/prysm_beacon/v2/proto/eth/ext"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
@@ -130,9 +130,9 @@ type SyncCommitteeMessage struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	Slot            github_com_prysmaticlabs_prysm_v5_consensus_types_primitives.Slot           `protobuf:"varint,1,opt,name=slot,proto3" json:"slot,omitempty" cast-type:"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives.Slot"`
+	Slot            github_com_prysmaticlabs_prysm_v5_consensus_types_primitives.Slot           `protobuf:"varint,1,opt,name=slot,proto3" json:"slot,omitempty" cast-type:"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives.Slot"`
 	BeaconBlockRoot []byte                                                                      `protobuf:"bytes,2,opt,name=beacon_block_root,json=beaconBlockRoot,proto3" json:"beacon_block_root,omitempty" ssz-size:"32"`
-	ValidatorIndex  github_com_prysmaticlabs_prysm_v5_consensus_types_primitives.ValidatorIndex `protobuf:"varint,3,opt,name=validator_index,json=validatorIndex,proto3" json:"validator_index,omitempty" cast-type:"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives.ValidatorIndex"`
+	ValidatorIndex  github_com_prysmaticlabs_prysm_v5_consensus_types_primitives.ValidatorIndex `protobuf:"varint,3,opt,name=validator_index,json=validatorIndex,proto3" json:"validator_index,omitempty" cast-type:"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives.ValidatorIndex"`
 	Signature       []byte                                                                      `protobuf:"bytes,4,opt,name=signature,proto3" json:"signature,omitempty" ssz-size:"96"`
 }
 

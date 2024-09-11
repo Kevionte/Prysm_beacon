@@ -3,9 +3,9 @@ package util
 import (
 	"testing"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestInclusionProofs(t *testing.T) {

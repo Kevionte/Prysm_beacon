@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"github.com/Kevionte/go-sovereign/common"
-	"github.com/Kevionte/prysm_beacon/v1cmd"
-	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/flags"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	tracing2 "github.com/Kevionte/prysm_beacon/v1monitoring/tracing"
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
+	"github.com/Kevionte/prysm_beacon/v2/cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	tracing2 "github.com/Kevionte/prysm_beacon/v2/monitoring/tracing"
 	fastssz "github.com/prysmaticlabs/fastssz"
 	"github.com/urfave/cli/v2"
 )

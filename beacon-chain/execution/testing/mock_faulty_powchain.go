@@ -5,11 +5,11 @@ import (
 	"math/big"
 
 	"github.com/Kevionte/go-sovereign/common"
-	"github.com/Kevionte/prysm_beacon/v1async/event"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/execution/types"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	state_native "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/async/event"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/execution/types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	state_native "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

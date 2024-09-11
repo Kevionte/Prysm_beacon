@@ -1,9 +1,9 @@
 package db
 
 import (
-	beacondb "github.com/Kevionte/prysm_beacon/v1beacon-chain/db"
-	"github.com/Kevionte/prysm_beacon/v1cmd"
-	"github.com/Kevionte/prysm_beacon/v1runtime/tos"
+	beacondb "github.com/Kevionte/prysm_beacon/v2/beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/tos"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

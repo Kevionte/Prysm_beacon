@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Kevionte/prysm_beacon/v1/config/params"
-	"github.com/Kevionte/prysm_beacon/v1/tools/unencrypted-keys-gen/keygen"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/tools/unencrypted-keys-gen/keygen"
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v2"
 )

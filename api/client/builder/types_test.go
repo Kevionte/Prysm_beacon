@@ -12,12 +12,12 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v1api/server/structs"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	v1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
-	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/api/server/structs"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	v1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"github.com/Kevionte/prysm_beacon/v5/math"
 	"github.com/prysmaticlabs/go-bitfield"
 )

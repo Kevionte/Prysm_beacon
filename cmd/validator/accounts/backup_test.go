@@ -12,15 +12,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1io/file"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1validator/accounts"
-	"github.com/Kevionte/prysm_beacon/v1validator/accounts/iface"
-	"github.com/Kevionte/prysm_beacon/v1validator/keymanager"
-	"github.com/Kevionte/prysm_beacon/v1validator/keymanager/derived"
-	constant "github.com/Kevionte/prysm_beacon/v1validator/testing"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/io/file"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/validator/accounts"
+	"github.com/Kevionte/prysm_beacon/v2/validator/accounts/iface"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager/derived"
+	constant "github.com/Kevionte/prysm_beacon/v2/validator/testing"
 )
 
 func TestBackupAccounts_Noninteractive_Derived(t *testing.T) {

@@ -1,8 +1,8 @@
 package migration
 
 import (
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/eth/v1"
-	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/eth/v1"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

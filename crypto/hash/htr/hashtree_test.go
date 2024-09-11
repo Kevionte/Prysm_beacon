@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func Test_VectorizedSha256(t *testing.T) {

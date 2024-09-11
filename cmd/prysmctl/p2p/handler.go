@@ -6,8 +6,8 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p"
-	p2ptypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p"
+	p2ptypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/types"
 	libp2pcore "github.com/libp2p/go-libp2p/core"
 	corenet "github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"

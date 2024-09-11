@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
 )
 
 func main() {

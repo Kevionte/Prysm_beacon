@@ -3,9 +3,9 @@ package stateutil_test
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1crypto/hash"
-	"github.com/Kevionte/prysm_beacon/v1encoding/ssz"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/ssz"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func BenchmarkMerkleize_Buffered(b *testing.B) {

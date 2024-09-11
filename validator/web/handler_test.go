@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
 )
 
 func TestHandler(t *testing.T) {

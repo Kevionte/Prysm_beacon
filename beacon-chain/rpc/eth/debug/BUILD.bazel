@@ -6,7 +6,7 @@ go_library(
         "handlers.go",
         "server.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/rpc/eth/debug",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/beacon-chain/rpc/eth/debug",
     visibility = ["//visibility:public"],
     deps = [
         "//api:go_default_library",

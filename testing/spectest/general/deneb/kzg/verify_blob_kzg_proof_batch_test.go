@@ -5,12 +5,12 @@ import (
 	"path"
 	"testing"
 
-	kzgPrysm "github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain/kzg"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1testing/spectest/utils"
-	"github.com/Kevionte/prysm_beacon/v1testing/util"
+	kzgPrysm "github.com/Kevionte/prysm_beacon/v2/beacon-chain/blockchain/kzg"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/spectest/utils"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 	"github.com/ghodss/yaml"
 )
 

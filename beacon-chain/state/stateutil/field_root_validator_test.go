@@ -6,10 +6,10 @@ import (
 	"sync"
 	"testing"
 
-	mathutil "github.com/Kevionte/prysm_beacon/v1math"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	mathutil "github.com/Kevionte/prysm_beacon/v2/math"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestValidatorConstants(t *testing.T) {

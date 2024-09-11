@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p"
-	mockp2p "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/testing"
-	p2ptypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/types"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1testing/util"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p"
+	mockp2p "github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/testing"
+	p2ptypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/types"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
 )

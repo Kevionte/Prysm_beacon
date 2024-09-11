@@ -3,9 +3,9 @@ package evaluators
 import (
 	"context"
 
-	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/endtoend/policies"
-	"github.com/Kevionte/prysm_beacon/v1testing/endtoend/types"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/endtoend/policies"
+	"github.com/Kevionte/prysm_beacon/v2/testing/endtoend/types"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"

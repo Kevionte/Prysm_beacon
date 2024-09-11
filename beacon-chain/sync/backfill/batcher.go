@@ -1,7 +1,7 @@
 package backfill
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 	"github.com/pkg/errors"
 )
 

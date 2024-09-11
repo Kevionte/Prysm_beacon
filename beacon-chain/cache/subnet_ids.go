@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	lruwrpr "github.com/Kevionte/prysm_beacon/v1cache/lru"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1container/slice"
+	lruwrpr "github.com/Kevionte/prysm_beacon/v2/cache/lru"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/container/slice"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/patrickmn/go-cache"
 )

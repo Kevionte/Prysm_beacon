@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/feed"
-	opfeed "github.com/Kevionte/prysm_beacon/v1beacon-chain/core/feed/operation"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/feed"
+	opfeed "github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/feed/operation"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
 	"google.golang.org/protobuf/proto"
 )
 

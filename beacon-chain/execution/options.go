@@ -2,13 +2,13 @@ package execution
 
 import (
 	"github.com/Kevionte/go-sovereign/common"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/cache"
-	statefeed "github.com/Kevionte/prysm_beacon/v1beacon-chain/core/feed/state"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stategen"
-	"github.com/Kevionte/prysm_beacon/v1network"
-	"github.com/Kevionte/prysm_beacon/v1network/authorization"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/cache"
+	statefeed "github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/feed/state"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/stategen"
+	"github.com/Kevionte/prysm_beacon/v2/network"
+	"github.com/Kevionte/prysm_beacon/v2/network/authorization"
 )
 
 type Option func(s *Service) error

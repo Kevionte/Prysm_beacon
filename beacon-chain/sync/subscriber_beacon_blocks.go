@@ -6,12 +6,12 @@ import (
 	"os"
 	"path"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/transition/interop"
-	"github.com/Kevionte/prysm_beacon/v1config/features"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/interfaces"
-	"github.com/Kevionte/prysm_beacon/v1io/file"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/blockchain"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/transition/interop"
+	"github.com/Kevionte/prysm_beacon/v2/config/features"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
+	"github.com/Kevionte/prysm_beacon/v2/io/file"
 	"google.golang.org/protobuf/proto"
 )
 

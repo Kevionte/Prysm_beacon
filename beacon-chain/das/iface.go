@@ -3,8 +3,8 @@ package das
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 )
 
 // AvailabilityStore describes a component that can verify and save sidecars for a given block, and confirm previously

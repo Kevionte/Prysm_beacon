@@ -6,7 +6,7 @@ go_library(
         "log.go",
         "web.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2cmd/validator/web",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/cmd/validator/web",
     visibility = ["//visibility:public"],
     deps = [
         "//cmd:go_default_library",

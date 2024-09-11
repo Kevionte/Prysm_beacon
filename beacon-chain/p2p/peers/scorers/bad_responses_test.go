@@ -5,11 +5,11 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers/peerdata"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers/scorers"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers/peerdata"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers/scorers"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 )

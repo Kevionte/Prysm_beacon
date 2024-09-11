@@ -9,10 +9,10 @@ import (
 	"strings"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v1api/server/structs"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/sync"
-	"github.com/Kevionte/prysm_beacon/v1network/httputil"
+	"github.com/Kevionte/prysm_beacon/v2/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/blockchain"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/sync"
+	"github.com/Kevionte/prysm_beacon/v2/network/httputil"
 	"github.com/gorilla/mux"
 )
 

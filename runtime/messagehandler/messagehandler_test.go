@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1runtime/messagehandler"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/messagehandler"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 )

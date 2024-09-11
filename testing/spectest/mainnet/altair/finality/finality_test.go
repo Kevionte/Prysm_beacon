@@ -3,7 +3,7 @@ package finality
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1testing/spectest/shared/altair/finality"
+	"github.com/Kevionte/prysm_beacon/v2/testing/spectest/shared/altair/finality"
 )
 
 func TestMainnet_Altair_Finality(t *testing.T) {

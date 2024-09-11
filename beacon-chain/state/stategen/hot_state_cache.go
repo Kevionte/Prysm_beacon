@@ -3,8 +3,8 @@ package stategen
 import (
 	"sync"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	lruwrpr "github.com/Kevionte/prysm_beacon/v1cache/lru"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	lruwrpr "github.com/Kevionte/prysm_beacon/v2/cache/lru"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"

@@ -8,13 +8,13 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1cmd/validator/flags"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1validator/accounts/iface"
-	"github.com/Kevionte/prysm_beacon/v1validator/accounts/wallet"
-	"github.com/Kevionte/prysm_beacon/v1validator/keymanager"
-	"github.com/Kevionte/prysm_beacon/v1validator/keymanager/derived"
+	"github.com/Kevionte/prysm_beacon/v2/cmd/validator/flags"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/validator/accounts/iface"
+	"github.com/Kevionte/prysm_beacon/v2/validator/accounts/wallet"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager/derived"
 	"github.com/urfave/cli/v2"
 )
 

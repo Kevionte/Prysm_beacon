@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/Kevionte/prysm_beacon/v1api/client/beacon/iface"
+	"github.com/Kevionte/prysm_beacon/v2/api/client/beacon/iface"
 )
 
 type NodeHealthTracker struct {

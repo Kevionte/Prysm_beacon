@@ -3,8 +3,8 @@
 package flags
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1cmd"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
 	"github.com/urfave/cli/v2"
 )
 

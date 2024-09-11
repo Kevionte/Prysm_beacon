@@ -6,9 +6,9 @@ import (
 	"math/big"
 
 	"github.com/Kevionte/go-sovereign/common"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/execution/types"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1monitoring/tracing"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/execution/types"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/monitoring/tracing"
 	"github.com/pkg/errors"
 	"go.opencensus.io/trace"
 )

@@ -1,8 +1,8 @@
 package forkchoice
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 )
 
 type NodeValidity uint8

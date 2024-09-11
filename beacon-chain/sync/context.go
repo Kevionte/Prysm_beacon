@@ -1,9 +1,9 @@
 package sync
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/core/signing"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/signing"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
 	"github.com/pkg/errors"

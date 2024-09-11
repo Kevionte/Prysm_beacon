@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v1/validator/accounts/wallet"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager/derived"
+	"github.com/Kevionte/prysm_beacon/v2/validator/accounts/wallet"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager/derived"
 	"github.com/pkg/errors"
 )
 

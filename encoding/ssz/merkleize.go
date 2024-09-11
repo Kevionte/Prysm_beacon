@@ -3,8 +3,8 @@ package ssz
 import (
 	"encoding/binary"
 
-	"github.com/Kevionte/prysm_beacon/v1container/trie"
-	"github.com/Kevionte/prysm_beacon/v1crypto/hash/htr"
+	"github.com/Kevionte/prysm_beacon/v2/container/trie"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/hash/htr"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/gohashtree"
 )

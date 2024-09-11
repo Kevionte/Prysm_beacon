@@ -3,10 +3,10 @@ package blockchain
 import (
 	"testing"
 
-	testDB "github.com/Kevionte/prysm_beacon/v1beacon-chain/db/testing"
-	doublylinkedtree "github.com/Kevionte/prysm_beacon/v1beacon-chain/forkchoice/doubly-linked-tree"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/startup"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stategen"
+	testDB "github.com/Kevionte/prysm_beacon/v2/beacon-chain/db/testing"
+	doublylinkedtree "github.com/Kevionte/prysm_beacon/v2/beacon-chain/forkchoice/doubly-linked-tree"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/startup"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/stategen"
 )
 
 func testServiceOptsWithDB(t *testing.T) []Option {

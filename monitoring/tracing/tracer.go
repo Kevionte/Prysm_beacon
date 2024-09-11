@@ -6,7 +6,7 @@ import (
 	"errors"
 
 	"contrib.go.opencensus.io/exporter/jaeger"
-	"github.com/Kevionte/prysm_beacon/v1runtime/version"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/version"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
 )

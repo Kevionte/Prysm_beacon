@@ -9,8 +9,8 @@ import (
 	"github.com/Kevionte/go-sovereign/common/hexutil"
 	"github.com/Kevionte/go-sovereign/core"
 	"github.com/Kevionte/go-sovereign/params"
-	clparams "github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1time/slots"
+	clparams "github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 )
 
 // defaultMinerAddress is used to send deposits and test transactions in the e2e test.

@@ -3,7 +3,7 @@ package sanity
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1testing/spectest/shared/altair/sanity"
+	"github.com/Kevionte/prysm_beacon/v2/testing/spectest/shared/altair/sanity"
 )
 
 func TestMainnet_Altair_Sanity_Blocks(t *testing.T) {

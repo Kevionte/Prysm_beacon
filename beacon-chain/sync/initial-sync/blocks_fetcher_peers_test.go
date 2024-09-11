@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers/scorers"
-	"github.com/Kevionte/prysm_beacon/v1cmd/beacon-chain/flags"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	leakybucket "github.com/Kevionte/prysm_beacon/v1container/leaky-bucket"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	prysmTime "github.com/Kevionte/prysm_beacon/v1time"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers/scorers"
+	"github.com/Kevionte/prysm_beacon/v2/cmd/beacon-chain/flags"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	leakybucket "github.com/Kevionte/prysm_beacon/v2/container/leaky-bucket"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	prysmTime "github.com/Kevionte/prysm_beacon/v2/time"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

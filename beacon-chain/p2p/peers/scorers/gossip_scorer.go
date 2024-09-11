@@ -1,8 +1,8 @@
 package scorers
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers/peerdata"
-	pbrpc "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers/peerdata"
+	pbrpc "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

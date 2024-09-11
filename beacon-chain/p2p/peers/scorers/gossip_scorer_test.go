@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/p2p/peers/scorers"
-	pbrpc "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers/scorers"
+	pbrpc "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
 )
 
 func TestScorers_Gossip_Score(t *testing.T) {

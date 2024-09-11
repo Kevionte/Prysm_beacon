@@ -3,7 +3,7 @@ package testing
 import (
 	"context"
 
-	eth "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 )
 
 // MockProtector mocks the protector.

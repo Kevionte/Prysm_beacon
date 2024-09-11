@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db/kv"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/db/kv"
 	"github.com/urfave/cli/v2"
 )
 

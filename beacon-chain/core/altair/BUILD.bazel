@@ -13,7 +13,7 @@ go_library(
         "transition.go",
         "upgrade.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/core/altair",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/altair",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/core/blocks:go_default_library",

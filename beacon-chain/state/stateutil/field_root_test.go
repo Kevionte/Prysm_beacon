@@ -3,7 +3,7 @@ package stateutil
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
 )
 
 func TestArraysTreeRoot_OnlyPowerOf2(t *testing.T) {

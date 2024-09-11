@@ -5,11 +5,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1api/server/structs"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/validator"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1validator/client/beacon-api/mock"
-	"github.com/Kevionte/prysm_beacon/v1validator/client/iface"
+	"github.com/Kevionte/prysm_beacon/v2/api/server/structs"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/validator"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/validator/client/beacon-api/mock"
+	"github.com/Kevionte/prysm_beacon/v2/validator/client/iface"
 	"go.uber.org/mock/gomock"
 )
 

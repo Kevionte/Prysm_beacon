@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1async/event"
+	"github.com/Kevionte/prysm_beacon/v2/async/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

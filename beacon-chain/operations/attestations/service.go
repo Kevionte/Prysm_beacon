@@ -8,8 +8,8 @@ import (
 	"errors"
 	"time"
 
-	lruwrpr "github.com/Kevionte/prysm_beacon/v1cache/lru"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
+	lruwrpr "github.com/Kevionte/prysm_beacon/v2/cache/lru"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
 	lru "github.com/hashicorp/golang-lru"
 )
 

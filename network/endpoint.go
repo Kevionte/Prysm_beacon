@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	gethRPC "github.com/Kevionte/go-sovereign/rpc"
-	"github.com/Kevionte/prysm_beacon/v1network/authorization"
+	"github.com/Kevionte/prysm_beacon/v2/network/authorization"
 	log "github.com/sirupsen/logrus"
 )
 

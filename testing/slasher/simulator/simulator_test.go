@@ -3,14 +3,14 @@ package simulator
 import (
 	"testing"
 
-	mock "github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain/testing"
-	dbtest "github.com/Kevionte/prysm_beacon/v1beacon-chain/db/testing"
-	mockstategen "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stategen/mock"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1crypto/bls"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1testing/util"
+	mock "github.com/Kevionte/prysm_beacon/v2/beacon-chain/blockchain/testing"
+	dbtest "github.com/Kevionte/prysm_beacon/v2/beacon-chain/db/testing"
+	mockstategen "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/stategen/mock"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 )
 
 func setupService(t *testing.T, params *Parameters) *Simulator {

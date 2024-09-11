@@ -6,12 +6,12 @@ import (
 	"sort"
 	"strings"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v1/monitoring/progress"
-	"github.com/Kevionte/prysm_beacon/v1/validator/db"
-	"github.com/Kevionte/prysm_beacon/v1/validator/helpers"
-	"github.com/Kevionte/prysm_beacon/v1/validator/slashing-protection-history/format"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/monitoring/progress"
+	"github.com/Kevionte/prysm_beacon/v2/validator/db"
+	"github.com/Kevionte/prysm_beacon/v2/validator/helpers"
+	"github.com/Kevionte/prysm_beacon/v2/validator/slashing-protection-history/format"
 	"github.com/pkg/errors"
 )
 

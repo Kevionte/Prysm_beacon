@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
-	buildertesting "github.com/Kevionte/prysm_beacon/v1api/client/builder/testing"
-	blockchainTesting "github.com/Kevionte/prysm_beacon/v1beacon-chain/blockchain/testing"
-	dbtesting "github.com/Kevionte/prysm_beacon/v1beacon-chain/db/testing"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	buildertesting "github.com/Kevionte/prysm_beacon/v2/api/client/builder/testing"
+	blockchainTesting "github.com/Kevionte/prysm_beacon/v2/beacon-chain/blockchain/testing"
+	dbtesting "github.com/Kevionte/prysm_beacon/v2/beacon-chain/db/testing"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func Test_NewServiceWithBuilder(t *testing.T) {

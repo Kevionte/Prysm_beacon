@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"testing"
 
-	prefixed "github.com/Kevionte/prysm_beacon/v1/runtime/logging/logrus-prefixed-formatter"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
+	prefixed "github.com/Kevionte/prysm_beacon/v2/runtime/logging/logrus-prefixed-formatter"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"github.com/pkg/errors"
 
 	. "github.com/onsi/ginkgo"

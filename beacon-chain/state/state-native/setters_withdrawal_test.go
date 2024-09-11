@@ -3,10 +3,10 @@ package state_native
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/types"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1runtime/version"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native/types"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/version"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestSetNextWithdrawalIndex(t *testing.T) {

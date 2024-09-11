@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	testDB "github.com/Kevionte/prysm_beacon/v1beacon-chain/db/testing"
-	doublylinkedtree "github.com/Kevionte/prysm_beacon/v1beacon-chain/forkchoice/doubly-linked-tree"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1testing/util"
+	testDB "github.com/Kevionte/prysm_beacon/v2/beacon-chain/db/testing"
+	doublylinkedtree "github.com/Kevionte/prysm_beacon/v2/beacon-chain/forkchoice/doubly-linked-tree"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 )
 

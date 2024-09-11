@@ -3,8 +3,8 @@
 package cache
 
 import (
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 )
 
 // FakeSyncCommitteeCache is a fake `SyncCommitteeCache` to satisfy fuzzing.

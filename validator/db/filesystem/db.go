@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/io/file"
-	validatorpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1/validator-client"
-	"github.com/Kevionte/prysm_beacon/v1/validator/db/iface"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/io/file"
+	validatorpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1/validator-client"
+	"github.com/Kevionte/prysm_beacon/v2/validator/db/iface"
 	"gopkg.in/yaml.v3"
 
 	"github.com/pkg/errors"

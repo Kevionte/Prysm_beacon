@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	mathprysm "github.com/Kevionte/prysm_beacon/v1math"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	mathprysm "github.com/Kevionte/prysm_beacon/v2/math"
 )
 
 func TestSlot_Casting(t *testing.T) {

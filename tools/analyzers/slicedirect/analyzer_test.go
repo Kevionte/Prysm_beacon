@@ -3,7 +3,7 @@ package slicedirect
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1/build/bazel"
+	"github.com/Kevionte/prysm_beacon/v2/build/bazel"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

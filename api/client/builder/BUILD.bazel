@@ -8,7 +8,7 @@ go_library(
         "errors.go",
         "types.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2api/client/builder",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/api/client/builder",
     visibility = ["//visibility:public"],
     deps = [
         "//api/server/structs:go_default_library",

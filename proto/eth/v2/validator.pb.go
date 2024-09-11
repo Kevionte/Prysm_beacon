@@ -11,8 +11,8 @@ import (
 	sync "sync"
 
 	github_com_prysmaticlabs_go_bitfield "github.com/prysmaticlabs/go-bitfield"
-	github_com_prysmaticlabs_prysm_v5_consensus_types_primitives "github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	_ "github.com/Kevionte/prysm_beacon/v1proto/eth/ext"
+	github_com_prysmaticlabs_prysm_v5_consensus_types_primitives "github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	_ "github.com/Kevionte/prysm_beacon/v2/proto/eth/ext"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
@@ -139,7 +139,7 @@ type SyncCommitteeContribution struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	Slot              github_com_prysmaticlabs_prysm_v5_consensus_types_primitives.Slot `protobuf:"varint,1,opt,name=slot,proto3" json:"slot,omitempty" cast-type:"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives.Slot"`
+	Slot              github_com_prysmaticlabs_prysm_v5_consensus_types_primitives.Slot `protobuf:"varint,1,opt,name=slot,proto3" json:"slot,omitempty" cast-type:"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives.Slot"`
 	BeaconBlockRoot   []byte                                                            `protobuf:"bytes,2,opt,name=beacon_block_root,json=beaconBlockRoot,proto3" json:"beacon_block_root,omitempty" ssz-size:"32"`
 	SubcommitteeIndex uint64                                                            `protobuf:"varint,3,opt,name=subcommittee_index,json=subcommitteeIndex,proto3" json:"subcommittee_index,omitempty"`
 	AggregationBits   github_com_prysmaticlabs_go_bitfield.Bitvector128                 `protobuf:"bytes,4,opt,name=aggregation_bits,json=aggregationBits,proto3" json:"aggregation_bits,omitempty" cast-type:"github.com/prysmaticlabs/go-bitfield.Bitvector128" ssz-size:"16"`
@@ -218,7 +218,7 @@ type ContributionAndProof struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	AggregatorIndex github_com_prysmaticlabs_prysm_v5_consensus_types_primitives.ValidatorIndex `protobuf:"varint,1,opt,name=aggregator_index,json=aggregatorIndex,proto3" json:"aggregator_index,omitempty" cast-type:"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives.ValidatorIndex"`
+	AggregatorIndex github_com_prysmaticlabs_prysm_v5_consensus_types_primitives.ValidatorIndex `protobuf:"varint,1,opt,name=aggregator_index,json=aggregatorIndex,proto3" json:"aggregator_index,omitempty" cast-type:"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives.ValidatorIndex"`
 	Contribution    *SyncCommitteeContribution                                                  `protobuf:"bytes,2,opt,name=contribution,proto3" json:"contribution,omitempty"`
 	SelectionProof  []byte                                                                      `protobuf:"bytes,3,opt,name=selection_proof,json=selectionProof,proto3" json:"selection_proof,omitempty" ssz-size:"96"`
 }

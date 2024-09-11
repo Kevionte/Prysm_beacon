@@ -13,7 +13,7 @@ go_library(
         "setters.go",
         "types.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2consensus-types/blocks",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks",
     visibility = ["//visibility:public"],
     deps = [
         "//config/fieldparams:go_default_library",

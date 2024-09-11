@@ -6,9 +6,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1crypto/hash"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	protodb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/hash"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	protodb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/pkg/errors"
 )
 

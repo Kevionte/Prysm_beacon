@@ -4,8 +4,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1api/client"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/api/client"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestParseNodeVersion(t *testing.T) {

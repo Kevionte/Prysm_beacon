@@ -4,10 +4,10 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/types"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stateutil"
-	multi_value_slice "github.com/Kevionte/prysm_beacon/v1container/multi-value-slice"
-	pmath "github.com/Kevionte/prysm_beacon/v1math"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native/types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/stateutil"
+	multi_value_slice "github.com/Kevionte/prysm_beacon/v2/container/multi-value-slice"
+	pmath "github.com/Kevionte/prysm_beacon/v2/math"
 	"github.com/pkg/errors"
 )
 

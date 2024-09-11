@@ -8,7 +8,7 @@ go_library(
         "interfaces.go",
         "ro.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/forkchoice",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/beacon-chain/forkchoice",
     visibility = [
         "//beacon-chain:__subpackages__",
         "//cmd:__subpackages__",

@@ -11,7 +11,7 @@ go_library(
         "phase0_beacon_block_test_helpers.go",
         "test_helpers.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2validator/client/beacon-api/test-helpers",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/validator/client/beacon-api/test-helpers",
     visibility = ["//validator:__subpackages__"],
     deps = [
         "//api/server/structs:go_default_library",

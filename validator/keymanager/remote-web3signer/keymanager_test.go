@@ -8,13 +8,13 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v1/crypto/bls"
-	"github.com/Kevionte/prysm_beacon/v1/encoding/bytesutil"
-	validatorpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1/validator-client"
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager/remote-web3signer/internal"
-	"github.com/Kevionte/prysm_beacon/v1/validator/keymanager/remote-web3signer/v1/mock"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	validatorpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1/validator-client"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager/remote-web3signer/internal"
+	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager/remote-web3signer/v1/mock"
 	"github.com/stretchr/testify/assert"
 )
 

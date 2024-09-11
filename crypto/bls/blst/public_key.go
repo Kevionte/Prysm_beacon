@@ -5,10 +5,10 @@ package blst
 import (
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1cache/nonblocking"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1crypto/bls/common"
+	"github.com/Kevionte/prysm_beacon/v2/cache/nonblocking"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/crypto/bls/common"
 	"github.com/pkg/errors"
 )
 

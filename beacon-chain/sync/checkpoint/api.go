@@ -3,9 +3,9 @@ package checkpoint
 import (
 	"context"
 
-	"github.com/Kevionte/prysm_beacon/v1api/client/beacon"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/db"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v2/api/client/beacon"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/db"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
 	"github.com/pkg/errors"
 )
 

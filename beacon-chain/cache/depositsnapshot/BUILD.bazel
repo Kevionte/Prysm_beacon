@@ -9,7 +9,7 @@ go_library(
         "deposit_tree_snapshot.go",
         "merkle_tree.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/cache/depositsnapshot",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/beacon-chain/cache/depositsnapshot",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/cache:go_default_library",

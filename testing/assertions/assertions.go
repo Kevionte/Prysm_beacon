@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v1encoding/ssz/equality"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/ssz/equality"
 	"github.com/d4l3k/messagediff"
 	"github.com/sirupsen/logrus/hooks/test"
 	"google.golang.org/protobuf/proto"

@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1/config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1/validator/db/filesystem"
-	"github.com/Kevionte/prysm_beacon/v1/validator/db/iface"
-	"github.com/Kevionte/prysm_beacon/v1/validator/db/kv"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/validator/db/filesystem"
+	"github.com/Kevionte/prysm_beacon/v2/validator/db/iface"
+	"github.com/Kevionte/prysm_beacon/v2/validator/db/kv"
 )
 
 // SetupDB instantiates and returns a DB instance for the validator client.

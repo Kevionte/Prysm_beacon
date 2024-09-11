@@ -6,9 +6,9 @@ import (
 	"path"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1/testing/require"
-	"github.com/Kevionte/prysm_beacon/v1/testing/spectest/utils"
-	"github.com/Kevionte/prysm_beacon/v1/testing/util"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/spectest/utils"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 	"github.com/golang/snappy"
 	fssz "github.com/prysmaticlabs/fastssz"
 )

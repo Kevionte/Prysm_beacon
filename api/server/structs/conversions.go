@@ -6,17 +6,17 @@ import (
 
 	"github.com/Kevionte/go-sovereign/common"
 	"github.com/Kevionte/go-sovereign/common/hexutil"
-	"github.com/Kevionte/prysm_beacon/v1api/server"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/validator"
-	"github.com/Kevionte/prysm_beacon/v1container/slice"
+	"github.com/Kevionte/prysm_beacon/v2/api/server"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/validator"
+	"github.com/Kevionte/prysm_beacon/v2/container/slice"
 	"github.com/pkg/errors"
 
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1encoding/bytesutil"
-	"github.com/Kevionte/prysm_beacon/v1math"
-	enginev1 "github.com/Kevionte/prysm_beacon/v1proto/engine/v1"
-	eth "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/math"
+	enginev1 "github.com/Kevionte/prysm_beacon/v2/proto/engine/v1"
+	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 )
 
 var errNilValue = errors.New("nil value")

@@ -6,8 +6,8 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
 	GoKZG "github.com/crate-crypto/go-kzg-4844"
 	"github.com/sirupsen/logrus"

@@ -3,9 +3,9 @@ package v1
 import (
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/blocks"
-	"github.com/Kevionte/prysm_beacon/v1/consensus-types/interfaces"
-	validatorpb "github.com/Kevionte/prysm_beacon/v1/proto/prysm/v1alpha1/validator-client"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/interfaces"
+	validatorpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1/validator-client"
 	"github.com/pkg/errors"
 )
 

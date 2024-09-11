@@ -9,7 +9,7 @@ go_library(
         "metrics.go",
         "pruner.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2beacon-chain/db/filesystem",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/beacon-chain/db/filesystem",
     visibility = ["//visibility:public"],
     deps = [
         "//beacon-chain/verification:go_default_library",

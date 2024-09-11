@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1runtime/version"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/runtime/version"
 )
 
 func InitForkCfg(start, end int, c *params.BeaconChainConfig) *params.BeaconChainConfig {

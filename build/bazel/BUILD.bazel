@@ -7,7 +7,7 @@ go_library(
         "bazel.go",
         "data_path.go",
     ],
-    importpath = "github.com/Kevionte/prysm_beacon/v2build/bazel",
+    importpath = "github.com/Kevionte/prysm_beacon/v2/build/bazel",
     visibility = ["//visibility:public"],
     deps = [
         "//testing/require:go_default_library",

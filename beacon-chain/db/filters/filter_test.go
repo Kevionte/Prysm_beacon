@@ -3,8 +3,8 @@ package filters
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
 )
 
 func TestQueryFilter_ChainsCorrectly(t *testing.T) {

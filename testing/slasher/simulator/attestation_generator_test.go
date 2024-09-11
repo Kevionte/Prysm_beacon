@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1/slashings"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1/slashings"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestGenerateAttestationsForSlot_Slashing(t *testing.T) {

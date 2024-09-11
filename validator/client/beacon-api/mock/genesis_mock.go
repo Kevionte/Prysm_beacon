@@ -13,7 +13,7 @@ import (
 	context "context"
 	reflect "reflect"
 
-	structs "github.com/Kevionte/prysm_beacon/v1api/server/structs"
+	structs "github.com/Kevionte/prysm_beacon/v2/api/server/structs"
 	gomock "go.uber.org/mock/gomock"
 )
 

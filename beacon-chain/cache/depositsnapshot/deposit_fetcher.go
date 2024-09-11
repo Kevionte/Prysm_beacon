@@ -6,9 +6,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/cache"
-	fieldparams "github.com/Kevionte/prysm_beacon/v1config/fieldparams"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/cache"
+	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/sirupsen/logrus"

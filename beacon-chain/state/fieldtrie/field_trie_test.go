@@ -3,18 +3,18 @@ package fieldtrie_test
 import (
 	"testing"
 
-	. "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/fieldtrie"
-	customtypes "github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/custom-types"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/state-native/types"
-	"github.com/Kevionte/prysm_beacon/v1beacon-chain/state/stateutil"
-	"github.com/Kevionte/prysm_beacon/v1config/features"
-	"github.com/Kevionte/prysm_beacon/v1config/params"
-	"github.com/Kevionte/prysm_beacon/v1consensus-types/primitives"
-	mvslice "github.com/Kevionte/prysm_beacon/v1container/multi-value-slice"
-	ethpb "github.com/Kevionte/prysm_beacon/v1proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v1testing/assert"
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
-	"github.com/Kevionte/prysm_beacon/v1testing/util"
+	. "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/fieldtrie"
+	customtypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native/custom-types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native/types"
+	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/stateutil"
+	"github.com/Kevionte/prysm_beacon/v2/config/features"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
+	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
+	mvslice "github.com/Kevionte/prysm_beacon/v2/container/multi-value-slice"
+	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
+	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 )
 
 func TestFieldTrie_NewTrie(t *testing.T) {

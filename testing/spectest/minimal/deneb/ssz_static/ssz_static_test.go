@@ -3,7 +3,7 @@ package ssz_static
 import (
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1testing/spectest/shared/deneb/ssz_static"
+	"github.com/Kevionte/prysm_beacon/v2/testing/spectest/shared/deneb/ssz_static"
 )
 
 func TestMinimal_Deneb_SSZStatic(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Kevionte/prysm_beacon/v1config/params"
+	"github.com/Kevionte/prysm_beacon/v2/config/params"
 
-	"github.com/Kevionte/prysm_beacon/v1testing/require"
+	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 )
 
 func TestComputeDeposits(t *testing.T) {
