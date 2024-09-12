@@ -15,6 +15,7 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/operations/attestations"
 	state_native "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/stategen"
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
 	"github.com/Kevionte/prysm_beacon/v2/config/params"
 	consensusblocks "github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
@@ -27,7 +28,6 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 	"github.com/Kevionte/prysm_beacon/v2/time/slots"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
 	"github.com/prysmaticlabs/go-bitfield"
 	"google.golang.org/protobuf/proto"
 )

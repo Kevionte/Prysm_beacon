@@ -7,11 +7,11 @@ import (
 	"path"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	"github.com/Kevionte/prysm_beacon/v2/config/params"
 	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
 	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"github.com/Kevionte/prysm_beacon/v2/validator/db/kv"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 	"github.com/urfave/cli/v2"
 )

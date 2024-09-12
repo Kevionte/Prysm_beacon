@@ -6,8 +6,8 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v2/async"
 	"github.com/Kevionte/prysm_beacon/v2/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/async"
 	log "github.com/sirupsen/logrus"
 )
 

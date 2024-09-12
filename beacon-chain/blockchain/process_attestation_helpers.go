@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/Kevionte/prysm_beacon/v2/async"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/transition"
 	forkchoicetypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/forkchoice/types"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state"
@@ -14,7 +15,6 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
 	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/Kevionte/prysm_beacon/v2/time/slots"
-	"github.com/Kevionte/prysm_beacon/v5/async"
 	"github.com/pkg/errors"
 )
 

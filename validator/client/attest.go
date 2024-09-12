@@ -7,6 +7,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v2/async"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/signing"
 	"github.com/Kevionte/prysm_beacon/v2/config/features"
 	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
@@ -19,7 +20,6 @@ import (
 	prysmTime "github.com/Kevionte/prysm_beacon/v2/time"
 	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 	"github.com/Kevionte/prysm_beacon/v2/validator/client/iface"
-	"github.com/Kevionte/prysm_beacon/v5/async"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/go-bitfield"
 	"github.com/sirupsen/logrus"

@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Kevionte/prysm_beacon/v2/async"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/cache"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/altair"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/helpers"
@@ -14,7 +15,6 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/Kevionte/prysm_beacon/v2/time/slots"
-	"github.com/Kevionte/prysm_beacon/v5/async"
 	"github.com/pkg/errors"
 )
 

@@ -6,6 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	"github.com/Kevionte/prysm_beacon/v2/cmd/validator/flags"
 	"github.com/Kevionte/prysm_beacon/v2/io/file"
 	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
@@ -14,7 +15,6 @@ import (
 	dbTest "github.com/Kevionte/prysm_beacon/v2/validator/db/testing"
 	"github.com/Kevionte/prysm_beacon/v2/validator/slashing-protection-history/format"
 	mocks "github.com/Kevionte/prysm_beacon/v2/validator/testing"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
 	"github.com/urfave/cli/v2"
 )
 

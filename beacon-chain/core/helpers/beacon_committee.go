@@ -17,9 +17,9 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/container/slice"
 	"github.com/Kevionte/prysm_beacon/v2/crypto/hash"
 	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/math"
 	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/Kevionte/prysm_beacon/v2/time/slots"
-	"github.com/Kevionte/prysm_beacon/v5/math"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/go-bitfield"
 )

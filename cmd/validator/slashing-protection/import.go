@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	"github.com/Kevionte/prysm_beacon/v2/cmd/validator/flags"
 	"github.com/Kevionte/prysm_beacon/v2/config/features"
 	"github.com/Kevionte/prysm_beacon/v2/io/file"
@@ -11,7 +12,6 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/validator/db/filesystem"
 	"github.com/Kevionte/prysm_beacon/v2/validator/db/iface"
 	"github.com/Kevionte/prysm_beacon/v2/validator/db/kv"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"
 )

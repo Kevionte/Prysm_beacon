@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v2/async"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/signing"
 	fieldparams "github.com/Kevionte/prysm_beacon/v2/config/fieldparams"
 	"github.com/Kevionte/prysm_beacon/v2/config/params"
@@ -23,7 +24,6 @@ import (
 	prysmTime "github.com/Kevionte/prysm_beacon/v2/time"
 	"github.com/Kevionte/prysm_beacon/v2/time/slots"
 	"github.com/Kevionte/prysm_beacon/v2/validator/client/iface"
-	"github.com/Kevionte/prysm_beacon/v5/async"
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

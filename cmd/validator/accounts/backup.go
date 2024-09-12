@@ -3,12 +3,12 @@ package accounts
 import (
 	"strings"
 
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	"github.com/Kevionte/prysm_beacon/v2/cmd/validator/flags"
 	"github.com/Kevionte/prysm_beacon/v2/io/prompt"
 	"github.com/Kevionte/prysm_beacon/v2/validator/accounts"
 	"github.com/Kevionte/prysm_beacon/v2/validator/accounts/userprompt"
 	"github.com/Kevionte/prysm_beacon/v2/validator/client"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"
 )

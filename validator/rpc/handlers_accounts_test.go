@@ -15,6 +15,7 @@ import (
 	"time"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v2/api"
 	"github.com/Kevionte/prysm_beacon/v2/cmd/validator/flags"
 	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
@@ -27,7 +28,6 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
 	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager/derived"
 	constant "github.com/Kevionte/prysm_beacon/v2/validator/testing"
-	"github.com/Kevionte/prysm_beacon/v5/api"
 	"go.uber.org/mock/gomock"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

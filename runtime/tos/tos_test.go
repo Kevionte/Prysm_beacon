@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	"github.com/Kevionte/prysm_beacon/v2/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
 	"github.com/urfave/cli/v2"
 )
 

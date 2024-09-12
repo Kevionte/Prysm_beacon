@@ -6,6 +6,7 @@ import (
 	"context"
 	"sync"
 
+	"github.com/Kevionte/prysm_beacon/v2/async"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/signing"
 	coreState "github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/transition"
 	statenative "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/state-native"
@@ -15,8 +16,7 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/crypto/hash"
 	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
 	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/async"
-	"github.com/Kevionte/prysm_beacon/v5/time"
+	"github.com/Kevionte/prysm_beacon/v2/time"
 	"github.com/pkg/errors"
 )
 

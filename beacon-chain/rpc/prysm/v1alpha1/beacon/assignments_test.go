@@ -13,6 +13,7 @@ import (
 	doublylinkedtree "github.com/Kevionte/prysm_beacon/v2/beacon-chain/forkchoice/doubly-linked-tree"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/stategen"
 	mockstategen "github.com/Kevionte/prysm_beacon/v2/beacon-chain/state/stategen/mock"
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	"github.com/Kevionte/prysm_beacon/v2/config/params"
 	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
@@ -20,7 +21,6 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"github.com/Kevionte/prysm_beacon/v2/testing/util"
 	"github.com/Kevionte/prysm_beacon/v2/time/slots"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
 )
 
 func TestServer_ListAssignments_CannotRequestFutureEpoch(t *testing.T) {

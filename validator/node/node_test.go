@@ -10,6 +10,7 @@ import (
 	"testing"
 
 	"github.com/Kevionte/go-sovereign/common/hexutil"
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	"github.com/Kevionte/prysm_beacon/v2/cmd/validator/flags"
 	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
 	"github.com/Kevionte/prysm_beacon/v2/io/file"
@@ -20,7 +21,6 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/validator/db/kv"
 	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
 	remoteweb3signer "github.com/Kevionte/prysm_beacon/v2/validator/keymanager/remote-web3signer"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
 	logtest "github.com/sirupsen/logrus/hooks/test"
 	"github.com/urfave/cli/v2"
 )

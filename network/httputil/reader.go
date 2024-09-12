@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Kevionte/prysm_beacon/v5/api"
+	"github.com/Kevionte/prysm_beacon/v2/api"
 )
 
 // match a number with optional decimals

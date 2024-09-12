@@ -5,6 +5,7 @@ import (
 	"io"
 	"sort"
 
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	"github.com/Kevionte/prysm_beacon/v2/cmd/beacon-chain/flags"
 	"github.com/Kevionte/prysm_beacon/v2/cmd/beacon-chain/storage"
 	backfill "github.com/Kevionte/prysm_beacon/v2/cmd/beacon-chain/sync/backfill/flags"
@@ -12,7 +13,6 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/cmd/beacon-chain/sync/genesis"
 	"github.com/Kevionte/prysm_beacon/v2/config/features"
 	"github.com/Kevionte/prysm_beacon/v2/runtime/debug"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
 	"github.com/urfave/cli/v2"
 )
 

@@ -9,8 +9,8 @@ import (
 	"github.com/Kevionte/go-sovereign/common"
 	"github.com/Kevionte/prysm_beacon/v2/crypto/hash"
 	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/math"
 	protodb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
-	"github.com/Kevionte/prysm_beacon/v5/math"
 	"github.com/pkg/errors"
 )
 

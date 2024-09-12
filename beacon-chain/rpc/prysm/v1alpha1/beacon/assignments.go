@@ -7,11 +7,11 @@ import (
 
 	"github.com/Kevionte/prysm_beacon/v2/api/pagination"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/core/helpers"
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
 	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/Kevionte/prysm_beacon/v2/time/slots"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

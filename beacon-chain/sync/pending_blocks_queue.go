@@ -8,6 +8,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v2/async"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/blockchain"
 	p2ptypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/types"
 	"github.com/Kevionte/prysm_beacon/v2/config/params"
@@ -19,7 +20,6 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/encoding/ssz/equality"
 	"github.com/Kevionte/prysm_beacon/v2/monitoring/tracing"
 	"github.com/Kevionte/prysm_beacon/v2/time/slots"
-	"github.com/Kevionte/prysm_beacon/v5/async"
 	"github.com/libp2p/go-libp2p/core"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

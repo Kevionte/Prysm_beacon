@@ -5,6 +5,7 @@ import (
 	"strings"
 
 	grpcutil "github.com/Kevionte/prysm_beacon/v2/api/grpc"
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	"github.com/Kevionte/prysm_beacon/v2/cmd/validator/flags"
 	ethpb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/Kevionte/prysm_beacon/v2/validator/accounts"
@@ -13,7 +14,6 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager"
 	"github.com/Kevionte/prysm_beacon/v2/validator/keymanager/local"
 	"github.com/Kevionte/prysm_beacon/v2/validator/node"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"

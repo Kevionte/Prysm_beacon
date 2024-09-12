@@ -14,9 +14,9 @@ import (
 	"github.com/Kevionte/prysm_beacon/v2/config/params"
 	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 	"github.com/Kevionte/prysm_beacon/v2/encoding/bytesutil"
+	"github.com/Kevionte/prysm_beacon/v2/math"
 	v1alpha1 "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/Kevionte/prysm_beacon/v2/time/slots"
-	"github.com/Kevionte/prysm_beacon/v5/math"
 )
 
 // ComputeWeakSubjectivityPeriod returns weak subjectivity period for the active validator count and finalized epoch.

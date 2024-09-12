@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v2/api"
 	"github.com/Kevionte/prysm_beacon/v2/io/logs/mock"
 	eth "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	pb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	validatormock "github.com/Kevionte/prysm_beacon/v2/testing/validator-mock"
-	"github.com/Kevionte/prysm_beacon/v5/api"
 	"github.com/golang/protobuf/ptypes/empty"
 	"go.uber.org/mock/gomock"
 	"google.golang.org/grpc"

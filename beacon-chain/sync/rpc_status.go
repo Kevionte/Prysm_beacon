@@ -7,6 +7,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Kevionte/prysm_beacon/v2/async"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p"
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/peers"
 	p2ptypes "github.com/Kevionte/prysm_beacon/v2/beacon-chain/p2p/types"
@@ -17,7 +18,6 @@ import (
 	pb "github.com/Kevionte/prysm_beacon/v2/proto/prysm/v1alpha1"
 	prysmTime "github.com/Kevionte/prysm_beacon/v2/time"
 	"github.com/Kevionte/prysm_beacon/v2/time/slots"
-	"github.com/Kevionte/prysm_beacon/v5/async"
 	libp2pcore "github.com/libp2p/go-libp2p/core"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"

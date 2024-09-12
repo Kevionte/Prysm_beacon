@@ -3,7 +3,7 @@ package primitives
 import (
 	"fmt"
 
-	"github.com/Kevionte/prysm_beacon/v5/math"
+	"github.com/Kevionte/prysm_beacon/v2/math"
 	fssz "github.com/prysmaticlabs/fastssz"
 )
 

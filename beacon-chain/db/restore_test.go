@@ -8,12 +8,12 @@ import (
 	"testing"
 
 	"github.com/Kevionte/prysm_beacon/v2/beacon-chain/db/kv"
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	"github.com/Kevionte/prysm_beacon/v2/consensus-types/blocks"
 	"github.com/Kevionte/prysm_beacon/v2/consensus-types/primitives"
 	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
 	"github.com/Kevionte/prysm_beacon/v2/testing/require"
 	"github.com/Kevionte/prysm_beacon/v2/testing/util"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 	"github.com/urfave/cli/v2"
 )

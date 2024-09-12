@@ -5,9 +5,9 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/Kevionte/prysm_beacon/v2/async"
 	"github.com/Kevionte/prysm_beacon/v2/testing/assert"
 	"github.com/Kevionte/prysm_beacon/v2/testing/require"
-	"github.com/Kevionte/prysm_beacon/v5/async"
 )
 
 func TestDouble(t *testing.T) {

@@ -5,10 +5,10 @@ import (
 	"io"
 	"sort"
 
+	"github.com/Kevionte/prysm_beacon/v2/cmd"
 	"github.com/Kevionte/prysm_beacon/v2/cmd/validator/flags"
 	"github.com/Kevionte/prysm_beacon/v2/config/features"
 	"github.com/Kevionte/prysm_beacon/v2/runtime/debug"
-	"github.com/Kevionte/prysm_beacon/v5/cmd"
 	"github.com/urfave/cli/v2"
 )
 
